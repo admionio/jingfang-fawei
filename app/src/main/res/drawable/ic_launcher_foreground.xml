@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 印章"黄"字 - 篆书风格 -->
+    <group
+        android:translateX="2"
+        android:translateY="-2">
+        <path
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="#F5E6C8"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M30,30 L42,30 L42,40 L30,40 M42,30 L54,30 L54,40 L42,40" />
+        <path
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="#F5E6C8"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M36,30 L36,40 M48,30 L48,40" />
+        <!-- 田字 -->
+        <path
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="#F5E6C8"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M30,44 L54,44 L54,68 L30,68 Z" />
+        <path
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="#F5E6C8"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M42,44 L42,68" />
+        <path
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="#F5E6C8"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M30,56 L54,56" />
+        <!-- 八字底 -->
+        <path
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="#F5E6C8"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M36,74 L30,84" />
+        <path
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="#F5E6C8"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M48,74 L54,84" />
+    </group>
+    <!-- 底部小字 黄帝内经 -->
+    <group
+        android:translateX="0"
+        android:translateY="-1">
+        <path
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="#F5E6C8"
+            android:strokeWidth="1.0"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="
+                M38,100 L44,100
+                M41,96 L41,104
+                M46,96 L46,104 L52,104
+                M58,96 L58,104
+                M62,96 L62,104 L68,104" />
+    </group>
+</vector>

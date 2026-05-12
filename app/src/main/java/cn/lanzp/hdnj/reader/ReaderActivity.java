@@ -1,11 +1,17 @@
 package cn.lanzp.hdnj.reader;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.ObjectAnimator;
+import android.animation.PropertyValuesHolder;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -48,8 +54,6 @@ public class ReaderActivity extends AppCompatActivity {
     private static final float[] FONT_SIZES_ORIGINAL = {14f, 16f, 18f, 20f, 22f};
     private static final float[] FONT_SIZES_PINYIN = {11f, 12f, 13f, 14f, 15f};
     private static final float[] FONT_SIZES_TRANSLATION = {12f, 14f, 15f, 17f, 18f};
-
-    private GestureDetector gestureDetector;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,6 +125,44 @@ public class ReaderActivity extends AppCompatActivity {
     private void renderContent() {
         llContent.removeAllViews();
 
+        // 添加篇目标题头
+        if (chapter != null) {
+            View titleHeader = getLayoutInflater().inflate(R.layout.item_paragraph, llContent, false);
+            TextView tvOriginal = titleHeader.findViewById(R.id.tvOriginal);
+            TextView tvPinyin = titleHeader.findViewById(R.id.tvPinyin);
+            TextView tvTranslation = titleHeader.findViewById(R.id.tvTranslation);
+            View divider = titleHeader.findViewById(R.id.divider);
+
+            // 隐藏拼音和翻译区域
+            tvPinyin.setVisibility(View.GONE);
+            tvTranslation.setVisibility(View.GONE);
+            divider.setVisibility(View.GONE);
+
+            // 设置篇目标题
+            tvOriginal.setText(chapter.getTitle());
+            tvOriginal.setTextSize(22f);
+            tvOriginal.setTypeface(null, android.graphics.Typeface.BOLD);
+            tvOriginal.setPadding(0, 24, 0, 16);
+            if (isNightMode) {
+                tvOriginal.setTextColor(getColor(R.color.nightTextPrimary));
+                titleHeader.setBackgroundColor(getColor(R.color.nightSurface));
+            } else {
+                tvOriginal.setTextColor(getColor(R.color.textPrimary));
+                titleHeader.setBackgroundColor(getColor(R.color.backgroundCard));
+            }
+
+            llContent.addView(titleHeader);
+
+            // 添加一个分隔线
+            View sepDivider = new View(this);
+            LinearLayout.LayoutParams sepLp = new LinearLayout.LayoutParams(
+                    ViewGroup.LayoutParams.MATCH_PARENT, 1);
+            sepLp.setMargins(0, 0, 0, 16);
+            sepDivider.setLayoutParams(sepLp);
+            sepDivider.setBackgroundColor(isNightMode ? getColor(R.color.nightDivider) : getColor(R.color.divider));
+            llContent.addView(sepDivider);
+        }
+
         // 无内容时显示提示
         if (paragraphs.isEmpty()) {
             TextView emptyHint = new TextView(this);
@@ -128,13 +170,15 @@ public class ReaderActivity extends AppCompatActivity {
             emptyHint.setTextSize(16f);
             emptyHint.setTextColor(getColor(R.color.textSecondary));
             emptyHint.setGravity(android.view.Gravity.CENTER);
-            emptyHint.setPadding(0, 120, 0, 0);
+            emptyHint.setPadding(0, 32, 0, 0);
             llContent.addView(emptyHint);
             scrollView.scrollTo(0, 0);
             return;
         }
 
         int targetChildIndex = -1;
+        // 实际段落从llContent的第2个子View开始（0=标题头，1=分隔线）
+        final int contentStartIndex = (chapter != null) ? 2 : 0;
 
         for (int i = 0; i < paragraphs.size(); i++) {
             Paragraph p = paragraphs.get(i);
@@ -180,7 +224,7 @@ public class ReaderActivity extends AppCompatActivity {
 
             // 记录目标段落的child index
             if (targetParagraphNo >= 0 && p.getParagraphNo() == targetParagraphNo) {
-                targetChildIndex = i;
+                targetChildIndex = contentStartIndex + i;
             }
         }
 
@@ -227,6 +271,12 @@ public class ReaderActivity extends AppCompatActivity {
         tvChapterPosition.setText((currentChapterIndex + 1) + "/" + allChapterIds.size());
     }
 
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_down, R.anim.slide_out_up);
+    }
+
     private void setupListeners() {
         ivBack.setOnClickListener(v -> finish());
 
@@ -243,58 +293,196 @@ public class ReaderActivity extends AppCompatActivity {
         tvNext.setOnClickListener(v -> navigateChapter(1));
     }
 
-    private void setupSwipeGesture() {
-        gestureDetector = new GestureDetector(this, new GestureDetector.SimpleOnGestureListener() {
-            private static final int SWIPE_THRESHOLD = 100;
-            private static final int SWIPE_VELOCITY_THRESHOLD = 100;
+    private float touchStartX = 0;
+    private boolean isSwiping = false;
 
-            @Override
-            public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-                if (e1 == null || e2 == null) return false;
-                float diffX = e2.getX() - e1.getX();
-                float diffY = e2.getY() - e1.getY();
-                // 只处理水平方向，垂直方向忽略
-                if (Math.abs(diffX) > Math.abs(diffY)) {
-                    if (Math.abs(diffX) > SWIPE_THRESHOLD
-                            && Math.abs(velocityX) > SWIPE_VELOCITY_THRESHOLD) {
-                        if (diffX > 0) {
-                            // 右滑 → 上一篇
-                            navigateChapter(-1);
-                        } else {
-                            // 左滑 → 下一篇
-                            navigateChapter(1);
+    private void setupSwipeGesture() {
+        scrollView.setOnTouchListener((v, event) -> {
+            switch (event.getAction()) {
+                case MotionEvent.ACTION_DOWN:
+                    touchStartX = event.getX();
+                    isSwiping = false;
+                    break;
+                case MotionEvent.ACTION_MOVE: {
+                    float diffX = event.getX() - touchStartX;
+                    float absDiffX = Math.abs(diffX);
+                    float diffY = Math.abs(event.getY() - touchStartX);
+
+                    // 水平移动 > 垂直移动 且 水平移动超过阈值，进入翻页模式
+                    if (absDiffX > diffY && absDiffX > 20) {
+                        if (!isSwiping) {
+                            isSwiping = true;
+                            // 禁用ScrollView的垂直滚动
+                            scrollView.requestDisallowInterceptTouchEvent(true);
                         }
+                        // 手指跟随：让内容跟着手指移动
+                        float translateX = diffX * 0.6f;
+                        scrollView.setTranslationX(translateX);
+
+                        // 缩放效果：根据滑动距离
+                        float progress = Math.min(absDiffX / scrollView.getWidth(), 1f);
+                        float scale = 1f - progress * 0.15f;
+                        scrollView.setScaleX(scale);
+                        scrollView.setScaleY(scale);
                         return true;
                     }
+                    break;
                 }
-                return false;
-            }
-        });
+                case MotionEvent.ACTION_UP:
+                case MotionEvent.ACTION_CANCEL: {
+                    if (isSwiping) {
+                        float diffX = event.getX() - touchStartX;
+                        float absDiffX = Math.abs(diffX);
+                        float threshold = scrollView.getWidth() * 0.30f;
 
-        scrollView.setOnTouchListener((v, event) -> {
-            gestureDetector.onTouchEvent(event);
-            return false; // 不消费事件，让 ScrollView 继续处理垂直滚动
+                        // 判断是否触发翻页（>30%屏幕宽度）
+                        if (absDiffX > threshold) {
+                            // 触发翻页
+                            int direction = (diffX > 0) ? -1 : 1;
+
+                            // 检查是否可以翻页
+                            int newIndex = currentChapterIndex + direction;
+                            if (newIndex < 0 || newIndex >= allChapterIds.size()) {
+                                // 不可翻页，回弹
+                                bounceBackScrollView();
+                                return true;
+                            }
+
+                            // 补全翻页动画
+                            completePageTurn(direction);
+                        } else {
+                            // 不足30%，回弹
+                            bounceBackScrollView();
+                        }
+
+                        isSwiping = false;
+                        scrollView.requestDisallowInterceptTouchEvent(false);
+                        return true;
+                    }
+                    break;
+                }
+            }
+            return false;
         });
         scrollView.setLongClickable(true);
+    }
+
+    private void bounceBackScrollView() {
+        scrollView.animate()
+                .translationX(0f)
+                .scaleX(1f)
+                .scaleY(1f)
+                .setDuration(200)
+                .setInterpolator(new DecelerateInterpolator())
+                .start();
+    }
+
+    private void completePageTurn(int direction) {
+        float targetX = (direction > 0) ? -scrollView.getWidth() : scrollView.getWidth();
+
+        scrollView.animate()
+                .translationX(targetX)
+                .scaleX(0.85f)
+                .scaleY(0.85f)
+                .setDuration(200)
+                .setInterpolator(new AccelerateDecelerateInterpolator())
+                .withEndAction(() -> {
+                    // 切换内容
+                    int newIndex = currentChapterIndex + direction;
+                    if (newIndex < 0 || newIndex >= allChapterIds.size()) return;
+
+                    long newChapterId = allChapterIds.get(newIndex);
+                    chapterId = newChapterId;
+                    currentChapterIndex = newIndex;
+
+                    String volume = chapter != null ? chapter.getVolume() : "素问";
+                    Chapter newChapter = dbHelper.getChapterById(newChapterId);
+                    chapter = newChapter;
+                    String title = newChapter != null ? newChapter.getDisplayName() : "";
+
+                    tvChapterTitle.setText(title);
+                    paragraphs = dbHelper.getParagraphsByChapter(newChapterId);
+                    updateFavoriteIcon();
+                    updateNavigationButtons();
+
+                    // 重置状态
+                    scrollView.setTranslationX(0f);
+                    scrollView.setScaleX(1f);
+                    scrollView.setScaleY(1f);
+                    renderContent();
+
+                    // 新内容从相反方向滑入
+                    float startX = (direction > 0) ? 0.4f * scrollView.getWidth() : -0.4f * scrollView.getWidth();
+                    scrollView.setTranslationX(startX);
+                    scrollView.setScaleX(0.85f);
+                    scrollView.setScaleY(0.85f);
+
+                    scrollView.animate()
+                            .translationX(0f)
+                            .scaleX(1f)
+                            .scaleY(1f)
+                            .setDuration(250)
+                            .setInterpolator(new DecelerateInterpolator())
+                            .start();
+                })
+                .start();
     }
 
     private void navigateChapter(int direction) {
         int newIndex = currentChapterIndex + direction;
         if (newIndex < 0 || newIndex >= allChapterIds.size()) return;
 
-        long newChapterId = allChapterIds.get(newIndex);
-        chapterId = newChapterId;
-        currentChapterIndex = newIndex;
+        final long newChapterId = allChapterIds.get(newIndex);
+        final int oldIndex = currentChapterIndex;
 
-        String volume = chapter != null ? chapter.getVolume() : "素问";
-        Chapter newChapter = dbHelper.getChapterById(newChapterId);
-        String title = newChapter != null ? newChapter.getDisplayName() : "";
+        // 动画：当前内容滑出
+        float exitX = (direction > 0) ? -scrollView.getWidth() : scrollView.getWidth();
+        float exitScale = 0.85f;
+        PropertyValuesHolder transX = PropertyValuesHolder.ofFloat("translationX", 0f, exitX);
+        PropertyValuesHolder scaleX = PropertyValuesHolder.ofFloat("scaleX", 1f, exitScale);
+        PropertyValuesHolder scaleY = PropertyValuesHolder.ofFloat("scaleY", 1f, exitScale);
+        ObjectAnimator exitAnim = ObjectAnimator.ofPropertyValuesHolder(scrollView, transX, scaleX, scaleY);
+        exitAnim.setDuration(200);
+        exitAnim.setInterpolator(new AccelerateDecelerateInterpolator());
 
-        tvChapterTitle.setText(title);
-        paragraphs = dbHelper.getParagraphsByChapter(newChapterId);
-        updateFavoriteIcon();
-        updateNavigationButtons();
-        renderContent();
+        exitAnim.addListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                // 切换内容
+                chapterId = newChapterId;
+                currentChapterIndex = newIndex;
+
+                String volume = chapter != null ? chapter.getVolume() : "素问";
+                Chapter newChapter = dbHelper.getChapterById(newChapterId);
+                chapter = newChapter;
+                String title = newChapter != null ? newChapter.getDisplayName() : "";
+
+                tvChapterTitle.setText(title);
+                paragraphs = dbHelper.getParagraphsByChapter(newChapterId);
+                updateFavoriteIcon();
+                updateNavigationButtons();
+
+                scrollView.setTranslationX(0f);
+                scrollView.setScaleX(1f);
+                scrollView.setScaleY(1f);
+                renderContent();
+
+                // 新内容滑入
+                float startX = (direction > 0) ? 0.5f * scrollView.getWidth() : -0.5f * scrollView.getWidth();
+                scrollView.setTranslationX(startX);
+                scrollView.setScaleX(0.85f);
+                scrollView.setScaleY(0.85f);
+
+                PropertyValuesHolder inTransX = PropertyValuesHolder.ofFloat("translationX", startX, 0f);
+                PropertyValuesHolder inScaleX = PropertyValuesHolder.ofFloat("scaleX", 0.85f, 1f);
+                PropertyValuesHolder inScaleY = PropertyValuesHolder.ofFloat("scaleY", 0.85f, 1f);
+                ObjectAnimator enterAnim = ObjectAnimator.ofPropertyValuesHolder(scrollView, inTransX, inScaleX, inScaleY);
+                enterAnim.setDuration(250);
+                enterAnim.setInterpolator(new DecelerateInterpolator());
+                enterAnim.start();
+            }
+        });
+        exitAnim.start();
     }
 
     private void showFontSizeDialog() {

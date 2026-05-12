@@ -46,6 +46,12 @@ public class ChapterListActivity extends AppCompatActivity {
         loadChapters();
     }
 
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_down, R.anim.slide_out_up);
+    }
+
     private void loadChapters() {
         chapters = dbHelper.getChaptersByVolume(volume);
         adapter = new ChapterAdapter(this, chapters, new ChapterAdapter.OnChapterClickListener() {
@@ -56,6 +62,7 @@ public class ChapterListActivity extends AppCompatActivity {
                 intent.putExtra("chapter_id", chapter.getId());
                 intent.putExtra("chapter_title", chapter.getDisplayName());
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_down);
             }
 
             @Override

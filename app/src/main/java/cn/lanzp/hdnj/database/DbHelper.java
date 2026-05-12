@@ -310,17 +310,18 @@ public class DbHelper extends SQLiteOpenHelper {
         return results;
     }
 
-    /** 去除拼音中的声调符号，如 shàng gǔ → shang gu */
+    /** 去除拼音中的声调符号和数字，如 shàng gǔ → shang gu，xi1 zai4 → xi zai */
     private String stripTones(String text) {
         if (text == null) return "";
         return text.toLowerCase()
                 .replace('ā', 'a').replace('á', 'a').replace('ǎ', 'a').replace('à', 'a')
-                .replace('ē', 'e').replace('é', 'e').replace('ě', 'e').replace('è', 'e')
+                .replace('\u0113', 'e').replace('\u00e9', 'e').replace('\u011b', 'e').replace('\u00e8', 'e')
                 .replace('ī', 'i').replace('í', 'i').replace('ǐ', 'i').replace('ì', 'i')
                 .replace('ō', 'o').replace('ó', 'o').replace('ǒ', 'o').replace('ò', 'o')
                 .replace('ū', 'u').replace('ú', 'u').replace('ǔ', 'u').replace('ù', 'u')
                 .replace('ǖ', 'v').replace('ǘ', 'v').replace('ǚ', 'v').replace('ǜ', 'v')
                 .replace('ü', 'v').replace('ê', 'e')
+                .replaceAll("\\d", "")  // 去除数字（xi1→xi, zai4→zai）
                 .replaceAll("[\\s-]+", "");  // 去除空格和连字符
     }
 

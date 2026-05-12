@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onSearchClick(View v) {
         startActivity(new Intent(this, SearchActivity.class));
+        overridePendingTransition(R.anim.slide_in_up, R.anim.fade_out);
     }
 
     public void onRecommendClick(View v) {
@@ -119,6 +120,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("chapter_id", randomChapter.getId());
             intent.putExtra("chapter_title", randomChapter.getDisplayName());
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_up, R.anim.fade_out);
         }
     }
 
@@ -126,12 +128,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ChapterListActivity.class);
         intent.putExtra("volume", "素问");
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
     public void onLingshuClick(View v) {
         Intent intent = new Intent(this, ChapterListActivity.class);
         intent.putExtra("volume", "灵枢");
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
     private void setupNavigation() {
@@ -142,12 +146,15 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             } else if (itemId == R.id.nav_favorites) {
                 startActivity(new Intent(this, FavoritesActivity.class));
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 return true;
             } else if (itemId == R.id.nav_bookmarks) {
                 startActivity(new Intent(this, BookmarksActivity.class));
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 return true;
             } else if (itemId == R.id.nav_settings) {
                 startActivity(new Intent(this, SettingsActivity.class));
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 return true;
             }
             return false;

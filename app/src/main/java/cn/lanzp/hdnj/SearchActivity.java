@@ -90,6 +90,12 @@ public class SearchActivity extends AppCompatActivity {
         tvClearHistory.setOnClickListener(v -> clearHistory());
     }
 
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.slide_out_up);
+    }
+
     private void performSearch(String keyword) {
         if (keyword.isEmpty()) return;
 
@@ -190,6 +196,7 @@ public class SearchActivity extends AppCompatActivity {
                 intent.putExtra("chapter_id", sr.chapterId);
                 intent.putExtra("chapter_title", sr.chapterTitle);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_up, R.anim.fade_out);
             });
         }
 

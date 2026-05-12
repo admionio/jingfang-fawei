@@ -4,7 +4,21 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+    <!-- 印章红色背景 -->
     <path
-        android:fillColor="#2E7D32"
+        android:fillColor="#C43A31"
         android:pathData="M0,0h108v108h-108z" />
+    <!-- 圆角修饰 -->
+    <path
+        android:fillColor="#B52E24"
+        android:pathData="M6,6h96v96h-96z" />
+    <path
+        android:fillColor="#C43A31"
+        android:pathData="M6,6 L102,6 L102,102 L6,102 Z" />
+    <!-- 金色细边框 -->
+    <path
+        android:strokeColor="#D4A854"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M10,10 L98,10 L98,98 L10,98 Z" />
 </vector>
