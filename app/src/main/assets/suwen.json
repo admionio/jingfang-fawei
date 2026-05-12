@@ -1,0 +1,554 @@
+[
+  {
+    "id": 1,
+    "chapter": "篇第一",
+    "title": "上古天真论",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "昔在黄帝，生而神灵，弱而能言，幼而徇齐，长而敦敏，成而登天。乃问于天师曰：余闻上古之人，春秋皆度百岁，而动作不衰；今时之人，年半百而动作皆衰者，时世异耶？人将失之耶？",
+        "pinyin": "xī zài huáng dì, shēng ér shén líng, ruò ér néng yán, yòu ér xùn qí, cháng ér dūn mǐn, chéng ér dēng tiān. nǎi wèn yú tiān shī yuē: yú wén shàng gǔ zhī rén, chūn qiū jiē dù bǎi suì, ér dòng zuò bù shuāi; jīn shí zhī rén, nián bàn bǎi ér dòng zuò jiē shuāi zhě, shí shì yì yé? rén jiāng shī zhī yé?",
+        "translation": "古代的黄帝，生来就聪明伶俐，幼年时能言善辩，小时候做事敏捷，长大后敦厚勤勉，成年后登上了天子之位。他向天师岐伯问道：我听说上古时代的人，年龄都能超过一百岁，而且行动没有衰老的迹象；现在的人，年龄刚到五十岁行动就已经衰老了，这是因为时代不同了呢？还是人们失去了养生之道呢？"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯对曰：上古之人，其知道者，法于阴阳，和于术数，食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。",
+        "pinyin": "qí bó duì yuē: shàng gǔ zhī rén, qí zhī dào zhě, fǎ yú yīn yáng, hé yú shù shù, shí yǐn yǒu jié, qǐ jū yǒu cháng, bù wàng zuò láo, gù néng xíng yǔ shén jù, ér jìn zhōng qí tiān nián, dù bǎi suì nǎi qù.",
+        "translation": "岐伯回答说：上古时代的人，那些懂得养生之道的，能够取法于阴阳变化的规律，调和于养生之术，饮食有节制，起居有规律，不过度劳累，所以能使形体和精神协调一致，活到天赋的寿命，超过一百岁才去世。"
+      },
+      {
+        "paragraph": 3,
+        "original": "夫上古圣人之教下也，皆谓之虚邪贼风，避之有时，恬惔虚无，真气从之，精神内守，病安从来。",
+        "pinyin": "fū shàng gǔ shèng rén zhī jiào xià yě, jiē wèi zhī xū xié zéi fēng, bì zhī yǒu shí, tián dàn xū wú, zhēn qì cóng zhī, jīng shén nèi shǒu, bìng ān cóng lái.",
+        "translation": "上古圣人对民众的教导，都说要适时避开虚邪贼风，保持内心恬淡虚无，正气就会随之而来，精神内守不耗散，疾病从哪里来呢？"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "chapter": "篇第二",
+    "title": "四气调神大论",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "春三月，此谓发陈。天地俱生，万物以荣。夜卧早起，广步于庭，被发缓形，以使志生。生而勿杀，予而勿夺，赏而勿罚，此春气之应，养生之道也。逆之则伤肝，夏为寒变，奉长者少。",
+        "pinyin": "chūn sān yuè, cǐ wèi fā chén. tiān dì jù shēng, wàn wù yǐ róng. yè wò zǎo qǐ, guǎng bù yú tíng, pī fà huǎn xíng, yǐ shǐ zhì shēng. shēng ér wù shā, yǔ ér wù duó, shǎng ér wù fá, cǐ chūn qì zhī yīng, yǎng shēng zhī dào yě. nì zhī zé shāng gān, xià wéi hán biàn, fèng zhǎng zhě shǎo.",
+        "translation": "春季三个月，是万物复苏推陈出新的时节。天地之间生机勃发，万物欣欣向荣。应该晚睡早起，在庭院中散步，披散头发舒缓形体，使意志舒畅。顺应生发之气而不扼杀，给予而不夺取，奖赏而不惩罚，这是顺应春气、养生保健的法则。违背了就会损伤肝脏，到了夏季就会发生寒性病变，奉养夏季生长的能力就减少了。"
+      },
+      {
+        "paragraph": 2,
+        "original": "夏三月，此谓蕃秀。天地气交，万物华实。夜卧早起，无厌于日，使志无怒，使华英成秀，使气得泄，若所爱在外。此夏气之应，养长之道也。逆之则伤心，秋为痎疟，奉收者少，冬至重病。",
+        "pinyin": "xià sān yuè, cǐ wèi fān xiù. tiān dì qì jiāo, wàn wù huá shí. yè wò zǎo qǐ, wú yàn yú rì, shǐ zhì wú nù, shǐ huá yīng chéng xiù, shǐ qì dé xiè, ruò suǒ ài zài wài. cǐ xià qì zhī yīng, yǎng zhǎng zhī dào yě. nì zhī zé shāng xīn, qiū wéi jiē nüè, fèng shōu zhě shǎo, dōng zhì zhòng bìng.",
+        "translation": "夏季三个月，是万物繁茂秀美的时节。天地之气交合，万物开花结果。应该晚睡早起，不要厌恶白天太长，使情志平和不躁怒，使容颜秀美，使阳气得以宣泄，好像心爱之物在外面一样。这是顺应夏气、养长的法则。违背了就会损伤心脏，到了秋季就会发生疟疾，奉养秋季收敛的能力就减少了，到冬季还会发生重病。"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "chapter": "篇第三",
+    "title": "生气通天论",
+    "content": []
+  },
+  {
+    "id": 4,
+    "chapter": "篇第四",
+    "title": "金匮真言论",
+    "content": []
+  },
+  {
+    "id": 5,
+    "chapter": "篇第五",
+    "title": "阴阳应象大论",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝曰：阴阳者，天地之道也，万物之纲纪，变化之父母，生杀之本始，神明之府也。治病必求于本。",
+        "pinyin": "huáng dì yuē: yīn yáng zhě, tiān dì zhī dào yě, wàn wù zhī gāng jì, biàn huà zhī fù mǔ, shēng shā zhī běn shǐ, shén míng zhī fǔ yě. zhì bìng bì qiú yú běn.",
+        "translation": "黄帝说：阴阳是天地间的普遍规律，是万事万物的纲领，是变化的根源，是生长与消亡的根本，是精神活动的基础。治疗疾病必须从根本上求治。"
+      },
+      {
+        "paragraph": 2,
+        "original": "故积阳为天，积阴为地。阴静阳躁，阳生阴长，阳杀阴藏。阳化气，阴成形。寒极生热，热极生寒。寒气生浊，热气生清。清气在下，则生飧泄；浊气在上，则生䐜胀。",
+        "pinyin": "gù jī yáng wéi tiān, jī yīn wéi dì. yīn jìng yáng zào, yáng shēng yīn zhǎng, yáng shā yīn cáng. yáng huà qì, yīn chéng xíng. hán jí shēng rè, rè jí shēng hán. hán qì shēng zhuó, rè qì shēng qīng. qīng qì zài xià, zé shēng sūn xiè; zhuó qì zài shàng, zé shēng chēn zhàng.",
+        "translation": "所以阳气积聚上升成为天，阴气凝聚下降成为地。阴主静而阳主动，阳气能生发阴气能长养，阳气能肃杀阴气能收藏。阳化生功能之气，阴构成有形之质。寒冷到极点会生热，热到极点会生寒。寒气能产生浊阴，热气能产生清阳。清阳之气居下而不升，就会发生完谷不化的泄泻；浊阴之气居上而不降，就会发生腹部胀满。"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "chapter": "篇第六",
+    "title": "阴阳离合论",
+    "content": []
+  },
+  {
+    "id": 7,
+    "chapter": "篇第七",
+    "title": "阴阳别论",
+    "content": []
+  },
+  {
+    "id": 8,
+    "chapter": "篇第八",
+    "title": "灵兰秘典论",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：愿闻十二藏之相使，贵贱何如？岐伯对曰：悉乎哉问也！请遂言之。心者，君主之官也，神明出焉。肺者，相傅之官，治节出焉。肝者，将军之官，谋虑出焉。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén shí èr zàng zhī xiāng shǐ, guì jiàn hé rú? qí bó duì yuē: xī hū zāi wèn yě! qǐng suì yán zhī. xīn zhě, jūn zhǔ zhī guān yě, shén míng chū yān. fèi zhě, xiāng fù zhī guān, zhì jié chū yān. gān zhě, jiāng jūn zhī guān, móu lǜ chū yān.",
+        "translation": "黄帝问道：我想了解人体十二脏腑的相互作用，有没有主次贵贱之分？岐伯回答说：问得真详细啊！请让我逐一说明。心脏，像君主的官职一样，精神智慧由此产生。肺脏，像宰相的官职一样，治理调节由此而出。肝脏，像将军的官职一样，谋略思虑由此而出。"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "chapter": "篇第九",
+    "title": "六节藏象论",
+    "content": []
+  },
+  {
+    "id": 10,
+    "chapter": "篇第十",
+    "title": "五脏生成",
+    "content": []
+  },
+  {
+    "id": 11,
+    "chapter": "篇第十一",
+    "title": "五脏别论",
+    "content": []
+  },
+  {
+    "id": 12,
+    "chapter": "篇第十二",
+    "title": "异法方宜论",
+    "content": []
+  },
+  {
+    "id": 13,
+    "chapter": "篇第十三",
+    "title": "移精变气论",
+    "content": []
+  },
+  {
+    "id": 14,
+    "chapter": "篇第十四",
+    "title": "汤液醪醴论",
+    "content": []
+  },
+  {
+    "id": 15,
+    "chapter": "篇第十五",
+    "title": "玉版论要",
+    "content": []
+  },
+  {
+    "id": 16,
+    "chapter": "篇第十六",
+    "title": "诊要经终论",
+    "content": []
+  },
+  {
+    "id": 17,
+    "chapter": "篇第十七",
+    "title": "脉要精微论",
+    "content": []
+  },
+  {
+    "id": 18,
+    "chapter": "篇第十八",
+    "title": "平人气象论",
+    "content": []
+  },
+  {
+    "id": 19,
+    "chapter": "篇第十九",
+    "title": "玉机真藏论",
+    "content": []
+  },
+  {
+    "id": 20,
+    "chapter": "篇第二十",
+    "title": "三部九候论",
+    "content": []
+  },
+  {
+    "id": 21,
+    "chapter": "篇第二十一",
+    "title": "经脉别论",
+    "content": []
+  },
+  {
+    "id": 22,
+    "chapter": "篇第二十二",
+    "title": "藏气法时论",
+    "content": []
+  },
+  {
+    "id": 23,
+    "chapter": "篇第二十三",
+    "title": "宣明五气",
+    "content": []
+  },
+  {
+    "id": 24,
+    "chapter": "篇第二十四",
+    "title": "血气形志",
+    "content": []
+  },
+  {
+    "id": 25,
+    "chapter": "篇第二十五",
+    "title": "宝命全形论",
+    "content": []
+  },
+  {
+    "id": 26,
+    "chapter": "篇第二十六",
+    "title": "八正神明论",
+    "content": []
+  },
+  {
+    "id": 27,
+    "chapter": "篇第二十七",
+    "title": "离合真邪论",
+    "content": []
+  },
+  {
+    "id": 28,
+    "chapter": "篇第二十八",
+    "title": "通评虚实论",
+    "content": []
+  },
+  {
+    "id": 29,
+    "chapter": "篇第二十九",
+    "title": "太阴阳明论",
+    "content": []
+  },
+  {
+    "id": 30,
+    "chapter": "篇第三十",
+    "title": "阳明脉解",
+    "content": []
+  },
+  {
+    "id": 31,
+    "chapter": "篇第三十一",
+    "title": "热论",
+    "content": []
+  },
+  {
+    "id": 32,
+    "chapter": "篇第三十二",
+    "title": "刺热",
+    "content": []
+  },
+  {
+    "id": 33,
+    "chapter": "篇第三十三",
+    "title": "评热病论",
+    "content": []
+  },
+  {
+    "id": 34,
+    "chapter": "篇第三十四",
+    "title": "逆调论",
+    "content": []
+  },
+  {
+    "id": 35,
+    "chapter": "篇第三十五",
+    "title": "疟论",
+    "content": []
+  },
+  {
+    "id": 36,
+    "chapter": "篇第三十六",
+    "title": "刺疟",
+    "content": []
+  },
+  {
+    "id": 37,
+    "chapter": "篇第三十七",
+    "title": "气厥论",
+    "content": []
+  },
+  {
+    "id": 38,
+    "chapter": "篇第三十八",
+    "title": "咳论",
+    "content": []
+  },
+  {
+    "id": 39,
+    "chapter": "篇第三十九",
+    "title": "举痛论",
+    "content": []
+  },
+  {
+    "id": 40,
+    "chapter": "篇第四十",
+    "title": "腹中论",
+    "content": []
+  },
+  {
+    "id": 41,
+    "chapter": "篇第四十一",
+    "title": "刺腰痛",
+    "content": []
+  },
+  {
+    "id": 42,
+    "chapter": "篇第四十二",
+    "title": "风论",
+    "content": []
+  },
+  {
+    "id": 43,
+    "chapter": "篇第四十三",
+    "title": "痹论",
+    "content": []
+  },
+  {
+    "id": 44,
+    "chapter": "篇第四十四",
+    "title": "痿论",
+    "content": []
+  },
+  {
+    "id": 45,
+    "chapter": "篇第四十五",
+    "title": "厥论",
+    "content": []
+  },
+  {
+    "id": 46,
+    "chapter": "篇第四十六",
+    "title": "病能论",
+    "content": []
+  },
+  {
+    "id": 47,
+    "chapter": "篇第四十七",
+    "title": "奇病论",
+    "content": []
+  },
+  {
+    "id": 48,
+    "chapter": "篇第四十八",
+    "title": "大奇论",
+    "content": []
+  },
+  {
+    "id": 49,
+    "chapter": "篇第四十九",
+    "title": "脉解",
+    "content": []
+  },
+  {
+    "id": 50,
+    "chapter": "篇第五十",
+    "title": "刺要论",
+    "content": []
+  },
+  {
+    "id": 51,
+    "chapter": "篇第五十一",
+    "title": "刺齐论",
+    "content": []
+  },
+  {
+    "id": 52,
+    "chapter": "篇第五十二",
+    "title": "刺禁论",
+    "content": []
+  },
+  {
+    "id": 53,
+    "chapter": "篇第五十三",
+    "title": "刺志论",
+    "content": []
+  },
+  {
+    "id": 54,
+    "chapter": "篇第五十四",
+    "title": "针解",
+    "content": []
+  },
+  {
+    "id": 55,
+    "chapter": "篇第五十五",
+    "title": "长刺节论",
+    "content": []
+  },
+  {
+    "id": 56,
+    "chapter": "篇第五十六",
+    "title": "皮部论",
+    "content": []
+  },
+  {
+    "id": 57,
+    "chapter": "篇第五十七",
+    "title": "经络论",
+    "content": []
+  },
+  {
+    "id": 58,
+    "chapter": "篇第五十八",
+    "title": "气穴论",
+    "content": []
+  },
+  {
+    "id": 59,
+    "chapter": "篇第五十九",
+    "title": "气府论",
+    "content": []
+  },
+  {
+    "id": 60,
+    "chapter": "篇第六十",
+    "title": "骨空论",
+    "content": []
+  },
+  {
+    "id": 61,
+    "chapter": "篇第六十一",
+    "title": "水热穴论",
+    "content": []
+  },
+  {
+    "id": 62,
+    "chapter": "篇第六十二",
+    "title": "调经论",
+    "content": []
+  },
+  {
+    "id": 63,
+    "chapter": "篇第六十三",
+    "title": "缪刺论",
+    "content": []
+  },
+  {
+    "id": 64,
+    "chapter": "篇第六十四",
+    "title": "四时刺逆从论",
+    "content": []
+  },
+  {
+    "id": 65,
+    "chapter": "篇第六十五",
+    "title": "标本病传论",
+    "content": []
+  },
+  {
+    "id": 66,
+    "chapter": "篇第六十六",
+    "title": "天元纪大论",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：天有五行，御五位，以生寒暑燥湿风。人有五藏，化五气，以生喜怒思忧恐。论言五运相袭而皆治之，终朞之日，周而复始，余已知之矣。愿闻其与三阴三阳之候奈何合之？",
+        "pinyin": "huáng dì wèn yuē: tiān yǒu wǔ xíng, yù wǔ wèi, yǐ shēng hán shǔ zào shī fēng. rén yǒu wǔ zàng, huà wǔ qì, yǐ shēng xǐ nù sī yōu kǒng. lùn yán wǔ yùn xiāng xí ér jiē zhì zhī, zhōng jī zhī rì, zhōu ér fù shǐ, yú yǐ zhī zhī yǐ. yuàn wén qí yǔ sān yīn sān yáng zhī hòu nài hé hé zhī?",
+        "translation": "黄帝问道：天有五行，统治五个方位，从而产生寒、暑、燥、湿、风。人有五脏，化生五气，从而产生喜、怒、思、忧、恐。讨论中提到五运相互承袭而各有主治，到一定周期周而复始，我已经知道了。我想听听五运与三阴三阳六气是如何配合的？"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "chapter": "篇第六十七",
+    "title": "五运行大论",
+    "content": []
+  },
+  {
+    "id": 68,
+    "chapter": "篇第六十八",
+    "title": "六微旨大论",
+    "content": []
+  },
+  {
+    "id": 69,
+    "chapter": "篇第六十九",
+    "title": "气交变大论",
+    "content": []
+  },
+  {
+    "id": 70,
+    "chapter": "篇第七十",
+    "title": "五常政大论",
+    "content": []
+  },
+  {
+    "id": 71,
+    "chapter": "篇第七十一",
+    "title": "六元正纪大论",
+    "content": []
+  },
+  {
+    "id": 72,
+    "chapter": "篇第七十二",
+    "title": "刺法论",
+    "content": []
+  },
+  {
+    "id": 73,
+    "chapter": "篇第七十三",
+    "title": "本病论",
+    "content": []
+  },
+  {
+    "id": 74,
+    "chapter": "篇第七十四",
+    "title": "至真要大论",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "帝曰：善。夫百病之生也，皆生于风寒暑湿燥火，以之化之变也。经言盛者泻之，虚者补之，余锡以方士，而方士用之尚未能十全。余欲令要道必行，桴鼓相应，犹拔刺雪污，工巧神圣，可得闻乎？",
+        "pinyin": "dì yuē: shàn. fū bǎi bìng zhī shēng yě, jiē shēng yú fēng hán shǔ shī zào huǒ, yǐ zhī huà zhī biàn yě. jīng yán shèng zhě xiè zhī, xū zhě bǔ zhī, yú xī yǐ fāng shì, ér fāng shì yòng zhī shàng wèi néng shí quán. yú yù lìng yào dào bì xíng, fú gǔ xiāng yìng, yóu bá cì xuě wū, gōng qiǎo shén shèng, kě dé wén hū?",
+        "translation": "黄帝说：讲得好！各种疾病的发生，都源于风、寒、暑、湿、燥、火六气的各种变化。医经上说实证用泻法，虚证用补法，我把它教给医家，但他们运用起来还不能达到十全十美的效果。我想让这些重要法则得到普遍推行，像击鼓发声一样迅速响应，如同拔除刺、洗去污一样有效，达到工巧神圣的境界，可以让我听听吗？"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "chapter": "篇第七十五",
+    "title": "著至教论",
+    "content": []
+  },
+  {
+    "id": 76,
+    "chapter": "篇第七十六",
+    "title": "示从容论",
+    "content": []
+  },
+  {
+    "id": 77,
+    "chapter": "篇第七十七",
+    "title": "疏五过论",
+    "content": []
+  },
+  {
+    "id": 78,
+    "chapter": "篇第七十八",
+    "title": "徵四失论",
+    "content": []
+  },
+  {
+    "id": 79,
+    "chapter": "篇第七十九",
+    "title": "阴阳类论",
+    "content": []
+  },
+  {
+    "id": 80,
+    "chapter": "篇第八十",
+    "title": "方盛衰论",
+    "content": []
+  },
+  {
+    "id": 81,
+    "chapter": "篇第八十一",
+    "title": "解精微论",
+    "content": []
+  }
+]

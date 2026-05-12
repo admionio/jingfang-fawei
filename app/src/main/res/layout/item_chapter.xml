@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/backgroundCard"
+    android:paddingHorizontal="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <!-- 篇序号 -->
+    <TextView
+        android:id="@+id/tvChapterIndex"
+        android:layout_width="32dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/textSecondary"
+        android:textSize="14sp" />
+
+    <!-- 篇名 -->
+    <TextView
+        android:id="@+id/tvChapterTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/tvChapterIndex"
+        android:layout_toStartOf="@id/ivFavorite"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <!-- 收藏图标 -->
+    <ImageView
+        android:id="@+id/ivFavorite"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerInside" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider" />
+
+</RelativeLayout>

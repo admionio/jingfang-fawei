@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">黄帝内经</string>
+
+    <!-- 标题 -->
+    <string name="title_home">首页</string>
+    <string name="title_chapter_list">篇目列表</string>
+    <string name="title_favorites">收藏</string>
+    <string name="title_bookmarks">书签</string>
+    <string name="title_settings">设置</string>
+    <string name="title_search">搜索</string>
+
+    <!-- 首页 -->
+    <string name="search_hint">搜索黄帝内经全文…</string>
+    <string name="today_recommend">今日推荐</string>
+    <string name="volume_suwen">素问</string>
+    <string name="volume_lingshu">灵枢</string>
+    <string name="chapter_count">共 %d 篇</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_favorites">收藏</string>
+    <string name="nav_bookmarks">书签</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- 阅读页 -->
+    <string name="action_favorite_add">添加收藏</string>
+    <string name="action_favorite_remove">取消收藏</string>
+    <string name="action_bookmark_add">添加书签</string>
+    <string name="prev_chapter">上一篇</string>
+    <string name="next_chapter">下一篇</string>
+    <string name="section_translation">译文</string>
+    <string name="bookmark_added">书签已添加</string>
+    <string name="bookmark_exists">该书签已存在</string>
+
+    <!-- 设置页 -->
+    <string name="setting_font_size">字体大小</string>
+    <string name="setting_night_mode">夜间模式</string>
+    <string name="setting_page_mode">翻页模式</string>
+    <string name="page_mode_scroll">连续滚动</string>
+    <string name="page_mode_page">单页翻页</string>
+    <string name="about_title">关于</string>
+    <string name="about_version">版本 1.0.0</string>
+    <string name="about_description">黄帝内经原文阅读工具，收录素问81篇、灵枢81篇，提供原文、拼音标注及现代文翻译。</string>
+
+    <!-- 通用 -->
+    <string name="empty_favorites">暂无收藏</string>
+    <string name="empty_bookmarks">暂无书签</string>
+    <string name="no_search_result">未找到相关结果</string>
+    <string name="search_history">搜索历史</string>
+    <string name="clear_history">清除历史</string>
+    <string name="delete_confirm">确定删除？</string>
+</resources>

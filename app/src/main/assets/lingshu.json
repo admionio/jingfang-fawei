@@ -1,0 +1,535 @@
+[
+  {
+    "id": 1,
+    "chapter": "一",
+    "title": "九针十二原",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问于岐伯曰：余子万民，养百姓而收其租税。余哀其不给而属有疾病。余欲勿使被毒药，无用砭石，欲以微针通其经脉，调其血气，营其逆顺出入之会。令可传于后世，必明为之法。令终而不灭，久而不绝，易用难忘，为之经纪。异其章，别其表里，为之终始。令各有形，先立针经。愿闻其情。",
+        "pinyin": "huáng dì wèn yú qí bó yuē: yú zǐ wàn mín, yǎng bǎi xìng ér shōu qí zū shuì. yú āi qí bù gěi ér shǔ yǒu jí bìng. yú yù wù shǐ bèi dú yào, wú yòng biān shí, yù yǐ wēi zhēn tōng qí jīng mài, tiáo qí xuè qì, yíng qí nì shùn chū rù zhī huì. lìng kě chuán yú hòu shì, bì míng wéi zhī fǎ. lìng zhōng ér bù miè, jiǔ ér bù jué, yì yòng nán wàng, wéi zhī jīng jì. yì qí zhāng, bié qí biǎo lǐ, wéi zhī zhōng shǐ. lìng gè yǒu xíng, xiān lì zhēn jīng. yuàn wén qí qíng.",
+        "translation": "黄帝问岐伯说：我抚爱万民，供养百姓并收取他们的租税。我怜悯他们生活困迫而连续遭受疾病。我想让他们不用毒药，不用砭石，而用微细的针来疏通经脉，调和气血，使气血的逆顺出入运行协调。要让它能流传后世，必须明确制定法则，使它永久不灭，长久不绝，容易运用而难以忘记，必须建立纲纪。区分章节，辨别表里，确立起止。使每种针都有具体的形态，先编撰一部针经。我想听听这方面的内容。"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯答曰：臣请推而次之，令有纲纪，始于一，终于九焉。请言其道。小针之要，易陈而难入。粗守形，上守神。神乎神，客在门。未睹其疾，恶知其原？",
+        "pinyin": "qí bó dá yuē: chén qǐng tuī ér cì zhī, lìng yǒu gāng jì, shǐ yú yī, zhōng yú jiǔ yān. qǐng yán qí dào. xiǎo zhēn zhī yào, yì chén ér nán rù. cū shǒu xíng, shàng shǒu shén. shén hū shén, kè zài mén. wèi dǔ qí jí, wū zhī qí yuán?",
+        "translation": "岐伯回答说：请让我按照次序阐述，使之有纲有纪，从一数开始，到九数终结。请让我说说其中的道理。用小针的要领，说起来容易，但要掌握精髓则很难。粗劣的医生只拘守形体，高明的医生能够把握神气。神啊神啊！外邪侵入人体的门户。没有看到疾病的具体情况，怎么能知道疾病的根源呢？"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "chapter": "二",
+    "title": "本输",
+    "content": []
+  },
+  {
+    "id": 3,
+    "chapter": "三",
+    "title": "小针解",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "所谓易陈者，易言也。难入者，难著于人也。粗守形者，守刺法也。上守神者，守人之血气有余不足，可补泻也。",
+        "pinyin": "suǒ wèi yì chén zhě, yì yán yě. nán rù zhě, nán zhù yú rén yě. cū shǒu xíng zhě, shǒu cì fǎ yě. shàng shǒu shén zhě, shǒu rén zhī xuè qì yǒu yú bù zú, kě bǔ xiè yě.",
+        "translation": "所谓「容易陈述」，是指说起来容易。「难以深入」，是指难以让人深刻领会。「粗劣的医生拘守形体」，是指只拘守针刺的方法。「高明的医生把握神气」，是指能把握人体血气的有余和不足，可以进行补泻。"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "chapter": "四",
+    "title": "邪气脏腑病形",
+    "content": []
+  },
+  {
+    "id": 5,
+    "chapter": "五",
+    "title": "根结",
+    "content": []
+  },
+  {
+    "id": 6,
+    "chapter": "六",
+    "title": "寿夭刚柔",
+    "content": []
+  },
+  {
+    "id": 7,
+    "chapter": "七",
+    "title": "官针",
+    "content": []
+  },
+  {
+    "id": 8,
+    "chapter": "八",
+    "title": "本神",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问于岐伯曰：凡刺之法，先必本于神。血、脉、营、气、精、神，此五藏之所藏也。至其淫泆离藏则精失、魂魄飞扬、志意恍乱、智虑去身者，何因而然乎？天之罪与？人之过乎？何谓德气生精、神、魂、魄、心、意、志、思、智、虑？请问其故。",
+        "pinyin": "huáng dì wèn yú qí bó yuē: fán cì zhī fǎ, xiān bì běn yú shén. xuè, mài, yíng, qì, jīng, shén, cǐ wǔ zàng zhī suǒ cáng yě. zhì qí yín yì lí zàng zé jīng shī, hún pò fēi yáng, zhì yì huǎng luàn, zhì lǜ qù shēn zhě, hé yīn ér rán hū? tiān zhī zuì yǔ? rén zhī guò hū? hé wèi dé qì shēng jīng, shén, hún, pò, xīn, yì, zhì, sī, zhì, lǜ? qǐng wèn qí gù.",
+        "translation": "黄帝问岐伯说：凡是用针的法则，必须先以神为本。血、脉、营、气、精、神，这都是五脏所藏守的。如果这些物质过度耗散而离开五脏，就会精气散失、魂魄飞扬、意志恍惚迷乱、智识思虑离开人体，这是什么原因造成的呢？是天生的过错还是人为的过失？又什么是德气产生精、神、魂、魄、心、意、志、思、智、虑？请问这些道理。"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "chapter": "九",
+    "title": "终始",
+    "content": []
+  },
+  {
+    "id": 10,
+    "chapter": "十",
+    "title": "经脉",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "雷公问于黄帝曰：禁脉之言，凡刺之理，经脉为始，营其所行，制其度量，内次五藏，外别六府，愿尽闻其道。黄帝曰：人始生，先成精，精成而脑髓生，骨为干，脉为营，筋为刚，肉为墙，皮肤坚而毛发长。谷入于胃，脉道以通，血气乃行。",
+        "pinyin": "léi gōng wèn yú huáng dì yuē: jìn mài zhī yán, fán cì zhī lǐ, jīng mài wéi shǐ, yíng qí suǒ xíng, zhì qí dù liàng, nèi cì wǔ zàng, wài bié liù fǔ, yuàn jìn wén qí dào. huáng dì yuē: rén shǐ shēng, xiān chéng jīng, jīng chéng ér nǎo suǐ shēng, gǔ wéi gàn, mài wéi yíng, jīn wéi gāng, ròu wéi qiáng, pí fū jiān ér máo fà zhǎng. gǔ rù yú wèi, mài dào yǐ tōng, xuè qì nǎi xíng.",
+        "translation": "雷公问黄帝说：《禁脉》篇上说，针刺的道理，以经脉为起始。经脉的运行各有其处所，各有一定的长度，内连五脏，外连六腑，希望详尽了解其中的道理。黄帝说：人开始孕育时，先形成精，精形成后脑髓生成，骨骼作为支柱，脉道作为营运的通道，筋膜作为约束，肌肉作为墙壁，皮肤坚韧而毛发生长。饮食入胃后，经脉通路由此贯通，血气开始运行。"
+      },
+      {
+        "paragraph": 2,
+        "original": "肺手太阴之脉，起于中焦，下络大肠，还循胃口，上膈属肺。从肺系横出腋下，下循臑内，行少阴心主之前，下肘中，循臂内上骨下廉，入寸口，上鱼，循鱼际，出大指之端。",
+        "pinyin": "fèi shǒu tài yīn zhī mài, qǐ yú zhōng jiāo, xià luò dà cháng, hái xún wèi kǒu, shàng gé shǔ fèi. cóng fèi xì héng chū yè xià, xià xún nào nèi, xíng shào yīn xīn zhǔ zhī qián, xià zhǒu zhōng, xún bì nèi shàng gǔ xià lián, rù cùn kǒu, shàng yú, xún yú jì, chū dà zhǐ zhī duān.",
+        "translation": "手太阴肺经，起始于中焦胃部，向下联络大肠，回绕沿着胃上口，穿过膈肌，属于肺脏。从肺系（气管喉咙）横出腋下，向下沿上臂内侧，行于手少阴经和手厥阴经的前面，向下到肘窝中，沿着前臂内侧桡骨下缘，进入寸口，上行到鱼部，沿着鱼际，出拇指的尖端。"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "chapter": "十一",
+    "title": "经别",
+    "content": []
+  },
+  {
+    "id": 12,
+    "chapter": "十二",
+    "title": "经水",
+    "content": []
+  },
+  {
+    "id": 13,
+    "chapter": "十三",
+    "title": "经筋",
+    "content": []
+  },
+  {
+    "id": 14,
+    "chapter": "十四",
+    "title": "骨度",
+    "content": []
+  },
+  {
+    "id": 15,
+    "chapter": "十五",
+    "title": "五十营",
+    "content": []
+  },
+  {
+    "id": 16,
+    "chapter": "十六",
+    "title": "营气",
+    "content": []
+  },
+  {
+    "id": 17,
+    "chapter": "十七",
+    "title": "脉度",
+    "content": []
+  },
+  {
+    "id": 18,
+    "chapter": "十八",
+    "title": "营卫生会",
+    "content": []
+  },
+  {
+    "id": 19,
+    "chapter": "十九",
+    "title": "四时气",
+    "content": []
+  },
+  {
+    "id": 20,
+    "chapter": "二十",
+    "title": "五邪",
+    "content": []
+  },
+  {
+    "id": 21,
+    "chapter": "二十一",
+    "title": "寒热病",
+    "content": []
+  },
+  {
+    "id": 22,
+    "chapter": "二十二",
+    "title": "癫狂",
+    "content": []
+  },
+  {
+    "id": 23,
+    "chapter": "二十三",
+    "title": "热病",
+    "content": []
+  },
+  {
+    "id": 24,
+    "chapter": "二十四",
+    "title": "厥病",
+    "content": []
+  },
+  {
+    "id": 25,
+    "chapter": "二十五",
+    "title": "病本",
+    "content": []
+  },
+  {
+    "id": 26,
+    "chapter": "二十六",
+    "title": "杂病",
+    "content": []
+  },
+  {
+    "id": 27,
+    "chapter": "二十七",
+    "title": "周痹",
+    "content": []
+  },
+  {
+    "id": 28,
+    "chapter": "二十八",
+    "title": "口问",
+    "content": []
+  },
+  {
+    "id": 29,
+    "chapter": "二十九",
+    "title": "师传",
+    "content": []
+  },
+  {
+    "id": 30,
+    "chapter": "三十",
+    "title": "决气",
+    "content": []
+  },
+  {
+    "id": 31,
+    "chapter": "三十一",
+    "title": "肠胃",
+    "content": []
+  },
+  {
+    "id": 32,
+    "chapter": "三十二",
+    "title": "平人绝谷",
+    "content": []
+  },
+  {
+    "id": 33,
+    "chapter": "三十三",
+    "title": "海论",
+    "content": []
+  },
+  {
+    "id": 34,
+    "chapter": "三十四",
+    "title": "五乱",
+    "content": []
+  },
+  {
+    "id": 35,
+    "chapter": "三十五",
+    "title": "胀论",
+    "content": []
+  },
+  {
+    "id": 36,
+    "chapter": "三十六",
+    "title": "五癃津液别",
+    "content": []
+  },
+  {
+    "id": 37,
+    "chapter": "三十七",
+    "title": "五阅五使",
+    "content": []
+  },
+  {
+    "id": 38,
+    "chapter": "三十八",
+    "title": "逆顺肥瘦",
+    "content": []
+  },
+  {
+    "id": 39,
+    "chapter": "三十九",
+    "title": "血络论",
+    "content": []
+  },
+  {
+    "id": 40,
+    "chapter": "四十",
+    "title": "阴阳清浊",
+    "content": []
+  },
+  {
+    "id": 41,
+    "chapter": "四十一",
+    "title": "阴阳系日月",
+    "content": []
+  },
+  {
+    "id": 42,
+    "chapter": "四十二",
+    "title": "病传",
+    "content": []
+  },
+  {
+    "id": 43,
+    "chapter": "四十三",
+    "title": "淫邪发梦",
+    "content": []
+  },
+  {
+    "id": 44,
+    "chapter": "四十四",
+    "title": "顺气一日分为四时",
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝曰：夫百病之所始生者，必起于燥湿寒暑风雨、阴阳喜怒、饮食居处。气合而有形，得藏而有名，余知其然也。夫百病者，多以旦慧昼安，夕加夜甚，何也？岐伯曰：四时之气使然。",
+        "pinyin": "huáng dì yuē: fū bǎi bìng zhī suǒ shǐ shēng zhě, bì qǐ yú zào shī hán shǔ fēng yǔ, yīn yáng xǐ nù, yǐn shí jū chù. qì hé ér yǒu xíng, dé zàng ér yǒu míng, yú zhī qí rán yě. fū bǎi bìng zhě, duō yǐ dàn huì zhòu ān, xī jiā yè shèn, hé yě? qí bó yuē: sì shí zhī qì shǐ rán.",
+        "translation": "黄帝说：各种疾病开始发生的时候，都必定起源于燥湿寒暑风雨等外邪，以及阴阳失调、喜怒无常、饮食起居失常等内因。邪气聚合而形成疾病形态，侵入脏腑而各有病名，我知道这些情况。但各种疾病，大多在早晨病情较轻而神志清爽，白天平稳，傍晚加重，夜间更严重，这是为什么呢？岐伯说：这是四时气候的变化使然。"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "chapter": "四十五",
+    "title": "外揣",
+    "content": []
+  },
+  {
+    "id": 46,
+    "chapter": "四十六",
+    "title": "五变",
+    "content": []
+  },
+  {
+    "id": 47,
+    "chapter": "四十七",
+    "title": "本藏",
+    "content": []
+  },
+  {
+    "id": 48,
+    "chapter": "四十八",
+    "title": "禁服",
+    "content": []
+  },
+  {
+    "id": 49,
+    "chapter": "四十九",
+    "title": "五色",
+    "content": []
+  },
+  {
+    "id": 50,
+    "chapter": "五十",
+    "title": "论勇",
+    "content": []
+  },
+  {
+    "id": 51,
+    "chapter": "五十一",
+    "title": "背腧",
+    "content": []
+  },
+  {
+    "id": 52,
+    "chapter": "五十二",
+    "title": "卫气",
+    "content": []
+  },
+  {
+    "id": 53,
+    "chapter": "五十三",
+    "title": "论痛",
+    "content": []
+  },
+  {
+    "id": 54,
+    "chapter": "五十四",
+    "title": "天年",
+    "content": []
+  },
+  {
+    "id": 55,
+    "chapter": "五十五",
+    "title": "逆顺",
+    "content": []
+  },
+  {
+    "id": 56,
+    "chapter": "五十六",
+    "title": "五味",
+    "content": []
+  },
+  {
+    "id": 57,
+    "chapter": "五十七",
+    "title": "水胀",
+    "content": []
+  },
+  {
+    "id": 58,
+    "chapter": "五十八",
+    "title": "贼风",
+    "content": []
+  },
+  {
+    "id": 59,
+    "chapter": "五十九",
+    "title": "卫气失常",
+    "content": []
+  },
+  {
+    "id": 60,
+    "chapter": "六十",
+    "title": "玉版",
+    "content": []
+  },
+  {
+    "id": 61,
+    "chapter": "六十一",
+    "title": "五禁",
+    "content": []
+  },
+  {
+    "id": 62,
+    "chapter": "六十二",
+    "title": "动输",
+    "content": []
+  },
+  {
+    "id": 63,
+    "chapter": "六十三",
+    "title": "五味论",
+    "content": []
+  },
+  {
+    "id": 64,
+    "chapter": "六十四",
+    "title": "阴阳二十五人",
+    "content": []
+  },
+  {
+    "id": 65,
+    "chapter": "六十五",
+    "title": "五音五味",
+    "content": []
+  },
+  {
+    "id": 66,
+    "chapter": "六十六",
+    "title": "百病始生",
+    "content": []
+  },
+  {
+    "id": 67,
+    "chapter": "六十七",
+    "title": "行针",
+    "content": []
+  },
+  {
+    "id": 68,
+    "chapter": "六十八",
+    "title": "上膈",
+    "content": []
+  },
+  {
+    "id": 69,
+    "chapter": "六十九",
+    "title": "忧恚无言",
+    "content": []
+  },
+  {
+    "id": 70,
+    "chapter": "七十",
+    "title": "寒热",
+    "content": []
+  },
+  {
+    "id": 71,
+    "chapter": "七十一",
+    "title": "邪客",
+    "content": []
+  },
+  {
+    "id": 72,
+    "chapter": "七十二",
+    "title": "通天",
+    "content": []
+  },
+  {
+    "id": 73,
+    "chapter": "七十三",
+    "title": "官能",
+    "content": []
+  },
+  {
+    "id": 74,
+    "chapter": "七十四",
+    "title": "论疾诊尺",
+    "content": []
+  },
+  {
+    "id": 75,
+    "chapter": "七十五",
+    "title": "刺节真邪",
+    "content": []
+  },
+  {
+    "id": 76,
+    "chapter": "七十六",
+    "title": "卫气行",
+    "content": []
+  },
+  {
+    "id": 77,
+    "chapter": "七十七",
+    "title": "九宫八风",
+    "content": []
+  },
+  {
+    "id": 78,
+    "chapter": "七十八",
+    "title": "九针论",
+    "content": []
+  },
+  {
+    "id": 79,
+    "chapter": "七十九",
+    "title": "岁露论",
+    "content": []
+  },
+  {
+    "id": 80,
+    "chapter": "八十",
+    "title": "大惑论",
+    "content": []
+  },
+  {
+    "id": 81,
+    "chapter": "八十一",
+    "title": "痈疽",
+    "content": []
+  }
+]
