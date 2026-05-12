@@ -248,13 +248,14 @@ public class DbHelper extends SQLiteOpenHelper {
         List<SearchResult> results = new ArrayList<>();
         SQLiteDatabase db = getReadableDatabase();
         String like = "%" + keyword + "%";
+        String keywordPlain = stripTones(keyword);
 
         Cursor c = db.rawQuery(
-                "SELECT c.id, c.volume, c.title, c.chapter_tag, p.paragraph_no, p.original_text, p.translation " +
+                "SELECT c.id, c.volume, c.title, c.chapter_tag, p.paragraph_no, p.original_text, p.translation, p.pinyin_text " +
                 "FROM paragraphs p JOIN chapters c ON p.chapter_id = c.id " +
-                "WHERE p.original_text LIKE ? OR p.translation LIKE ? OR p.pinyin_text LIKE ? " +
+                "WHERE p.original_text LIKE ? OR p.translation LIKE ? " +
                 "ORDER BY c.sort_order, p.sort_order LIMIT 100",
-                new String[]{like, like, like});
+                new String[]{like, like});
 
         while (c.moveToNext()) {
             SearchResult sr = new SearchResult();
@@ -265,6 +266,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
             String original = c.getString(5);
             String translation = c.getString(6);
+            String pinyinText = c.getString(7);
 
             if (original != null && original.contains(keyword)) {
                 sr.matchedText = original;
@@ -272,15 +274,54 @@ public class DbHelper extends SQLiteOpenHelper {
             } else if (translation != null && translation.contains(keyword)) {
                 sr.matchedText = translation;
                 sr.matchedField = "translation";
-            } else {
-                // 拼音匹配时，用原文作为显示文本
+            } else if (pinyinText != null && stripTones(pinyinText).contains(keywordPlain)) {
+                // 拼音匹配（去除声调后匹配）
                 sr.matchedText = original != null ? original : "";
                 sr.matchedField = "pinyin";
+            } else {
+                continue; // 不是匹配项
             }
             results.add(sr);
         }
         c.close();
+
+        // 如果正文+翻译没有匹配，再遍历pinyin匹配
+        if (results.isEmpty() && !keywordPlain.isEmpty()) {
+            Cursor c2 = db.rawQuery(
+                    "SELECT c.id, c.volume, c.title, c.chapter_tag, p.paragraph_no, p.original_text, p.pinyin_text " +
+                    "FROM paragraphs p JOIN chapters c ON p.chapter_id = c.id " +
+                    "ORDER BY c.sort_order, p.sort_order LIMIT 200", null);
+            while (c2.moveToNext()) {
+                String pinyinText = c2.getString(6);
+                if (pinyinText != null && stripTones(pinyinText).contains(keywordPlain)) {
+                    SearchResult sr = new SearchResult();
+                    sr.chapterId = c2.getLong(0);
+                    sr.volume = c2.getString(1);
+                    sr.chapterTitle = c2.getString(2) + c2.getString(3);
+                    sr.paragraphNo = c2.getInt(4);
+                    sr.matchedText = c2.getString(5) != null ? c2.getString(5) : "";
+                    sr.matchedField = "pinyin";
+                    results.add(sr);
+                }
+            }
+            c2.close();
+        }
+
         return results;
+    }
+
+    /** 去除拼音中的声调符号，如 shàng gǔ → shang gu */
+    private String stripTones(String text) {
+        if (text == null) return "";
+        return text.toLowerCase()
+                .replace('ā', 'a').replace('á', 'a').replace('ǎ', 'a').replace('à', 'a')
+                .replace('ē', 'e').replace('é', 'e').replace('ě', 'e').replace('è', 'e')
+                .replace('ī', 'i').replace('í', 'i').replace('ǐ', 'i').replace('ì', 'i')
+                .replace('ō', 'o').replace('ó', 'o').replace('ǒ', 'o').replace('ò', 'o')
+                .replace('ū', 'u').replace('ú', 'u').replace('ǔ', 'u').replace('ù', 'u')
+                .replace('ǖ', 'v').replace('ǘ', 'v').replace('ǚ', 'v').replace('ǜ', 'v')
+                .replace('ü', 'v').replace('ê', 'e')
+                .replaceAll("[\\s-]+", "");  // 去除空格和连字符
     }
 
     // ==================== Favorites ====================

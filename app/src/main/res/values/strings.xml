@@ -40,7 +40,7 @@
     <string name="page_mode_scroll">连续滚动</string>
     <string name="page_mode_page">单页翻页</string>
     <string name="about_title">关于</string>
-    <string name="about_version">版本 1.0.1</string>
+    <string name="about_version">版本 1.0.2</string>
     <string name="about_description">黄帝内经原文阅读工具，收录素问81篇、灵枢81篇，提供原文、拼音标注及现代文翻译。</string>
 
     <!-- 通用 -->
