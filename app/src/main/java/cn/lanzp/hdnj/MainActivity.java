@@ -13,6 +13,7 @@ import androidx.cardview.widget.CardView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
@@ -21,6 +22,7 @@ import java.util.Random;
 import cn.lanzp.hdnj.database.DataImporter;
 import cn.lanzp.hdnj.database.DbHelper;
 import cn.lanzp.hdnj.model.Chapter;
+import cn.lanzp.hdnj.model.Paragraph;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -73,22 +75,37 @@ public class MainActivity extends AppCompatActivity {
         List<Chapter> allChapters = dbHelper.getAllChapters();
         if (allChapters.isEmpty()) return;
 
+        // 过滤出有内容的篇章（至少有一段非空原文）
+        List<Chapter> validChapters = new ArrayList<>();
+        for (Chapter ch : allChapters) {
+            List<Paragraph> paras = dbHelper.getParagraphsByChapter(ch.getId());
+            if (!paras.isEmpty()) {
+                String firstText = paras.get(0).getOriginalText();
+                if (firstText != null && !firstText.trim().isEmpty()) {
+                    validChapters.add(ch);
+                }
+            }
+        }
+        if (validChapters.isEmpty()) return;
+
         // 基于日期做伪随机，保证同一天推荐同一篇
         String dateStr = new SimpleDateFormat("yyyyMMdd", Locale.getDefault()).format(new Date());
         int seed = Integer.parseInt(dateStr);
         Random rnd = new Random(seed);
-        int index = rnd.nextInt(allChapters.size());
-        randomChapter = allChapters.get(index);
+        int index = rnd.nextInt(validChapters.size());
+        randomChapter = validChapters.get(index);
 
         tvRecommendTitle.setText(randomChapter.getDisplayName());
 
         // 获取第一段作为节选
-        List<cn.lanzp.hdnj.model.Paragraph> paras =
+        List<Paragraph> paras =
                 dbHelper.getParagraphsByChapter(randomChapter.getId());
         if (!paras.isEmpty()) {
             String text = paras.get(0).getOriginalText();
-            if (text.length() > 50) text = text.substring(0, 50) + "…";
-            tvRecommendExcerpt.setText(text);
+            if (text != null) {
+                if (text.length() > 50) text = text.substring(0, 50) + "…";
+                tvRecommendExcerpt.setText(text);
+            }
         }
     }
 

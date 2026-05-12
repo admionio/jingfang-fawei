@@ -65,7 +65,7 @@ public class BookmarksActivity extends AppCompatActivity {
                         cn.lanzp.hdnj.reader.ReaderActivity.class);
                 intent.putExtra("chapter_id", bm.getChapterId());
                 intent.putExtra("chapter_title", bm.getChapterTitle());
-                // 有 paragraph_no 信息，可以跳转到段落
+                intent.putExtra("paragraph_no", bm.getParagraphNo());
                 startActivity(intent);
             }
 

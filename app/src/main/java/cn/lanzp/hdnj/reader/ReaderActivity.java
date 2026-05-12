@@ -3,6 +3,8 @@ package cn.lanzp.hdnj.reader;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -40,11 +42,14 @@ public class ReaderActivity extends AppCompatActivity {
     private int fontSizeLevel = 2;
     private boolean isNightMode = false;
     private SharedPreferences prefs;
+    private int targetParagraphNo = -1;
 
     // Font size mapping
     private static final float[] FONT_SIZES_ORIGINAL = {14f, 16f, 18f, 20f, 22f};
     private static final float[] FONT_SIZES_PINYIN = {11f, 12f, 13f, 14f, 15f};
     private static final float[] FONT_SIZES_TRANSLATION = {12f, 14f, 15f, 17f, 18f};
+
+    private GestureDetector gestureDetector;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,10 +64,12 @@ public class ReaderActivity extends AppCompatActivity {
 
         chapterId = getIntent().getLongExtra("chapter_id", -1);
         String chapterTitle = getIntent().getStringExtra("chapter_title");
+        targetParagraphNo = getIntent().getIntExtra("paragraph_no", -1);
 
         initViews();
         loadData(chapterTitle);
         setupListeners();
+        setupSwipeGesture();
     }
 
     private void applyTheme() {
@@ -114,6 +121,21 @@ public class ReaderActivity extends AppCompatActivity {
     private void renderContent() {
         llContent.removeAllViews();
 
+        // 无内容时显示提示
+        if (paragraphs.isEmpty()) {
+            TextView emptyHint = new TextView(this);
+            emptyHint.setText("本章数据待完善");
+            emptyHint.setTextSize(16f);
+            emptyHint.setTextColor(getColor(R.color.textSecondary));
+            emptyHint.setGravity(android.view.Gravity.CENTER);
+            emptyHint.setPadding(0, 120, 0, 0);
+            llContent.addView(emptyHint);
+            scrollView.scrollTo(0, 0);
+            return;
+        }
+
+        int targetChildIndex = -1;
+
         for (int i = 0; i < paragraphs.size(); i++) {
             Paragraph p = paragraphs.get(i);
             View itemView = getLayoutInflater().inflate(R.layout.item_paragraph, llContent, false);
@@ -155,10 +177,28 @@ public class ReaderActivity extends AppCompatActivity {
             }
 
             llContent.addView(itemView);
+
+            // 记录目标段落的child index
+            if (targetParagraphNo >= 0 && p.getParagraphNo() == targetParagraphNo) {
+                targetChildIndex = i;
+            }
         }
 
-        // 滚动到顶部
-        scrollView.scrollTo(0, 0);
+        // 滚动到目标段落（书签定位）
+        final int indexToScroll = targetChildIndex;
+        if (targetParagraphNo >= 0 && indexToScroll >= 0) {
+            scrollView.post(() -> {
+                // 等待布局完成后计算位置
+                int y = 0;
+                for (int i = 0; i < indexToScroll && i < llContent.getChildCount(); i++) {
+                    y += llContent.getChildAt(i).getHeight();
+                }
+                scrollView.scrollTo(0, y);
+            });
+        } else {
+            // 默认滚动到顶部
+            scrollView.scrollTo(0, 0);
+        }
     }
 
     private void updateFavoriteIcon() {
@@ -201,6 +241,41 @@ public class ReaderActivity extends AppCompatActivity {
 
         tvPrev.setOnClickListener(v -> navigateChapter(-1));
         tvNext.setOnClickListener(v -> navigateChapter(1));
+    }
+
+    private void setupSwipeGesture() {
+        gestureDetector = new GestureDetector(this, new GestureDetector.SimpleOnGestureListener() {
+            private static final int SWIPE_THRESHOLD = 100;
+            private static final int SWIPE_VELOCITY_THRESHOLD = 100;
+
+            @Override
+            public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+                if (e1 == null || e2 == null) return false;
+                float diffX = e2.getX() - e1.getX();
+                float diffY = e2.getY() - e1.getY();
+                // 只处理水平方向，垂直方向忽略
+                if (Math.abs(diffX) > Math.abs(diffY)) {
+                    if (Math.abs(diffX) > SWIPE_THRESHOLD
+                            && Math.abs(velocityX) > SWIPE_VELOCITY_THRESHOLD) {
+                        if (diffX > 0) {
+                            // 右滑 → 上一篇
+                            navigateChapter(-1);
+                        } else {
+                            // 左滑 → 下一篇
+                            navigateChapter(1);
+                        }
+                        return true;
+                    }
+                }
+                return false;
+            }
+        });
+
+        scrollView.setOnTouchListener((v, event) -> {
+            gestureDetector.onTouchEvent(event);
+            return false; // 不消费事件，让 ScrollView 继续处理垂直滚动
+        });
+        scrollView.setLongClickable(true);
     }
 
     private void navigateChapter(int direction) {

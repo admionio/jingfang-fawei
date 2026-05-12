@@ -13,16 +13,18 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import cn.lanzp.hdnj.database.DbHelper;
 
@@ -106,14 +108,14 @@ public class SearchActivity extends AppCompatActivity {
     }
 
     private void loadHistory() {
-        Set<String> history = prefs.getStringSet("history", new HashSet<>());
+        List<String> history = getHistoryList();
         layoutHistoryTags.removeAllViews();
         for (String h : history) {
             TextView tag = new TextView(this);
             tag.setText(h);
             tag.setTextSize(14f);
             tag.setTextColor(getColor(R.color.colorPrimary));
-            tag.setBackgroundResource(android.R.drawable.list_selector_background);
+            tag.setBackgroundResource(R.drawable.bg_history_tag);
             tag.setPadding(16, 10, 16, 10);
             tag.setOnClickListener(v -> {
                 etSearch.setText(h);
@@ -130,20 +132,40 @@ public class SearchActivity extends AppCompatActivity {
         }
     }
 
+    private List<String> getHistoryList() {
+        List<String> list = new ArrayList<>();
+        String json = prefs.getString("history", "[]");
+        try {
+            JSONArray arr = new JSONArray(json);
+            for (int i = 0; i < arr.length(); i++) {
+                list.add(arr.getString(i));
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+
     private void saveToHistory(String keyword) {
-        Set<String> history = prefs.getStringSet("history", new HashSet<>());
-        history.add(keyword);
+        List<String> history = getHistoryList();
+        // 移除已存在的相同关键词，移到最前
+        history.remove(keyword);
+        history.add(0, keyword);
         // 限制数量
         if (history.size() > MAX_HISTORY) {
-            List<String> list = new ArrayList<>(history);
-            history = new HashSet<>(list.subList(list.size() - MAX_HISTORY, list.size()));
+            history = history.subList(0, MAX_HISTORY);
         }
-        prefs.edit().putStringSet("history", history).apply();
+        JSONArray arr = new JSONArray();
+        for (String h : history) {
+            arr.put(h);
+        }
+        prefs.edit().putString("history", arr.toString()).apply();
     }
 
     private void clearHistory() {
-        prefs.edit().remove("history").apply();
+        prefs.edit().putString("history", "[]").apply();
         loadHistory();
+        Toast.makeText(this, "搜索历史已清除", Toast.LENGTH_SHORT).show();
     }
 
     private class SearchResultAdapter extends RecyclerView.Adapter<SearchResultAdapter.ViewHolder> {

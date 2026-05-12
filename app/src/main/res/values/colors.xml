@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2E7D32</color>
-    <color name="colorPrimaryDark">#1B5E20</color>
-    <color name="colorAccent">#FF6F00</color>
-    <color name="colorPrimaryLight">#A5D6A7</color>
+    <!-- 设计稿色板 -->
+    <color name="colorPrimary">#C43A31</color>
+    <color name="colorPrimaryDark">#A02D25</color>
+    <color name="colorAccent">#C9A96E</color>
+    <color name="colorPrimaryLight">#E8A098</color>
 
     <!-- 文字颜色 -->
-    <color name="textPrimary">#212121</color>
-    <color name="textSecondary">#757575</color>
-    <color name="textHint">#BDBDBD</color>
-    <color name="textPinyin">#78909C</color>
-    <color name="textTranslation">#546E7A</color>
-    <color name="textHighlight">#FF6F00</color>
+    <color name="textPrimary">#2C2C2C</color>
+    <color name="textSecondary">#5A5A5A</color>
+    <color name="textHint">#9E9E9E</color>
+    <color name="textPinyin">#9E9E9E</color>
+    <color name="textTranslation">#5A5A5A</color>
+    <color name="textHighlight">#C9A96E</color>
 
     <!-- 背景 -->
-    <color name="backgroundLight">#FAFAFA</color>
-    <color name="backgroundCard">#FFFFFF</color>
-    <color name="backgroundSearch">#F5F5F5</color>
+    <color name="backgroundLight">#F5F0E8</color>
+    <color name="backgroundCard">#FAF6EE</color>
+    <color name="backgroundSearch">#F0EBE0</color>
 
     <!-- 收藏/书签 -->
-    <color name="favoriteActive">#E53935</color>
-    <color name="favoriteInactive">#BDBDBD</color>
+    <color name="favoriteActive">#C43A31</color>
+    <color name="favoriteInactive">#C0B8A8</color>
 
     <!-- 分隔线 -->
-    <color name="divider">#E0E0E0</color>
+    <color name="divider">#D8D0C0</color>
 
     <!-- 夜间模式 -->
     <color name="nightBackground">#1A1A2E</color>

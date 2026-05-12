@@ -47,13 +47,57 @@
     "id": 3,
     "chapter": "篇第三",
     "title": "生气通天论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝曰：夫自古通天者，生之本，本于阴阳。天地之间，六合之内，其气九州、九窍、五藏、十二节，皆通乎天气。",
+        "pinyin": "huáng dì yuē: fū zì gǔ tōng tiān zhě, shēng zhī běn, běn yú yīn yáng. tiān dì zhī jiān, liù hé zhī nèi, qí qì jiǔ zhōu, jiǔ qiào, wǔ zàng, shí èr jié, jiē tōng hū tiān qì.",
+        "translation": "黄帝说：自古以来人的生命与自然相通，生命根本在于阴阳。天地六合之间、人体九州九窍五脏十二节都与自然之气相通。"
+      },
+      {
+        "paragraph": 2,
+        "original": "阳气者，若天与日，失其所则折寿而不彰。故天运当以日光明，是故阳因而上，卫外者也。",
+        "pinyin": "yáng qì zhě, ruò tiān yǔ rì, shī qí suǒ zé zhé shòu ér bù zhāng. gù tiān yùn dāng yǐ rì guāng míng, shì gù yáng yīn ér shàng, wèi wài zhě yě.",
+        "translation": "人体的阳气如天上的太阳，失其运行就会折损寿命。所以天运靠太阳光明，阳气也向上向外护卫肌体。"
+      },
+      {
+        "paragraph": 3,
+        "original": "故阳气者，一日而主外。平旦人气生，日中而阳气隆，日西而阳气已虚，气门乃闭。是故暮而收拒，无扰筋骨，无见雾露。",
+        "pinyin": "gù yáng qì zhě, yī rì ér zhǔ wài. píng dàn rén qì shēng, rì zhōng ér yáng qì lóng, rì xī ér yáng qì yǐ xū, qì mén nǎi bì. shì gù mù ér shōu jù, wú rǎo jīn gǔ, wú jiàn wù lù.",
+        "translation": "白天阳气主导外部。清晨阳气生、中午阳气盛、傍晚阳气虚。所以傍晚要收敛阳气，勿扰筋骨、勿近雾露。"
+      },
+      {
+        "paragraph": 4,
+        "original": "阴之所生，本在五味；阴之五宫，伤在五味。是故味过于酸，肝气以津，脾气乃绝。",
+        "pinyin": "yīn zhī suǒ shēng, běn zài wǔ wèi; yīn zhī wǔ gōng, shāng zài wǔ wèi. shì gù wèi guò yú suān, gān qì yǐ jīn, pí qì nǎi jué.",
+        "translation": "阴精生于五味但五脏伤于五味。过食酸味肝气亢脾气衰。"
+      }
+    ]
   },
   {
     "id": 4,
     "chapter": "篇第四",
     "title": "金匮真言论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：天有八风，经有五风，何谓？岐伯对曰：八风发邪以为经风，触五藏，邪气发病。",
+        "pinyin": "huáng dì wèn yuē: tiān yǒu bā fēng, jīng yǒu wǔ fēng, hé wèi? qí bó duì yuē: bā fēng fā xié yǐ wéi jīng fēng, chù wǔ zàng, xié qì fā bìng.",
+        "translation": "黄帝问天之八风和经之五风的关系。岐伯答：八风产生邪气形成经风犯五脏引发疾病。"
+      },
+      {
+        "paragraph": 2,
+        "original": "东风生于春，病在肝，俞在颈项；南风生于夏，病在心，俞在胸胁；西风生于秋，病在肺，俞在肩背；北风生于冬，病在肾，俞在腰股。",
+        "pinyin": "dōng fēng shēng yú chūn, bìng zài gān, shù zài jǐng xiàng; nán fēng shēng yú xià, bìng zài xīn, shù zài xiōng xié; xī fēng shēng yú qiū, bìng zài fèi, shù zài jiān bèi; běi fēng shēng yú dōng, bìng zài shèn, shù zài yāo gǔ.",
+        "translation": "四季风邪分别伤五脏：春东风伤肝、夏南风伤心、秋西风伤肺、冬北风伤肾。"
+      },
+      {
+        "paragraph": 3,
+        "original": "故曰：阴中有阴，阳中有阳。平旦至日中，天之阳，阳中之阳也；日中至黄昏，天之阳，阳中之阴也。",
+        "pinyin": "gù yuē: yīn zhōng yǒu yīn, yáng zhōng yǒu yáng. píng dàn zhì rì zhōng, tiān zhī yáng, yáng zhōng zhī yáng yě; rì zhōng zhì huáng hūn, tiān zhī yáng, yáng zhōng zhī yīn yě.",
+        "translation": "阴中有阴阳中有阳，人体的阴阳变化于此相应。"
+      }
+    ]
   },
   {
     "id": 5,
@@ -78,13 +122,51 @@
     "id": 6,
     "chapter": "篇第六",
     "title": "阴阳离合论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻天为阳，地为阴，日为阳，月为阴。大小月三百六十日成一岁，人亦应之。",
+        "pinyin": "huáng dì wèn yuē: yú wén tiān wéi yáng, dì wéi yīn, rì wéi yáng, yuè wéi yīn. dà xiǎo yuè sān bǎi liù shí rì chéng yī suì, rén yì yìng zhī.",
+        "translation": "黄帝问：天阳地阴、日阳月阴，三百六十天为一岁，人体相应。"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯对曰：阴阳者，数之可十，推之可百，数之可千，推之可万，万之大不可胜数，然其要一也。",
+        "pinyin": "qí bó duì yuē: yīn yáng zhě, shù zhī kě shí, tuī zhī kě bǎi, shù zhī kě qiān, tuī zhī kě wàn, wàn zhī dà bù kě shèng shù, rán qí yào yī yě.",
+        "translation": "岐伯答：阴阳变化千万无穷但其根本规律只有一个。"
+      },
+      {
+        "paragraph": 3,
+        "original": "天覆地载，万物方生。未出地者名曰阴中之阴；出地者名曰阴中之阳。",
+        "pinyin": "tiān fù dì zài, wàn wù fāng shēng. wèi chū dì zhě míng yuē yīn zhōng zhī yīn; chū dì zhě míng yuē yīn zhōng zhī yáng.",
+        "translation": "天覆地载万物始生，出土前后阴阳属性不同。"
+      },
+      {
+        "paragraph": 4,
+        "original": "是故三阳之离合也，太阳为开，阳明为阖，少阳为枢。三经者，不得相失也。",
+        "pinyin": "shì gù sān yáng zhī lí hé yě, tài yáng wéi kāi, yáng míng wéi hé, shào yáng wéi shū. sān jīng zhě, bù dé xiāng shī yě.",
+        "translation": "三阳经分合：太阳主开、阳明主阖、少阳主枢，三者不可失协调。"
+      }
+    ]
   },
   {
     "id": 7,
     "chapter": "篇第七",
     "title": "阴阳别论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：人有四经十二从，何谓？岐伯对曰：四经应四时，十二从应十二月，十二月应十二脉。",
+        "pinyin": "huáng dì wèn yuē: rén yǒu sì jīng shí èr cóng, hé wèi? qí bó duì yuē: sì jīng yìng sì shí, shí èr cóng yìng shí èr yuè, shí èr yuè yìng shí èr mài.",
+        "translation": "黄帝问：人有四经十二从？答：四经应四季，十二从应十二月，十二月应十二脉。"
+      },
+      {
+        "paragraph": 2,
+        "original": "曰：二阳之病发心脾，有不得隐曲，女子不月。",
+        "pinyin": "yuē: èr yáng zhī bìng fā xīn pí, yǒu bù dé yǐn qū, nǚ zǐ bù yuè.",
+        "translation": "阳明病影响心脾，可见情志不舒、女子经少或闭经。"
+      }
+    ]
   },
   {
     "id": 8,
@@ -96,6 +178,18 @@
         "original": "黄帝问曰：愿闻十二藏之相使，贵贱何如？岐伯对曰：悉乎哉问也！请遂言之。心者，君主之官也，神明出焉。肺者，相傅之官，治节出焉。肝者，将军之官，谋虑出焉。",
         "pinyin": "huáng dì wèn yuē: yuàn wén shí èr zàng zhī xiāng shǐ, guì jiàn hé rú? qí bó duì yuē: xī hū zāi wèn yě! qǐng suì yán zhī. xīn zhě, jūn zhǔ zhī guān yě, shén míng chū yān. fèi zhě, xiāng fù zhī guān, zhì jié chū yān. gān zhě, jiāng jūn zhī guān, móu lǜ chū yān.",
         "translation": "黄帝问道：我想了解人体十二脏腑的相互作用，有没有主次贵贱之分？岐伯回答说：问得真详细啊！请让我逐一说明。心脏，像君主的官职一样，精神智慧由此产生。肺脏，像宰相的官职一样，治理调节由此而出。肝脏，像将军的官职一样，谋略思虑由此而出。"
+      },
+      {
+        "paragraph": 2,
+        "original": "心者，君主之官也，神明出焉。肺者，相傅之官，治节出焉。肝者，将军之官，谋虑出焉。",
+        "pinyin": "xīn zhě, jūn zhǔ zhī guān yě, shén míng chū yān. fèi zhě, xiāng fù zhī guān, zhì jié chū yān. gān zhě, jiāng jūn zhī guān, móu lǜ chū yān.",
+        "translation": "心为君主之官、肺为相傅之官、肝为将军之官，各器官的职能。"
+      },
+      {
+        "paragraph": 3,
+        "original": "胆者，中正之官，决断出焉。膻中者，臣使之官，喜乐出焉。脾胃者，仓廪之官，五味出焉。",
+        "pinyin": "dǎn zhě, zhōng zhèng zhī guān, jué duàn chū yān. dàn zhōng zhě, chén shǐ zhī guān, xǐ lè chū yān. pí wèi zhě, cāng lǐn zhī guān, wǔ wèi chū yān.",
+        "translation": "胆为中正之官、膻中为臣使之官、脾胃为仓廪之官。"
       }
     ]
   },
@@ -103,343 +197,1336 @@
     "id": 9,
     "chapter": "篇第九",
     "title": "六节藏象论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻天以六六之节，以成一岁；人以九九制会，不知其所谓也？",
+        "pinyin": "huáng dì wèn yuē: yú wén tiān yǐ liù liù zhī jié, yǐ chéng yī suì; rén yǐ jiǔ jiǔ zhì huì, bù zhī qí suǒ wèi yě?",
+        "translation": "黄帝问：天以六六之节成一岁、人以九九制会的含义。"
+      },
+      {
+        "paragraph": 2,
+        "original": "帝曰：藏象何如？岐伯曰：心者，生之本，神之变也，其华在面，其充在血脉，为阳中之太阳，通于夏气。",
+        "pinyin": "dì yuē: zàng xiàng hé rú? qí bó yuē: xīn zhě, shēng zhī běn, shén zhī biàn yě, qí huá zài miàn, qí chōng zài xuè mài, wéi yáng zhōng zhī tài yáng, tōng yú xià qì.",
+        "translation": "藏象：心为生之本、神之变，荣华在面、充养血脉，与夏气通。"
+      },
+      {
+        "paragraph": 3,
+        "original": "肺者，气之本，魄之处也，其华在毛，其充在皮，为阳中之太阴，通于秋气。",
+        "pinyin": "fèi zhě, qì zhī běn, pò zhī chù yě, qí huá zài máo, qí chōng zài pí, wéi yáng zhōng zhī tài yīn, tōng yú qiū qì.",
+        "translation": "肺为气之本、魄之处，荣华在毛、充养皮肤，与秋气通。"
+      },
+      {
+        "paragraph": 4,
+        "original": "肾者，主蛰，封藏之本，精之处也，其华在发，其充在骨，为阴中之少阴，通于冬气。",
+        "pinyin": "shèn zhě, zhǔ zhé, fēng cáng zhī běn, jīng zhī chù yě, qí huá zài fà, qí chōng zài gǔ, wéi yīn zhōng zhī shào yīn, tōng yú dōng qì.",
+        "translation": "肾为封藏之本、精之处，荣华在发、充养骨骼，与冬气通。"
+      },
+      {
+        "paragraph": 5,
+        "original": "肝者，罢极之本，魂之居也，其华在爪，其充在筋，以生血气，通于春气。",
+        "pinyin": "gān zhě, pí jí zhī běn, hún zhī jū yě, qí huá zài zhǎo, qí chōng zài jīn, yǐ shēng xuè qì, tōng yú chūn qì.",
+        "translation": "肝为罢极之本、魂之居，荣华在爪、充养筋膜，与春气通。"
+      }
+    ]
   },
   {
     "id": 10,
     "chapter": "篇第十",
     "title": "五脏生成",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "心之合脉也，其荣色也，其主肾也。肺之合皮也，其荣毛也，其主心也。肝之合筋也，其荣爪也，其主肺也。",
+        "pinyin": "xīn zhī hé mài yě, qí róng sè yě, qí zhǔ shèn yě. fèi zhī hé pí yě, qí róng máo yě, qí zhǔ xīn yě. gān zhī hé jīn yě, qí róng zhǎo yě, qí zhǔ fèi yě.",
+        "translation": "五脏配合及制约关系。"
+      },
+      {
+        "paragraph": 2,
+        "original": "是故多食咸，则脉凝泣而变色；多食苦，则皮槁而毛拔；多食辛，则筋急而爪枯。",
+        "pinyin": "shì gù duō shí xián, zé mài níng qì ér biàn sè; duō shí kǔ, zé pí gǎo ér máo bá; duō shí xīn, zé jīn jí ér zhǎo kū.",
+        "translation": "过食五味之害：咸伤血脉、苦伤皮肤、辛伤筋爪。"
+      },
+      {
+        "paragraph": 3,
+        "original": "故心欲苦，肺欲辛，肝欲酸，脾欲甘，肾欲咸。此五味之所合五藏之气也。",
+        "pinyin": "gù xīn yù kǔ, fèi yù xīn, gān yù suān, pí yù gān, shèn yù xián. cǐ wǔ wèi zhī suǒ hé wǔ zàng zhī qì yě.",
+        "translation": "五脏各有所喜之味，这是五味与五脏之气的配合。"
+      }
+    ]
   },
   {
     "id": 11,
     "chapter": "篇第十一",
     "title": "五脏别论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻方士，或以脑髓为藏，或以肠胃为藏，或以为府。敢问更相反，皆自谓是。",
+        "pinyin": "huáng dì wèn yuē: yú wén fāng shì, huò yǐ nǎo suǐ wéi zàng, huò yǐ cháng wèi wéi zàng, huò yǐ wéi fǔ. gǎn wèn gèng xiāng fǎn, jiē zì wèi shì.",
+        "translation": "黄帝问：医家对脑髓、肠胃的脏腑划分有分歧，请解释。"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯对曰：脑、髓、骨、脉、胆、女子胞，此六者，地气之所生也，皆藏于阴而象于地，故藏而不泻，名曰奇恒之府。",
+        "pinyin": "qí bó duì yuē: nǎo, suǐ, gǔ, mài, dǎn, nǚ zǐ bāo, cǐ liù zhě, dì qì zhī suǒ shēng yě, jiē cáng yú yīn ér xiàng yú dì, gù cáng ér bù xiè, míng yuē qí héng zhī fǔ.",
+        "translation": "脑髓骨脉胆女子胞六者，属地气所生、藏而不泻，称奇恒之腑。"
+      },
+      {
+        "paragraph": 3,
+        "original": "所谓五藏者，藏精气而不泻也，故满而不能实。六府者，传化物而不藏，故实而不能满也。",
+        "pinyin": "suǒ wèi wǔ zàng zhě, cáng jīng qì ér bù xiè yě, gù mǎn ér bù néng shí. liù fǔ zhě, chuán huà wù ér bù cáng, gù shí ér bù néng mǎn yě.",
+        "translation": "五脏藏精气而不泻故满而不实，六腑传化物而不藏故实而不满。"
+      }
+    ]
   },
   {
     "id": 12,
     "chapter": "篇第十二",
     "title": "异法方宜论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：医之治病也，一病而治各不同，皆愈，何也？岐伯对曰：地势使然也。",
+        "pinyin": "huáng dì wèn yuē: yī zhī zhì bìng yě, yī bìng ér zhì gè bù tóng, jiē yù, hé yě? qí bó duì yuē: dì shì shǐ rán yě.",
+        "translation": "黄帝问：同病异治皆能愈的原因。岐伯答：地理环境不同所致。"
+      },
+      {
+        "paragraph": 2,
+        "original": "东方之域，其民食鱼而嗜咸，其病皆为痈疡，其治宜砭石。",
+        "pinyin": "dōng fāng zhī yù, qí mín shí yú ér shì xián, qí bìng jiē wéi yōng yáng, qí zhì yí biān shí.",
+        "translation": "东方近海多鱼盐，百姓生痈疡，宜用砭石。"
+      },
+      {
+        "paragraph": 3,
+        "original": "西方者，其民华食而脂肥，其病生于内，其治宜毒药。",
+        "pinyin": "xī fāng zhě, qí mín huá shí ér zhī féi, qí bìng shēng yú nèi, qí zhì yí dú yào.",
+        "translation": "西方人多脂肥而内生病，宜用药物。"
+      },
+      {
+        "paragraph": 4,
+        "original": "北方者，其民乐野处而乳食，藏寒生满病，其治宜灸焫。",
+        "pinyin": "běi fāng zhě, qí mín lè yě chù ér rǔ shí, zàng hán shēng mǎn bìng, qí zhì yí jiǔ ruò.",
+        "translation": "北方人乳食而内脏寒，多胀满，宜用艾灸。"
+      },
+      {
+        "paragraph": 5,
+        "original": "南方者，其病挛痹，其治宜微针。中央者，其病多痿厥寒热，其治宜导引按蹻。",
+        "pinyin": "nán fāng zhě, qí bìng luán bì, qí zhì yí wēi zhēn. zhōng yāng zhě, qí bìng duō wěi jué hán rè, qí zhì yí dǎo yǐn àn qiāo.",
+        "translation": "南方多挛痹宜九针。中土多痿厥寒热宜导引按蹻。"
+      }
+    ]
   },
   {
     "id": 13,
     "chapter": "篇第十三",
     "title": "移精变气论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻古之治病，惟其移精变气，可祝由而已。今世治病，毒药治其内，针石治其外，或愈或不愈，何也？",
+        "pinyin": "huáng dì wèn yuē: yú wén gǔ zhī zhì bìng, wéi qí yí jīng biàn qì, kě zhù yóu ér yǐ. jīn shì zhì bìng, dú yào zhì qí nèi, zhēn shí zhì qí wài, huò yù huò bù yù, hé yě?",
+        "translation": "黄帝问：古时治病仅用祝由移精变气即可。现在用药物针石却时好时坏，为什么？"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯对曰：往古人居禽兽之间，动作以避寒，阴居以避暑，内无眷慕之累，外无伸宦之形。此恬惔之世，邪不能深入也。",
+        "pinyin": "qí bó duì yuē: wǎng gǔ rén jū qín shòu zhī jiān, dòng zuò yǐ bì hán, yīn jū yǐ bì shǔ, nèi wú juàn mù zhī lèi, wài wú shēn huàn zhī xíng. cǐ tián dàn zhī shì, xié bù néng shēn rù yě.",
+        "translation": "古人生活简单、内心恬淡，外邪不深入，所以祝由就能治病。"
+      },
+      {
+        "paragraph": 3,
+        "original": "当今之世不然，忧患缘其内，苦形伤其外，又失四时之从，逆寒暑之宜。贼风数至，虚邪朝夕，内至五藏骨髓，外伤空窍肌肤。",
+        "pinyin": "dāng jīn zhī shì bù rán, yōu huàn yuán qí nèi, kǔ xíng shāng qí wài, yòu shī sì shí zhī cóng, nì hán shǔ zhī yí. zéi fēng shù zhì, xū xié zhāo xī, nèi zhì wǔ zàng gǔ suǐ, wài shāng kōng qiào jī fū.",
+        "translation": "现代人内有忧患、外有劳伤、违逆四时，贼风虚邪时刻侵袭，内外俱伤，祝由无效。"
+      }
+    ]
   },
   {
     "id": 14,
     "chapter": "篇第十四",
     "title": "汤液醪醴论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：为五谷汤液及醪醴奈何？岐伯对曰：必以稻米，炊之稻薪。稻米者完，稻薪者坚。",
+        "pinyin": "huáng dì wèn yuē: wéi wǔ gǔ tāng yè jí láo lǐ nài hé? qí bó duì yuē: bì yǐ dào mǐ, chuī zhī dào xīn. dào mǐ zhě wán, dào xīn zhě jiān.",
+        "translation": "黄帝问：如何制作五谷汤液和醪醴？岐伯答：用稻米和稻草为燃料，米味完备、草质坚实。"
+      },
+      {
+        "paragraph": 2,
+        "original": "帝曰：上古圣人作汤液醪醴，为而不用，何也？岐伯曰：自古圣人之作汤液醪醴者，以为备耳。",
+        "pinyin": "dì yuē: shàng gǔ shèng rén zuò tāng yè láo lǐ, wéi ér bù yòng, hé yě? qí bó yuē: zì gǔ shèng rén zhī zuò tāng yè láo lǐ zhě, yǐ wéi bèi ěr.",
+        "translation": "上古圣人制作汤液醪醴只是作为预防备用。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：今之世不必已，何也？岐伯曰：当今之世，必齐毒药攻其中，镵石针艾治其外也。",
+        "pinyin": "dì yuē: jīn zhī shì bù bì yǐ, hé yě? qí bó yuē: dāng jīn zhī shì, bì qí dú yào gōng qí zhōng, chán shí zhēn ài zhì qí wài yě.",
+        "translation": "现在必须药物攻内、针石艾灸治外才能有效。"
+      }
+    ]
   },
   {
     "id": 15,
     "chapter": "篇第十五",
     "title": "玉版论要",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻揆度奇恒，所指不同，用之奈何？岐伯对曰：揆度者，度病之浅深也。奇恒者，言奇病也。",
+        "pinyin": "huáng dì wèn yuē: yú wén kuí dù qí héng, suǒ zhǐ bù tóng, yòng zhī nài hé? qí bó duì yuē: kuí dù zhě, dù bìng zhī qiǎn shēn yě. qí héng zhě, yán qí bìng yě.",
+        "translation": "黄帝问揆度奇恒的用法。答：揆度是测病浅深，奇恒指异常之病。"
+      },
+      {
+        "paragraph": 2,
+        "original": "行奇恒之法，以太阴始。行所不胜曰逆，逆则死；行所胜曰从，从则活。",
+        "pinyin": "xíng qí héng zhī fǎ, yǐ tài yīn shǐ. xíng suǒ bù shèng yuē nì, nì zé sǐ; xíng suǒ shèng yuē cóng, cóng zé huó.",
+        "translation": "奇恒之法从太阴始。传变遇到所不胜为逆则死，遇到所胜为从则生。"
+      }
+    ]
   },
   {
     "id": 16,
     "chapter": "篇第十六",
     "title": "诊要经终论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：诊要何如？岐伯对曰：正月二月，天气始方，地气始发，人气在肝。三月四月，天气正方，地气定发，人气在脾。",
+        "pinyin": "huáng dì wèn yuē: zhěn yào hé rú? qí bó duì yuē: zhèng yuè èr yuè, tiān qì shǐ fāng, dì qì shǐ fā, rén qì zài gān. sān yuè sì yuè, tiān qì zhèng fāng, dì qì dìng fā, rén qì zài pí.",
+        "translation": "黄帝问诊法的要领。岐伯答：不同月份人气在五脏的部位不同。"
+      },
+      {
+        "paragraph": 2,
+        "original": "秋冬刺法亦有别。冬刺俞窍于分理。",
+        "pinyin": "qiū dōng cì fǎ yì yǒu bié. dōng cì shù qiào yú fēn lǐ.",
+        "translation": "秋冬针刺各有重点，冬天刺俞穴于分肉腠理间。"
+      }
+    ]
   },
   {
     "id": 17,
     "chapter": "篇第十七",
     "title": "脉要精微论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：诊法何如？岐伯对曰：诊法常以平旦，阴气未动，阳气未散，饮食未进，经脉未盛，络脉调匀，气血未乱，故乃可诊有过之脉。",
+        "pinyin": "huáng dì wèn yuē: zhěn fǎ hé rú? qí bó duì yuē: zhěn fǎ cháng yǐ píng dàn, yīn qì wèi dòng, yáng qì wèi sàn, yǐn shí wèi jìn, jīng mài wèi shèng, luò mài tiáo yún, xuè qì wèi luàn, gù nǎi kě zhěn yǒu guò zhī mài.",
+        "translation": "诊法常在清晨，此时气血未乱方可诊察病脉。"
+      },
+      {
+        "paragraph": 2,
+        "original": "是故持脉有道，虚静为保。春日浮如鱼游在波；夏日在肤泛泛乎万物有余；秋日下肤蛰虫将去；冬日在骨蛰虫周密。",
+        "pinyin": "shì gù chí mài yǒu dào, xū jìng wéi bǎo. chūn rì fú rú yú yóu zài bō; xià rì zài fū fàn fàn hū wàn wù yǒu yú; qiū rì xià fū zhé chóng jiāng qù; dōng rì zài gǔ zhé chóng zhōu mì.",
+        "translation": "诊脉要虚心静气。春脉浮、夏脉盛、秋脉下肤、冬脉在骨。"
+      },
+      {
+        "paragraph": 3,
+        "original": "夫精明五色者，气之华也。赤欲如白裹朱，不欲如赭。",
+        "pinyin": "fū jīng míng wǔ sè zhě, qì zhī huá yě. chì yù rú bái guǒ zhū, bù yù rú zhě.",
+        "translation": "五色是脏气的外华。面色应以润泽为佳。"
+      }
+    ]
   },
   {
     "id": 18,
     "chapter": "篇第十八",
     "title": "平人气象论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：平人何如？岐伯对曰：人一呼脉再动，一吸脉亦再动，呼吸定息脉五动，闰以太息，命曰平人。",
+        "pinyin": "huáng dì wèn yuē: píng rén hé rú? qí bó duì yuē: rén yī hū mài zài dòng, yī xī mài yì zài dòng, hū xī dìng xī mài wǔ dòng, rùn yǐ tài xī, mìng yuē píng rén.",
+        "translation": "平人呼吸与脉动的比率为一呼脉两动、一吸脉两动。"
+      },
+      {
+        "paragraph": 2,
+        "original": "人一呼脉一动，一吸脉一动，曰少气。人一呼脉三动，一吸脉三动而躁，尺热曰病温。",
+        "pinyin": "rén yī hū mài yī dòng, yī xī mài yī dòng, yuē shǎo qì. rén yī hū mài sān dòng, yī xī mài sān dòng ér zào, chǐ rè yuē bìng wēn.",
+        "translation": "一呼一动少气，一呼三动且躁尺热为温病。"
+      }
+    ]
   },
   {
     "id": 19,
     "chapter": "篇第十九",
     "title": "玉机真藏论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻玉机真藏之论，愿闻其要。岐伯对曰：春脉者肝也，东方木也，万物之所以始生也。其气来软弱轻虚而滑，端直以长，故曰弦。",
+        "pinyin": "huáng dì wèn yuē: yú wén yù jī zhēn zàng zhī lùn, yuàn wén qí yào. qí bó duì yuē: chūn mài zhě gān yě, dōng fāng mù yě, wàn wù zhī suǒ yǐ shǐ shēng yě. qí qì lái ruǎn ruò qīng xū ér huá, duān zhí yǐ cháng, gù yuē xián.",
+        "translation": "春脉应肝，端直以长为弦脉。"
+      },
+      {
+        "paragraph": 2,
+        "original": "夏脉者心也，南方火也，万物之所以盛长也。其气来盛去衰，故曰钩。",
+        "pinyin": "xià mài zhě xīn yě, nán fāng huǒ yě, wàn wù zhī suǒ yǐ shèng zhǎng yě. qí qì lái shèng qù shuāi, gù yuē gōu.",
+        "translation": "夏脉应心，来盛去衰为钩脉。"
+      },
+      {
+        "paragraph": 3,
+        "original": "秋脉者肺也，西方金也，万物之所以收成也。其气来轻虚以浮，来急去散，故曰浮。",
+        "pinyin": "qiū mài zhě fèi yě, xī fāng jīn yě, wàn wù zhī suǒ yǐ shōu chéng yě. qí qì lái qīng xū yǐ fú, lái jí qù sàn, gù yuē fú.",
+        "translation": "秋脉应肺，轻虚以浮为浮脉。"
+      },
+      {
+        "paragraph": 4,
+        "original": "冬脉者肾也，北方水也，万物之所以合藏也。其气来沉以搏，故曰营。",
+        "pinyin": "dōng mài zhě shèn yě, běi fāng shuǐ yě, wàn wù zhī suǒ yǐ hé cáng yě. qí qì lái chén yǐ bó, gù yuē yíng.",
+        "translation": "冬脉应肾，沉以搏为营脉。"
+      }
+    ]
   },
   {
     "id": 20,
     "chapter": "篇第二十",
     "title": "三部九候论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻九针于夫子，众多博大，不可胜数。余愿闻要道。岐伯对曰：此天地之至数也。",
+        "pinyin": "huáng dì wèn yuē: yú wén jiǔ zhēn yú fū zǐ, zhòng duō bó dà, bù kě shèng shù. yú yuàn wén yào dào. qí bó duì yuē: cǐ tiān dì zhī zhì shù yě.",
+        "translation": "黄帝问九针要道。岐伯答：这是天地间最重要的道理。"
+      },
+      {
+        "paragraph": 2,
+        "original": "故人有三部，部有三候，以决死生，以处百病，以调虚实，而除邪疾。",
+        "pinyin": "gù rén yǒu sān bù, bù yǒu sān hòu, yǐ jué sǐ shēng, yǐ chù bǎi bìng, yǐ diào xū shí, ér chú xié jí.",
+        "translation": "人有上中下三部，每部三候，决断死生调治百病。"
+      }
+    ]
   },
   {
     "id": 21,
     "chapter": "篇第二十一",
     "title": "经脉别论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：人之居处动静勇怯，脉亦为之变乎？岐伯对曰：凡人之惊恐恚劳动静，皆为变也。",
+        "pinyin": "huáng dì wèn yuē: rén zhī jū chù dòng jìng yǒng qiè, mài yì wéi zhī biàn hū? qí bó duì yuē: fán rén zhī jīng kǒng huì láo dòng jìng, jiē wéi biàn yě.",
+        "translation": "黄帝问人的动静勇怯会使脉象变化吗？岐伯答：惊恐愤怒劳动都会使脉象改变。"
+      },
+      {
+        "paragraph": 2,
+        "original": "是以夜行则喘出于肾，淫气病肺。有所堕恐，喘出于肝。度水跌仆，喘出于肾与骨。",
+        "pinyin": "shì yǐ yè xíng zé chuǎn chū yú shèn, yín qì bìng fèi. yǒu suǒ duò kǒng, chuǎn chū yú gān. dù shuǐ diē pū, chuǎn chū yú shèn yǔ gǔ.",
+        "translation": "不同的原因导致喘出于不同的脏腑。"
+      },
+      {
+        "paragraph": 3,
+        "original": "食气入胃，散精于肝，淫气于筋。食气入胃，浊气归心，淫精于脉。脉气流经，经气归于肺。",
+        "pinyin": "shí qì rù wèi, sàn jīng yú gān, yín qì yú jīn. shí qì rù wèi, zhuó qì guī xīn, yín jīng yú mài. mài qì liú jīng, jīng qì guī yú fèi.",
+        "translation": "食物入胃后，精气散布到肝而养筋，浊气归心而养脉，脉气行经后归于肺。"
+      }
+    ]
   },
   {
     "id": 22,
     "chapter": "篇第二十二",
     "title": "藏气法时论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：合人形以法四时五行而治，何如而从？何如而逆？岐伯对曰：五行者，金木水火土也，更贵更贱，以知死生，以决成败，而定五脏之气。",
+        "pinyin": "huáng dì wèn yuē: hé rén xíng yǐ fǎ sì shí wǔ xíng ér zhì, hé rú ér cóng? hé rú ér nì? qí bó duì yuē: wǔ xíng zhě, jīn mù shuǐ huǒ tǔ yě, gèng guì gèng jiàn, yǐ zhī sǐ shēng, yǐ jué chéng bài, ér dìng wǔ zàng zhī qì.",
+        "translation": "用四时五行法则来治疗，怎样为顺怎样为逆。五行有一定规律可以决断死生成败。"
+      },
+      {
+        "paragraph": 2,
+        "original": "病在肝，愈于夏，夏不愈甚于秋。肝病者，平旦慧，下晡甚，夜半静。",
+        "pinyin": "bìng zài gān, yù yú xià, xià bù yù shèn yú qiū. gān bìng zhě, píng dàn huì, xià bū shèn, yè bàn jìng.",
+        "translation": "肝病夏天好转、秋天加重，清晨清爽傍晚加重。"
+      }
+    ]
   },
   {
     "id": 23,
     "chapter": "篇第二十三",
     "title": "宣明五气",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "五味所入：酸入肝，辛入肺，苦入心，咸入肾，甘入脾，是谓五入。",
+        "pinyin": "wǔ wèi suǒ rù: suān rù gān, xīn rù fèi, kǔ rù xīn, xián rù shèn, gān rù pí, shì wèi wǔ rù.",
+        "translation": "五味各有所入的脏腑：酸入肝、辛入肺等。"
+      },
+      {
+        "paragraph": 2,
+        "original": "五气所病：心为噫，肺为咳，肝为语，脾为吞，肾为欠为嚏。",
+        "pinyin": "wǔ qì suǒ bìng: xīn wéi yī, fèi wéi ké, gān wéi yǔ, pí wéi tūn, shèn wéi qiàn wéi tì.",
+        "translation": "五脏之气失调的症状表现。"
+      },
+      {
+        "paragraph": 3,
+        "original": "五藏所恶：心恶热，肺恶寒，肝恶风，脾恶湿，肾恶燥。",
+        "pinyin": "wǔ zàng suǒ wù: xīn wù rè, fèi wù hán, gān wù fēng, pí wù shī, shèn wù zào.",
+        "translation": "五脏各有所恶：心恶热、肺恶寒等。"
+      },
+      {
+        "paragraph": 4,
+        "original": "五藏化液：心为汗，肺为涕，肝为泪，脾为涎，肾为唾。",
+        "pinyin": "wǔ zàng huà yè: xīn wéi hàn, fèi wéi tì, gān wéi lèi, pí wéi xián, shèn wéi tuò.",
+        "translation": "五脏化生五液：汗为心液、涕为肺液等。"
+      }
+    ]
   },
   {
     "id": 24,
     "chapter": "篇第二十四",
     "title": "血气形志",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "夫人之常数，太阳常多血少气，少阳常少血多气，阳明常多气多血，少阴常少血多气，厥阴常多血少气，太阴常多气少血。",
+        "pinyin": "fū rén zhī cháng shù, tài yáng cháng duō xuè shǎo qì, shào yáng cháng shǎo xuè duō qì, yáng míng cháng duō qì duō xuè, shào yīn cháng shǎo xuè duō qì, jué yīn cháng duō xuè shǎo qì, tài yīn cháng duō qì shǎo xuè.",
+        "translation": "六经气血多少的常数。"
+      },
+      {
+        "paragraph": 2,
+        "original": "形乐志苦，病生于脉，治之以灸刺。形苦志乐，病生于筋，治之以熨引。",
+        "pinyin": "xíng lè zhì kǔ, bìng shēng yú mài, zhì zhī yǐ jiǔ cì. xíng kǔ zhì lè, bìng shēng yú jīn, zhì zhī yǐ yùn yǐn.",
+        "translation": "形志苦乐与疾病和治疗的关系。"
+      }
+    ]
   },
   {
     "id": 25,
     "chapter": "篇第二十五",
     "title": "宝命全形论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：天覆地载，万物悉备，莫贵于人。人以天地之气生，四时之法成。",
+        "pinyin": "huáng dì wèn yuē: tiān fù dì zài, wàn wù xī bèi, mò guì yú rén. rén yǐ tiān dì zhī qì shēng, sì shí zhī fǎ chéng.",
+        "translation": "天地间万物以人为最贵，人禀天地之气而生按四时法则成长。"
+      },
+      {
+        "paragraph": 2,
+        "original": "君王众庶，尽欲全形，形之疾病，莫知其情，留淫日深，著于骨髓。岐伯曰：夫盐之味咸者，其气令器津泄；弦绝者，其音嘶败。",
+        "pinyin": "jūn wáng zhòng shù, jìn yù quán xíng, xíng zhī jí bìng, mò zhī qí qíng, liú yín rì shēn, zhù yú gǔ suǐ. qí bó yuē: fū yán zhī wèi xián zhě, qí qì lìng qì jīn xiè; xián jué zhě, qí yīn sī bài.",
+        "translation": "疾病由浅入深，不可不察。岐伯举譬喻说明治病的时机。"
+      }
+    ]
   },
   {
     "id": 26,
     "chapter": "篇第二十六",
     "title": "八正神明论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：用针之服，必有法则焉，今何法何则？岐伯对曰：法天则地，合以天光。",
+        "pinyin": "huáng dì wèn yuē: yòng zhēn zhī fú, bì yǒu fǎ zé yān, jīn hé fǎ hé zé? qí bó duì yuē: fǎ tiān zé dì, hé yǐ tiān guāng.",
+        "translation": "用针的法则要取法天地、顺应日月星辰之光。"
+      },
+      {
+        "paragraph": 2,
+        "original": "凡刺之法，必候日月星辰，四时八正之气，气定乃刺之。",
+        "pinyin": "fán cì zhī fǎ, bì hòu rì yuè xīng chén, sì shí bā zhèng zhī qì, qì dìng nǎi cì zhī.",
+        "translation": "针刺必须观察日月星辰和四时八正之气的变化。"
+      }
+    ]
   },
   {
     "id": 27,
     "chapter": "篇第二十七",
     "title": "离合真邪论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻九针九篇，夫子乃因而九之，九九八十一篇，余尽通其意矣。经言气之盛衰，左右倾移，以上调下，以左调右。",
+        "pinyin": "huáng dì wèn yuē: yú wén jiǔ zhēn jiǔ piān, fū zǐ nǎi yīn ér jiǔ zhī, jiǔ jiǔ bā shí yī piān, yú jìn tōng qí yì yǐ. jīng yán qì zhī shèng shuāi, zuǒ yòu qīng yí, yǐ shàng tiáo xià, yǐ zuǒ tiáo yòu.",
+        "translation": "黄帝论针经要旨以及气的盛衰调节方法。"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯曰：天地温和，则经水安静；天寒地冻，则经水凝泣；天暑地热，则经水沸溢。",
+        "pinyin": "qí bó yuē: tiān dì wēn hé, zé jīng shuǐ ān jìng; tiān hán dì dòng, zé jīng shuǐ níng qì; tiān shǔ dì rè, zé jīng shuǐ fèi yì.",
+        "translation": "天地气候变化影响经水，以此类比针刺的补泻原则。"
+      }
+    ]
   },
   {
     "id": 28,
     "chapter": "篇第二十八",
     "title": "通评虚实论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：何谓虚实？岐伯对曰：邪气盛则实，精气夺则虚。",
+        "pinyin": "huáng dì wèn yuē: hé wèi xū shí? qí bó duì yuē: xié qì shèng zé shí, jīng qì duó zé xū.",
+        "translation": "黄帝问什么是虚实？岐伯答：邪气盛为实，精气亏为虚。"
+      },
+      {
+        "paragraph": 2,
+        "original": "帝曰：虚实何如？岐伯曰：气虚者肺虚也。气逆者足寒也。",
+        "pinyin": "dì yuē: xū shí hé rú? qí bó yuē: qì xū zhě fèi xū yě. qì nì zhě zú hán yě.",
+        "translation": "气实者热也，气虚者寒也。气逆者足寒。"
+      }
+    ]
   },
   {
     "id": 29,
     "chapter": "篇第二十九",
     "title": "太阴阳明论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：太阴阳明为表里，脾胃脉也。生病而异者何也？岐伯对曰：阴阳异位，更虚更实，更逆更从。",
+        "pinyin": "huáng dì wèn yuē: tài yīn yáng míng wéi biǎo lǐ, pí wèi mài yě. shēng bìng ér yì zhě hé yě? qí bó duì yuē: yīn yáng yì wèi, gèng xū gèng shí, gèng nì gèng cóng.",
+        "translation": "太阴和阳明互为表里但生病不同的原因。"
+      },
+      {
+        "paragraph": 2,
+        "original": "故阳道实，阴道虚。故犯贼风虚邪者阳受之，食饮不节起居不时者阴受之。",
+        "pinyin": "gù yáng dào shí, yīn dào xū. gù fàn zéi fēng xū xié zhě yáng shòu zhī, shí yǐn bù jié qǐ jū bù shí zhě yīn shòu zhī.",
+        "translation": "阳经受外邪、阴经受内伤的规律。"
+      }
+    ]
   },
   {
     "id": 30,
     "chapter": "篇第三十",
     "title": "阳明脉解",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：足阳明之脉病，恶人与火，闻木音则惕然而惊，独闭户塞牖而处，愿闻其故。",
+        "pinyin": "huáng dì wèn yuē: zú yáng míng zhī mài bìng, wù rén yǔ huǒ, wén mù yīn zé tì rán ér jīng, dú bì hù sè yǒu ér chǔ, yuàn wén qí gù.",
+        "translation": "黄帝问足阳明经脉发病的特点。"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯对曰：阳明者胃脉也。阳明主肉，其脉血气盛，邪客之则热。",
+        "pinyin": "qí bó duì yuē: yáng míng zhě wèi mài yě. yáng míng zhǔ ròu, qí mài xuè qì shèng, xié kè zhī zé rè.",
+        "translation": "阳明主肉、血气盛，受邪则热。"
+      }
+    ]
   },
   {
     "id": 31,
     "chapter": "篇第三十一",
     "title": "热论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：今夫热病者，皆伤寒之类也。或愈或死，其死皆以六七日之间，其愈皆以十日以上者，何也？",
+        "pinyin": "huáng dì wèn yuē: jīn fū rè bìng zhě, jiē shāng hán zhī lèi yě. huò yù huò sǐ, qí sǐ jiē yǐ liù qī rì zhī jiān, qí yù jiē yǐ shí rì yǐ shàng zhě, hé yě?",
+        "translation": "黄帝问：热病都是伤寒一类，为何有的六七日死有的十日以上愈？"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯对曰：巨阳者，诸阳之属也，其脉连于风府，故为诸阳主气也。人之伤于寒也，则为病热，热虽甚不死。其两感于寒而病者，必不免于死。",
+        "pinyin": "qí bó duì yuē: jù yáng zhě, zhū yáng zhī shǔ yě, qí mài lián yú fēng fǔ, gù wéi zhū yáng zhǔ qì yě. rén zhī shāng yú hán yě, zé wéi bìng rè, rè suī shén bù sǐ. qí liǎng gǎn yú hán ér bìng zhě, bì bù miǎn yú sǐ.",
+        "translation": "太阳经统领诸阳，伤于寒会发热但热虽重不死，两感于寒才必死。"
+      },
+      {
+        "paragraph": 3,
+        "original": "黄帝曰：治之奈何？岐伯曰：治之各通其藏脉，病日衰已矣。其未满三日者，可汗而已；其满三日者，可泄而已。",
+        "pinyin": "huáng dì yuē: zhì zhī nài hé? qí bó yuē: zhì zhī gè tōng qí zàng mài, bìng rì shuāi yǐ yǐ. qí wèi mǎn sān rì zhě, kě hàn ér yǐ; qí mǎn sān rì zhě, kě xiè ér yǐ.",
+        "translation": "三日以内可用汗法，三日以上可用泄法。"
+      }
+    ]
   },
   {
     "id": 32,
     "chapter": "篇第三十二",
     "title": "刺热",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "肝热病者，小便先黄，腹痛多卧，身热。热争则狂言及惊，胁满痛，手足躁，不得安卧。",
+        "pinyin": "gān rè bìng zhě, xiǎo biàn xiān huáng, fù tòng duō wò, shēn rè. rè zhēng zé kuáng yán jí jīng, xié mǎn tòng, shǒu zú zào, bù dé ān wò.",
+        "translation": "肝热病先见小便黄，热重时狂言惊骇。"
+      },
+      {
+        "paragraph": 2,
+        "original": "心热病者，先不乐，数日乃热。热争则卒心痛，烦闷善呕。",
+        "pinyin": "xīn rè bìng zhě, xiān bù lè, shù rì nǎi rè. rè zhēng zé zú xīn tòng, fán mèn shàn ǒu.",
+        "translation": "心热病先有郁闷之感，后来发热。"
+      },
+      {
+        "paragraph": 3,
+        "original": "脾热病者，先头重颊痛，烦心颜青，欲呕身热。",
+        "pinyin": "pí rè bìng zhě, xiān tóu zhòng jiá tòng, fán xīn yán qīng, yù ǒu shēn rè.",
+        "translation": "脾热病见头重颊痛等。"
+      },
+      {
+        "paragraph": 4,
+        "original": "肺热病者，先淅然厥起毫毛，恶风寒，舌上黄身热。",
+        "pinyin": "fèi rè bìng zhě, xiān xī rán jué qǐ háo máo, è fēng hán, shé shàng huáng shēn rè.",
+        "translation": "肺热病先恶风寒等。"
+      }
+    ]
   },
   {
     "id": 33,
     "chapter": "篇第三十三",
     "title": "评热病论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：有病温者，汗出辄复热，而脉躁疾不为汗衰，狂言不能食，病名为何？岐伯对曰：病名阴阳交，交者死也。",
+        "pinyin": "huáng dì wèn yuē: yǒu bìng wēn zhě, hàn chū zhé fù rè, ér mài zào jí bù wéi hàn shuāi, kuáng yán bù néng shí, bìng míng wéi hé? qí bó duì yuē: bìng míng yīn yáng jiāo, jiāo zhě sǐ yě.",
+        "translation": "黄帝问汗出仍发热、脉躁不衰的病是什么。岐伯答：阴阳交，主死。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝曰：有病身热汗出烦满，烦满不为汗解，此为何病？岐伯曰：汗出而身热者风也，汗出而烦满不解者厥也。",
+        "pinyin": "huáng dì yuē: yǒu bìng shēn rè hàn chū fán mǎn, fán mǎn bù wéi hàn jiě, cǐ wéi hé bìng? qí bó yuē: hàn chū ér shēn rè zhě fēng yě, hàn chū ér fán mǎn bù jiě zhě jué yě.",
+        "translation": "汗出身热是风病，汗出烦满不解是厥病。"
+      }
+    ]
   },
   {
     "id": 34,
     "chapter": "篇第三十四",
     "title": "逆调论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：人有逆气不得卧而息有音者。岐伯对曰：夫起居如故而息有音者，此肺之络脉逆也。",
+        "pinyin": "huáng dì wèn yuē: rén yǒu nì qì bù dé wò ér xī yǒu yīn zhě. qí bó duì yuē: fū qǐ jū rú gù ér xī yǒu yīn zhě, cǐ fèi zhī luò mài nì yě.",
+        "translation": "逆调论：论述各种气逆病症。"
+      },
+      {
+        "paragraph": 2,
+        "original": "人有身寒，汤火不能热，厚衣不能温，然不冻栗。岐伯曰：是人者，素肾气胜，以水为事。",
+        "pinyin": "rén yǒu shēn hán, tāng huǒ bù néng rè, hòu yī bù néng wēn, rán bù dòng lì. qí bó yuē: shì rén zhě, sù shèn qì shèng, yǐ shuǐ wéi shì.",
+        "translation": "肾气胜而身体寒的病案分析。"
+      }
+    ]
   },
   {
     "id": 35,
     "chapter": "篇第三十五",
     "title": "疟论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：夫痎疟皆生于风，其蓄作有时者何也？岐伯对曰：疟之始发也，先起于毫毛，伸欠乃作，寒栗鼓颔。",
+        "pinyin": "huáng dì wèn yuē: fū jiē nüè jiē shēng yú fēng, qí xù zuò yǒu shí zhě hé yě? qí bó duì yuē: nüè zhī shǐ fā yě, xiān qǐ yú háo máo, shēn qiàn nǎi zuò, hán lì gǔ hàn.",
+        "translation": "疟论：疟疾生于风邪，发作有时。"
+      },
+      {
+        "paragraph": 2,
+        "original": "夫疟气者，并于阳则阳胜，并于阴则阴胜。阳胜则热，阴胜则寒。",
+        "pinyin": "fū nüè qì zhě, bìng yú yáng zé yáng shèng, bìng yú yīn zé yīn shèng. yáng shèng zé rè, yīn shèng zé hán.",
+        "translation": "疟邪在阳分则热、在阴分则寒。"
+      }
+    ]
   },
   {
     "id": 36,
     "chapter": "篇第三十六",
     "title": "刺疟",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "足太阳之疟，令人腰痛头重。足少阳之疟，令人身体解㑊。足阳明之疟，令人先寒洒淅。",
+        "pinyin": "zú tài yáng zhī nüè, lìng rén yāo tòng tóu zhòng. zú shào yáng zhī nüè, lìng rén shēn tǐ jiě yì. zú yáng míng zhī nüè, lìng rén xiān hán sǎ xī.",
+        "translation": "刺疟：六经疟疾的证候和针刺法。"
+      },
+      {
+        "paragraph": 2,
+        "original": "刺疟者，必先问其病之所先发者，先刺之。先头痛及重者，先刺头上及两额两眉间出血。",
+        "pinyin": "cì nüè zhě, bì xiān wèn qí bìng zhī suǒ xiān fā zhě, xiān cì zhī. xiān tóu tòng jí zhòng zhě, xiān cì tóu shàng jí liǎng é liǎng méi jiān chū xuè.",
+        "translation": "刺疟应问病先发部位后先刺之。头痛先刺头上和两眉间。"
+      },
+      {
+        "paragraph": 3,
+        "original": "疟脉小实急，灸胫少阴。疟脉满大，急刺背俞，用中针。",
+        "pinyin": "nüè mài xiǎo shí jí, jiǔ jìng shào yīn. nüè mài mǎn dà, jí cì bèi shù, yòng zhōng zhēn.",
+        "translation": "疟疾脉小实急者灸胫部少阴穴，脉满大者刺背俞。"
+      }
+    ]
   },
   {
     "id": 37,
     "chapter": "篇第三十七",
     "title": "气厥论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：五脏六腑寒热相移者何？岐伯曰：肾移寒于肝，痈肿少气。脾移寒于肝，痈肿筋挛。",
+        "pinyin": "huáng dì wèn yuē: wǔ zàng liù fǔ hán rè xiāng yí zhě hé? qí bó yuē: shèn yí hán yú gān, yōng zhǒng shǎo qì. pí yí hán yú gān, yōng zhǒng jīn luán.",
+        "translation": "气厥论：五脏寒热相移的病理变化。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：五脏六腑寒热相移者何？岐伯曰：肾移寒于脾，痈肿少气。脾移寒于肝，痈肿筋挛。",
+        "pinyin": "huáng dì wèn yuē: wǔ zàng liù fǔ hán rè xiāng yí zhě hé? qí bó yuē: shèn yí hán yú pí, yōng zhǒng shǎo qì. pí yí hán yú gān, yōng zhǒng jīn luán.",
+        "translation": "五脏寒热相移：肾寒移脾、脾寒移肝。"
+      },
+      {
+        "paragraph": 3,
+        "original": "肝移寒于心，狂隔中。心移寒于肺，肺消。肺消者饮一溲二，死不治。",
+        "pinyin": "gān yí hán yú xīn, kuáng gé zhōng. xīn yí hán yú fèi, fèi xiāo. fèi xiāo zhě yǐn yī sōu èr, sǐ bù zhì.",
+        "translation": "肝寒移心、心寒移肺导致肺消（饮一溲二为死症）。"
+      }
+    ]
   },
   {
     "id": 38,
     "chapter": "篇第三十八",
     "title": "咳论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：肺之令人咳何也？岐伯对曰：五脏六腑皆令人咳，非独肺也。",
+        "pinyin": "huáng dì wèn yuē: fèi zhī lìng rén ké hé yě? qí bó duì yuē: wǔ zàng liù fǔ jiē lìng rén ké, fēi dú fèi yě.",
+        "translation": "咳论：五脏六腑皆令人咳，不但限于肺。"
+      },
+      {
+        "paragraph": 2,
+        "original": "皮毛者肺之合也。皮毛先受邪气，邪气以从其合也。其寒饮食入胃，从肺脉上至于肺则肺寒，肺寒则外内合邪。",
+        "pinyin": "pí máo zhě fèi zhī hé yě. pí máo xiān shòu xié qì, xié qì yǐ cóng qí hé yě. qí hán yǐn shí rù wèi, cóng fèi mài shàng zhì yú fèi zé fèi hán, fèi hán zé wài nèi hé xié.",
+        "translation": "咳嗽的病因：外邪从皮毛入肺，寒饮食从胃上至肺，内外合邪。"
+      }
+    ]
   },
   {
     "id": 39,
     "chapter": "篇第三十九",
     "title": "举痛论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻善言天者，必有验于人。善言古者，必有合于今。善言人者，必有厌于己。",
+        "pinyin": "huáng dì wèn yuē: yú wén shàn yán tiān zhě, bì yǒu yàn yú rén. shàn yán gǔ zhě, bì yǒu hé yú jīn. shàn yán rén zhě, bì yǒu yàn yú jǐ.",
+        "translation": "举痛论：天人合一的理论框架。"
+      },
+      {
+        "paragraph": 2,
+        "original": "经脉流行不止，环周不休。寒气入经而稽迟，泣而不行，客于脉外则血少，客于脉中则气不通，故卒然而痛。",
+        "pinyin": "jīng mài liú xíng bù zhǐ, huán zhōu bù xiū. hán qì rù jīng ér jī chí, qì ér bù xíng, kè yú mài wài zé xuè shǎo, kè yú mài zhōng zé qì bù tōng, gù cù rán ér tòng.",
+        "translation": "寒邪导致疼痛的机理。"
+      }
+    ]
   },
   {
     "id": 40,
     "chapter": "篇第四十",
     "title": "腹中论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：有病心腹满，旦食则不能暮食，此为何病？岐伯对曰：名为鼓胀，治之以鸡矢醴。",
+        "pinyin": "huáng dì wèn yuē: yǒu bìng xīn fù mǎn, dàn shí zé bù néng mù shí, cǐ wéi hé bìng? qí bó duì yuē: míng wéi gǔ zhàng, zhì zhī yǐ jī shǐ lǐ.",
+        "translation": "腹中论：鼓胀用鸡矢醴治疗。"
+      },
+      {
+        "paragraph": 2,
+        "original": "帝曰：夫子数言热中消中，不可服高粱芳草石药，石药发癫，芳草发狂。",
+        "pinyin": "dì yuē: fū zǐ shù yán rè zhōng xiāo zhōng, bù kě fú gāo liáng fāng cǎo shí yào, shí yào fā diān, fāng cǎo fā kuáng.",
+        "translation": "热中消中的饮食宜忌。"
+      }
+    ]
   },
   {
     "id": 41,
     "chapter": "篇第四十一",
     "title": "刺腰痛",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "足太阳脉令人腰痛，引项脊尻背如重状。少阳令人腰痛如以针刺其皮中。",
+        "pinyin": "zú tài yáng mài lìng rén yāo tòng, yǐn xiàng jǐ kāo bèi rú zhòng zhuàng. shào yáng lìng rén yāo tòng rú yǐ zhēn cì qí pí zhōng.",
+        "translation": "刺腰痛论：各经脉引起腰痛的针刺法。"
+      },
+      {
+        "paragraph": 2,
+        "original": "足太阳脉令人腰痛，引项脊尻背如重状。少阳令人腰痛如以针刺其皮中，循循然不可以俯仰。",
+        "pinyin": "zú tài yáng mài lìng rén yāo tòng, yǐn xiàng jǐ kāo bèi rú zhòng zhuàng. shào yáng lìng rén yāo tòng rú yǐ zhēn cì qí pí zhōng, xún xún rán bù kě yǐ fǔ yǎng.",
+        "translation": "足太阳和足少阳经引起腰痛的针刺法。"
+      },
+      {
+        "paragraph": 3,
+        "original": "阳明令人腰痛不可以顾，顾如有见者，善悲。",
+        "pinyin": "yáng míng lìng rén yāo tòng bù kě yǐ gù, gù rú yǒu jiàn zhě, shàn bēi.",
+        "translation": "阳明经腰痛的症状特点。"
+      }
+    ]
   },
   {
     "id": 42,
     "chapter": "篇第四十二",
     "title": "风论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：风之伤人也，或为寒热，或为热中，或为寒中，或为疠风，或为偏枯。其病各异，其名不同。",
+        "pinyin": "huáng dì wèn yuē: fēng zhī shāng rén yě, huò wéi hán rè, huò wéi rè zhōng, huò wéi hán zhōng, huò wéi lì fēng, huò wéi piān kū. qí bìng gè yì, qí míng bù tóng.",
+        "translation": "风论：风邪致病变化多端。"
+      },
+      {
+        "paragraph": 2,
+        "original": "风者善行而数变，腠理开则洒然寒，闭则热而闷。",
+        "pinyin": "fēng zhě shàn xíng ér shù biàn, còu lǐ kāi zé sǎ rán hán, bì zé rè ér mèn.",
+        "translation": "风性善行数变，侵犯人体时寒热多变。"
+      }
+    ]
   },
   {
     "id": 43,
     "chapter": "篇第四十三",
     "title": "痹论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：痹之安生？岐伯对曰：风寒湿三气杂至，合而为痹也。",
+        "pinyin": "huáng dì wèn yuē: bì zhī ān shēng? qí bó duì yuē: fēng hán shī sān qì zá zhì, hé ér wéi bì yě.",
+        "translation": "痹论：风寒湿三气杂至合而成为痹症。"
+      },
+      {
+        "paragraph": 2,
+        "original": "其风气胜者为行痹，寒气胜者为痛痹，湿气胜者为着痹也。",
+        "pinyin": "qí fēng qì shèng zhě wéi xíng bì, hán qì shèng zhě wéi tòng bì, shī qì shèng zhě wéi zhuó bì yě.",
+        "translation": "风气胜行痹、寒气胜痛痹、湿气胜着痹。"
+      }
+    ]
   },
   {
     "id": 44,
     "chapter": "篇第四十四",
     "title": "痿论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：五脏使人痿何也？岐伯对曰：肺主身之皮毛，心主身之血脉，肝主身之筋膜，脾主身之肌肉，肾主身之骨髓。",
+        "pinyin": "huáng dì wèn yuē: wǔ zàng shǐ rén wěi hé yě? qí bó duì yuē: fèi zhǔ shēn zhī pí máo, xīn zhǔ shēn zhī xuè mài, gān zhǔ shēn zhī jīn mó, pí zhǔ shēn zhī jī ròu, shèn zhǔ shēn zhī gǔ suǐ.",
+        "translation": "痿论：五脏各有所主，功能失调可致痿证。"
+      },
+      {
+        "paragraph": 2,
+        "original": "故肺热叶焦，则皮毛虚弱急薄，著则生痿躄也。心气热，则下脉厥而上，上则下脉虚，虚则生脉痿。",
+        "pinyin": "gù fèi rè yè jiāo, zé pí máo xū ruò jí báo, zhù zé shēng wěi bì yě. xīn qì rè, zé xià mài jué ér shàng, shàng zé xià mài xū, xū zé shēng mài wěi.",
+        "translation": "肺热致痿躄、心热致脉痿等五脏热致痿机理。"
+      }
+    ]
   },
   {
     "id": 45,
     "chapter": "篇第四十五",
     "title": "厥论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：厥之寒热者何也？岐伯对曰：阳气衰于下则为寒厥，阴气衰于下则为热厥。",
+        "pinyin": "huáng dì wèn yuē: jué zhī hán rè zhě hé yě? qí bó duì yuē: yáng qì shuāi yú xià zé wéi hán jué, yīn qì shuāi yú xià zé wéi rè jué.",
+        "translation": "厥论：阳衰于下为寒厥，阴衰于下为热厥。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：厥之寒热者何也？岐伯对曰：阳气衰于下则为寒厥，阴气衰于下则为热厥。",
+        "pinyin": "huáng dì wèn yuē: jué zhī hán rè zhě hé yě? qí bó duì yuē: yáng qì shuāi yú xià zé wéi hán jué, yīn qì shuāi yú xià zé wéi rè jué.",
+        "translation": "黄帝问厥证的寒热。岐伯答：阳衰于下为寒厥、阴衰于下为热厥。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：热厥之为热也，必起于足下者何也？岐伯曰：阳气起于足五指之表，阴气起于足五指之里。",
+        "pinyin": "dì yuē: rè jué zhī wéi rè yě, bì qǐ yú zú xià zhě hé yě? qí bó yuē: yáng qì qǐ yú zú wǔ zhǐ zhī biǎo, yīn qì qǐ yú zú wǔ zhǐ zhī lǐ.",
+        "translation": "热厥的热从足下开始的机理。"
+      }
+    ]
   },
   {
     "id": 46,
     "chapter": "篇第四十六",
     "title": "病能论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：人病胃脘痈者，诊当何如？岐伯对曰：诊此者当候胃脉，其脉当沉细。沉细者气逆，逆者人迎甚盛，甚盛则热。",
+        "pinyin": "huáng dì wèn yuē: rén bìng wèi wǎn yōng zhě, zhěn dāng hé rú? qí bó duì yuē: zhěn cǐ zhě dāng hòu wèi mài, qí mài dāng chén xì. chén xì zhě qì nì, nì zhě rén yíng shèn shèng, shèn shèng zé rè.",
+        "translation": "病能论：胃脘痈的诊法、病机。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：人病胃脘痈者，诊当何如？岐伯对曰：诊此者当候胃脉，其脉当沉细。沉细者气逆，逆者人迎甚盛，甚盛则热。",
+        "pinyin": "huáng dì wèn yuē: rén bìng wèi wǎn yōng zhě, zhěn dāng hé rú? qí bó duì yuē: zhěn cǐ zhě dāng hòu wèi mài, qí mài dāng chén xì. chén xì zhě qì nì, nì zhě rén yíng shèn shèng, shèn shèng zé rè.",
+        "translation": "胃脘痈的脉诊特点：胃脉沉细而人迎甚盛。"
+      },
+      {
+        "paragraph": 3,
+        "original": "黄帝曰：有卧而有所不安者何也？岐伯曰：脏有所伤。又人有所堕坠，恶血留内，腹中满胀，不得前后。",
+        "pinyin": "huáng dì yuē: yǒu wò ér yǒu suǒ bù ān zhě hé yě? qí bó yuē: zàng yǒu suǒ shāng. yòu rén yǒu suǒ duò zhuì, è xuè liú nèi, fù zhōng mǎn zhàng, bù dé qián hòu.",
+        "translation": "不寐和堕伤内瘀的证治。"
+      }
+    ]
   },
   {
     "id": 47,
     "chapter": "篇第四十七",
     "title": "奇病论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：人有重身，九月而瘖，此为何也？岐伯对曰：胞之络脉绝也。胞络者系于肾，少阴之脉贯肾系舌本，故不能言。",
+        "pinyin": "huáng dì wèn yuē: rén yǒu chóng shēn, jiǔ yuè ér yīn, cǐ wéi hé yě? qí bó duì yuē: bāo zhī luò mài jué yě. bāo luò zhě xì yú shèn, shào yīn zhī mài guàn shèn xì shé běn, gù bù néng yán.",
+        "translation": "奇病论：妊娠九月失音的病机。"
+      },
+      {
+        "paragraph": 2,
+        "original": "帝曰：有病胁下满气逆，二三岁不已，病名曰何？岐伯曰：病名曰息积。此不妨于食，不可灸刺。",
+        "pinyin": "dì yuē: yǒu bìng xié xià mǎn qì nì, èr sān suì bù yǐ, bìng míng yuē hé? qí bó yuē: bìng míng yuē xī jī. cǐ bù fáng yú shí, bù kě jiǔ cì.",
+        "translation": "息积病的特点和禁忌。"
+      }
+    ]
   },
   {
     "id": 48,
     "chapter": "篇第四十八",
     "title": "大奇论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "肝满肾满肺满皆实，即为肿。肺之雍，喘而两胠满。肝雍，两胠满不得小便。",
+        "pinyin": "gān mǎn shèn mǎn fèi mǎn jiē shí, jí wéi zhǒng. fèi zhī yōng, chuǎn ér liǎng qū mǎn. gān yōng, liǎng qū mǎn bù dé xiǎo biàn.",
+        "translation": "大奇论：五脏胀满的脉症和预后。"
+      },
+      {
+        "paragraph": 2,
+        "original": "肝满肾满肺满皆实，即为肿。肺之雍，喘而两胠满。肝雍两胠满不得小便。肾雍脚下至少腹满。",
+        "pinyin": "gān mǎn shèn mǎn fèi mǎn jiē shí, jí wéi zhǒng. fèi zhī yōng, chuǎn ér liǎng qū mǎn. gān yōng liǎng qū mǎn bù dé xiǎo biàn. shèn yōng jiǎo xià zhì shǎo fù mǎn.",
+        "translation": "大奇论：肝满肺满肾满引起不同部位的胀满。"
+      },
+      {
+        "paragraph": 3,
+        "original": "心脉满大，癫瘛筋挛。肝脉小急，癫瘛筋挛。肝脉骛暴，有所惊骇。",
+        "pinyin": "xīn mài mǎn dà, diān chì jīn luán. gān mài xiǎo jí, diān chì jīn luán. gān mài wù bào, yǒu suǒ jīng hài.",
+        "translation": "脉象异常对应的病症和预后。"
+      }
+    ]
   },
   {
     "id": 49,
     "chapter": "篇第四十九",
     "title": "脉解",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "太阳所谓肿腰脽痛者，正月太阳寅，寅太阳也。正月阳气出在上而阴气盛，阳未得自次也。",
+        "pinyin": "tài yáng suǒ wèi zhǒng yāo shuí tòng zhě, zhèng yuè tài yáng yín, yín tài yáng yě. zhèng yuè yáng qì chū zài shàng ér yīn qì shèng, yáng wèi dé zì cì yě.",
+        "translation": "脉解：六经病证与月份的对应关系。"
+      },
+      {
+        "paragraph": 2,
+        "original": "太阳所谓肿腰脽痛者，正月太阳寅，寅太阳也。正月阳气出在上而阴气盛，阳未得自次也。",
+        "pinyin": "tài yáng suǒ wèi zhǒng yāo shuí tòng zhě, zhèng yuè tài yáng yín, yín tài yáng yě. zhèng yuè yáng qì chū zài shàng ér yīn qì shèng, yáng wèi dé zì cì yě.",
+        "translation": "太阳经腰痛与正月寅月的对应。"
+      },
+      {
+        "paragraph": 3,
+        "original": "阳明所谓洒洒振寒者，阳明者午也，五月盛阳之阴也。阳盛而阴气加之，故洒洒振寒也。",
+        "pinyin": "yáng míng suǒ wèi sǎ sǎ zhèn hán zhě, yáng míng zhě wǔ yě, wǔ yuè shèng yáng zhī yīn yě. yáng shèng ér yīn qì jiā zhī, gù sǎ sǎ zhèn hán yě.",
+        "translation": "阳明振寒与五月午月的对应关系。"
+      }
+    ]
   },
   {
     "id": 50,
     "chapter": "篇第五十",
     "title": "刺要论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：愿闻刺要。岐伯对曰：病有浮沉，刺有浅深，各至其理，无过其道。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén cì yào. qí bó duì yuē: bìng yǒu fú chén, cì yǒu qiǎn shēn, gè zhì qí lǐ, wú guò qí dào.",
+        "translation": "刺要论：针刺深浅的原则。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：愿闻刺要。岐伯对曰：病有浮沉，刺有浅深，各至其理，无过其道。过之则内伤，不及则生外壅。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén cì yào. qí bó duì yuē: bìng yǒu fú chén, cì yǒu qiǎn shēn, gè zhì qí lǐ, wú guò qí dào.",
+        "translation": "针刺深浅应据病情而定，过浅过深皆有害。"
+      },
+      {
+        "paragraph": 3,
+        "original": "刺毫毛腠理无伤皮，皮伤则内动肺。刺皮无伤肉，肉伤则内动脾。刺肉无伤脉，脉伤则内动心。",
+        "pinyin": "cì háo máo còu lǐ wú shāng pí, pí shāng zé nèi dòng fèi. cì pí wú shāng ròu, ròu shāng zé nèi dòng pí. cì ròu wú shāng mài, mài shāng zé nèi dòng xīn.",
+        "translation": "针刺从浅到深不可伤及下一层组织。"
+      }
+    ]
   },
   {
     "id": 51,
     "chapter": "篇第五十一",
     "title": "刺齐论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：愿闻刺浅深之分。岐伯曰：刺骨者无伤筋，刺筋者无伤肉，刺肉者无伤脉，刺脉者无伤皮。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén cì qiǎn shēn zhī fēn. qí bó yuē: cì gǔ zhě wú shāng jīn, cì jīn zhě wú shāng ròu, cì ròu zhě wú shāng mài, cì mài zhě wú shāng pí.",
+        "translation": "刺齐论：针刺深浅层次不可混淆。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：愿闻刺浅深之分。岐伯曰：刺骨者无伤筋，刺筋者无伤肉，刺肉者无伤脉，刺脉者无伤皮。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén cì qiǎn shēn zhī fēn. qí bó yuē: cì gǔ zhě wú shāng jīn, cì jīn zhě wú shāng ròu, cì ròu zhě wú shāng mài, cì mài zhě wú shāng pí.",
+        "translation": "针刺深浅各有分界不可相犯。"
+      },
+      {
+        "paragraph": 3,
+        "original": "所谓刺皮无伤肉者，病在皮中，针入皮中，无伤肉也。刺肉无伤筋者，过肉中筋也。",
+        "pinyin": "suǒ wèi cì pí wú shāng ròu zhě, bìng zài pí zhōng, zhēn rù pí zhōng, wú shāng ròu yě. cì ròu wú shāng jīn zhě, guò ròu zhōng jīn yě.",
+        "translation": "各层针刺的准确定义。"
+      }
+    ]
   },
   {
     "id": 52,
     "chapter": "篇第五十二",
     "title": "刺禁论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：愿闻刺禁。岐伯曰：藏有要害，不可不察。肝生于左，肺藏于右，心部于表，肾治于里。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén cì jìn. qí bó yuē: zàng yǒu yào hài, bù kě bù chá. gān shēng yú zuǒ, fèi cáng yú yòu, xīn bù yú biǎo, shèn zhì yú lǐ.",
+        "translation": "刺禁论：针刺禁忌部位和原理。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：愿闻刺禁。岐伯曰：藏有要害，不可不察。肝生于左，肺藏于右，心部于表，肾治于里。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén cì jìn. qí bó yuē: zàng yǒu yào hài, bù kě bù chá. gān shēng yú zuǒ, fèi cáng yú yòu, xīn bù yú biǎo, shèn zhì yú lǐ.",
+        "translation": "五脏各有要害部位，针刺不可误伤。"
+      },
+      {
+        "paragraph": 3,
+        "original": "刺中心，一日死。刺中肝，五日死。刺中肾，六日死。刺中肺，三日死。刺中脾，十日死。刺中胆，一日半死。",
+        "pinyin": "cì zhōng xīn, yī rì sǐ. cì zhōng gān, wǔ rì sǐ. cì zhōng shèn, liù rì sǐ. cì zhōng fèi, sān rì sǐ. cì zhōng pí, shí rì sǐ. cì zhōng dǎn, yī rì bàn sǐ.",
+        "translation": "针刺误中五脏的死亡时间。"
+      }
+    ]
   },
   {
     "id": 53,
     "chapter": "篇第五十三",
     "title": "刺志论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：愿闻刺志。岐伯对曰：气实形实，气虚形虚，此其常也，反此者病。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén cì zhì. qí bó duì yuē: qì shí xíng shí, qì xū xíng xū, cǐ qí cháng yě, fǎn cǐ zhě bìng.",
+        "translation": "刺志论：气与形、谷与气、脉与血的虚实对应。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：愿闻刺志奈何？岐伯对曰：气实形实，气虚形虚，此其常也，反此者病。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén cì zhì nài hé? qí bó duì yuē: qì shí xíng shí, qì xū xíng xū, cǐ qí cháng yě, fǎn cǐ zhě bìng.",
+        "translation": "气与形、谷与气的虚实对应关系。"
+      },
+      {
+        "paragraph": 3,
+        "original": "夫实者气入也，虚者气出也。气实者热也，气虚者寒也。针实者需开其孔，针虚者需闭其孔。",
+        "pinyin": "fū shí zhě qì rù yě, xū zhě qì chū yě. qì shí zhě rè yě, qì xū zhě hán yě. zhēn shí zhě xū kāi qí kǒng, zhēn xū zhě xū bì qí kǒng.",
+        "translation": "虚实寒热的针刺原则：实证开孔使出、虚证闭孔使入。"
+      }
+    ]
   },
   {
     "id": 54,
     "chapter": "篇第五十四",
     "title": "针解",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：愿闻九针之解，虚实之道。岐伯对曰：刺虚则实之者，针下热也，气实乃热也。满而泄之者，针下寒也。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén jiǔ zhēn zhī jiě, xū shí zhī dào. qí bó duì yuē: cì xū zé shí zhī zhě, zhēn xià rè yě, qì shí nǎi rè yě. mǎn ér xiè zhī zhě, zhēn xià hán yě.",
+        "translation": "针解：九针的运用和补泻手法。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：愿闻九针之解，虚实之道。岐伯曰：刺虚则实之者，针下热也，气实乃热也。",
+        "pinyin": "huáng dì wèn yuē: yuàn wén jiǔ zhēn zhī jiě, xū shí zhī dào. qí bó yuē: cì xū zé shí zhī zhě, zhēn xià rè yě, qì shí nǎi rè yě.",
+        "translation": "针刺虚实用补泻手法时针下的感觉不同。"
+      },
+      {
+        "paragraph": 3,
+        "original": "满而泄之者，针下寒也，气虚乃寒也。菀陈则除之者，出恶血也。",
+        "pinyin": "mǎn ér xiè zhī zhě, zhēn xià hán yě, qì xū nǎi hán yě. yù chén zé chú zhī zhě, chū è xuè yě.",
+        "translation": "泻法针下觉寒是因为邪气泄出，瘀陈则需放出恶血。"
+      }
+    ]
   },
   {
     "id": 55,
     "chapter": "篇第五十五",
     "title": "长刺节论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "刺家不诊，听病者言。在头头疾痛，为藏针之。刺至骨病已，上无伤骨肉及皮。",
+        "pinyin": "cì jiā bù zhěn, tīng bìng zhě yán. zài tóu tóu jí tòng, wéi cáng zhēn zhī. cì zhì gǔ bìng yǐ, shàng wú shāng gǔ ròu jí pí.",
+        "translation": "长刺节论：多种病症的针刺方法。"
+      },
+      {
+        "paragraph": 2,
+        "original": "刺家不诊，听病者言。在头头疾痛，为藏针之。刺至骨病已，上无伤骨肉及皮。",
+        "pinyin": "cì jiā bù zhěn, tīng bìng zhě yán. zài tóu tóu jí tòng, wéi cáng zhēn zhī. cì zhì gǔ bìng yǐ, shàng wú shāng gǔ ròu jí pí.",
+        "translation": "长刺节论：头痛、寒热等多种病的刺法。"
+      },
+      {
+        "paragraph": 3,
+        "original": "病在少腹有积，刺皮腯以下，至少腹而止。刺侠脊两旁四椎间。",
+        "pinyin": "bìng zài shào fù yǒu jī, cì pí dūn yǐ xià, zhì shào fù ér zhǐ. cì xiá jǐ liǎng páng sì zhuī jiān.",
+        "translation": "腹部积聚的针刺取穴方法。"
+      }
+    ]
   },
   {
     "id": 56,
     "chapter": "篇第五十六",
     "title": "皮部论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻皮有分部，脉有经纪，筋有结络，骨有度量。皮者脉之部也。",
+        "pinyin": "huáng dì wèn yuē: yú wén pí yǒu fēn bù, mài yǒu jīng jì, jīn yǒu jié luò, gǔ yǒu dù liàng. pí zhě mài zhī bù yě.",
+        "translation": "皮部论：皮部分属十二经脉的理论。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：余闻皮有分部，脉有经纪，筋有结络，骨有度量。皮者脉之部也。",
+        "pinyin": "huáng dì wèn yuē: yú wén pí yǒu fēn bù, mài yǒu jīng jì, jīn yǒu jié luò, gǔ yǒu dù liàng. pí zhě mài zhī bù yě.",
+        "translation": "皮部分属十二经脉，是脉的外部表现区域。"
+      },
+      {
+        "paragraph": 3,
+        "original": "欲知皮部以经脉为纪者，诸经皆然。阳明之阳，名曰害蜚。视其部中有浮络者，皆阳明之络也。",
+        "pinyin": "yù zhī pí bù yǐ jīng mài wéi jì zhě, zhū jīng jiē rán. yáng míng zhī yáng, míng yuē hài fēi. shì qí bù zhōng yǒu fú luò zhě, jiē yáng míng zhī luò yě.",
+        "translation": "以经脉为纲纪来认识皮部的分部。"
+      }
+    ]
   },
   {
     "id": 57,
     "chapter": "篇第五十七",
     "title": "经络论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：夫络脉之见也，其五色各异，青黄赤白黑不同，其故何也？岐伯对曰：经有常色而络无常变也。",
+        "pinyin": "huáng dì wèn yuē: fū luò mài zhī jiàn yě, qí wǔ sè gè yì, qīng huáng chì bái hēi bù tóng, qí gù hé yě? qí bó duì yuē: jīng yǒu cháng sè ér luò wú cháng biàn yě.",
+        "translation": "经络论：络脉五色变化的道理。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：夫络脉之见也，其五色各异，青黄赤白黑不同，其故何也？岐伯对曰：经有常色而络无常变也。",
+        "pinyin": "huáng dì wèn yuē: fū luò mài zhī jiàn yě, qí wǔ sè gè yì, qīng huáng chì bái hēi bù tóng, qí gù hé yě? qí bó duì yuē: jīng yǒu cháng sè ér luò wú cháng biàn yě.",
+        "translation": "经络论：经脉有固定颜色而络脉颜色会变化。"
+      },
+      {
+        "paragraph": 3,
+        "original": "心赤、肺白、肝青、脾黄、肾黑，皆亦应其经脉之色也。寒多则凝泣，凝泣则青黑。热多则淖泽，淖泽则黄赤。",
+        "pinyin": "xīn chì, fèi bái, gān qīng, pí huáng, shèn hēi, jiē yì yìng qí jīng mài zhī sè yě. hán duō zé níng qì, níng qì zé qīng hēi. rè duō zé nào zé, nào zé huáng chì.",
+        "translation": "五脏对应五色，寒热导致络脉颜色改变。"
+      }
+    ]
   },
   {
     "id": 58,
     "chapter": "篇第五十八",
     "title": "气穴论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻气穴三百六十五以应一岁，未知其所，愿卒闻之。岐伯稽首再拜对曰：窘乎哉问也！",
+        "pinyin": "huáng dì wèn yuē: yú wén qì xué sān bǎi liù shí wǔ yǐ yìng yī suì, wèi zhī qí suǒ, yuàn zú wén zhī. qí bó jī shǒu zài bài duì yuē: jiǒng hū zāi wèn yě!",
+        "translation": "气穴论：论述365个气穴的分布。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：余闻气穴三百六十五以应一岁，未知其所。岐伯稽首再拜对曰：窘乎哉问也！",
+        "pinyin": "huáng dì wèn yuē: yú wén qì xué sān bǎi liù shí wǔ yǐ yìng yī suì, wèi zhī qí suǒ. qí bó jī shǒu zài bài duì yuē: jiǒng hū zāi wèn yě!",
+        "translation": "黄帝问365个气穴的位置。岐伯感叹问题精妙。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：愿卒闻之。岐伯曰：背与心相控而痛，所治天突与十椎及上纪。上纪者胃脘也，下纪者关元也。",
+        "pinyin": "dì yuē: yuàn zú wén zhī. qí bó yuē: bèi yǔ xīn xiāng kòng ér tòng, suǒ zhì tiān tū yǔ shí zhuī jí shàng jì. shàng jì zhě wèi wǎn yě, xià jì zhě guān yuán yě.",
+        "translation": "胸背牵痛的治疗穴位：天突、十椎、上纪（胃脘）、下纪（关元）。"
+      }
+    ]
   },
   {
     "id": 59,
     "chapter": "篇第五十九",
     "title": "气府论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "足太阳脉气所发者七十八穴，足少阳脉气所发者六十二穴，足阳明脉气所发者六十八穴。",
+        "pinyin": "zú tài yáng mài qì suǒ fā zhě qī shí bā xué, zú shào yáng mài qì suǒ fā zhě liù shí èr xué, zú yáng míng mài qì suǒ fā zhě liù shí bā xué.",
+        "translation": "气府论：各经脉气所发的腧穴。"
+      },
+      {
+        "paragraph": 2,
+        "original": "足太阳脉气所发者七十八穴：两眉头各一，入发至项三寸半。",
+        "pinyin": "zú tài yáng mài qì suǒ fā zhě qī shí bā xué: liǎng méi tóu gè yī, rù fà zhì xiàng sān cùn bàn.",
+        "translation": "足太阳经脉气所发78穴的部位。"
+      },
+      {
+        "paragraph": 3,
+        "original": "足少阳脉气所发者六十二穴：两角上各一。耳前后各一。",
+        "pinyin": "zú shào yáng mài qì suǒ fā zhě liù shí èr xué: liǎng jiǎo shàng gè yī. ěr qián hòu gè yī.",
+        "translation": "足少阳经脉气所发62穴的部位。"
+      }
+    ]
   },
   {
     "id": 60,
     "chapter": "篇第六十",
     "title": "骨空论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻风者百病之始也，以针治之奈何？岐伯对曰：风从外入，令人振寒，汗出头痛，身重恶寒。",
+        "pinyin": "huáng dì wèn yuē: yú wén fēng zhě bǎi bìng zhī shǐ yě, yǐ zhēn zhì zhī nài hé? qí bó duì yuē: fēng cóng wài rù, lìng rén zhèn hán, hàn chū tóu tòng, shēn zhòng wù hán.",
+        "translation": "骨空论：风从外入的针刺治法及骨空部位。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：余闻风者百病之始也，以针治之奈何？岐伯对曰：风从外入，令人振寒，汗出头痛，身重恶寒。治在风府。",
+        "pinyin": "huáng dì wèn yuē: yú wén fēng zhě bǎi bìng zhī shǐ yě, yǐ zhēn zhì zhī nài hé? qí bó duì yuē: fēng cóng wài rù, lìng rén zhèn hán, hàn chū tóu tòng, shēn zhòng wù hán. zhì zài fēng fǔ.",
+        "translation": "风邪从外入的证候和针刺治疗（风府穴）。"
+      },
+      {
+        "paragraph": 3,
+        "original": "灸寒热之法，先灸项大椎。数灸不已，可灸刺之。",
+        "pinyin": "jiǔ hán rè zhī fǎ, xiān jiǔ xiàng dà zhuī. shù jiǔ bù yǐ, kě jiǔ cì zhī.",
+        "translation": "灸治寒热的方法及骨空部位。"
+      }
+    ]
   },
   {
     "id": 61,
     "chapter": "篇第六十一",
     "title": "水热穴论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：少阴何以主肾？肾何以主水？岐伯对曰：肾者至阴也，至阴者盛水也。肺者太阴也，少阴者冬脉也。",
+        "pinyin": "huáng dì wèn yuē: shào yīn hé yǐ zhǔ shèn? shèn hé yǐ zhǔ shuǐ? qí bó duì yuē: shèn zhě zhì yīn yě, zhì yīn zhě shèng shuǐ yě. fèi zhě tài yīn yě, shào yīn zhě dōng mài yě.",
+        "translation": "水热穴论：肾主水的机理及热穴、水穴。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：少阴何以主肾？肾何以主水？岐伯曰：肾者至阴也，至阴者盛水也。",
+        "pinyin": "huáng dì wèn yuē: shào yīn hé yǐ zhǔ shèn? shèn hé yǐ zhǔ shuǐ? qí bó yuē: shèn zhě zhì yīn yě, zhì yīn zhě shèng shuǐ yě.",
+        "translation": "肾为至阴主水的机理。"
+      },
+      {
+        "paragraph": 3,
+        "original": "黄帝问曰：手足太阳之火热穴何也？岐伯曰：热病五十九俞。",
+        "pinyin": "huáng dì wèn yuē: shǒu zú tài yáng zhī huǒ rè xué hé yě? qí bó yuē: rè bìng wǔ shí jiǔ shù.",
+        "translation": "水热穴论：热病五十九俞和水俞五十七处的部位。"
+      }
+    ]
   },
   {
     "id": 62,
     "chapter": "篇第六十二",
     "title": "调经论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻刺法言，有余泻之，不足补之，何谓有余？何谓不足？岐伯对曰：有余有五，不足亦有五，帝欲何问？",
+        "pinyin": "huáng dì wèn yuē: yú wén cì fǎ yán, yǒu yú xiè zhī, bù zú bǔ zhī, hé wèi yǒu yú? hé wèi bù zú? qí bó duì yuē: yǒu yú yǒu wǔ, bù zú yì yǒu wǔ, dì yù hé wèn?",
+        "translation": "调经论：五脏五腑有余不足的针刺补泻。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：余闻刺法言，有余泻之，不足补之，何谓有余？何谓不足？岐伯对曰：有余有五，不足亦有五。",
+        "pinyin": "huáng dì wèn yuē: yú wén cì fǎ yán, yǒu yú xiè zhī, bù zú bǔ zhī, hé wèi yǒu yú? hé wèi bù zú? qí bó duì yuē: yǒu yú yǒu wǔ, bù zú yì yǒu wǔ.",
+        "translation": "调经论：五脏各有虚实五种。"
+      },
+      {
+        "paragraph": 3,
+        "original": "神有余则笑不休，神不足则悲。气有余则喘咳上气，不足则息利少气。",
+        "pinyin": "shén yǒu yú zé xiào bù xiū, shén bù zú zé bēi. qì yǒu yú zé chuǎn ké shàng qì, bù zú zé xī lì shǎo qì.",
+        "translation": "神和气有余不足的症状。"
+      }
+    ]
   },
   {
     "id": 63,
     "chapter": "篇第六十三",
     "title": "缪刺论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻缪刺，未得其意，何谓缪刺？岐伯对曰：夫邪之客于形也，必先舍于皮毛，留而不去入舍于孙脉。",
+        "pinyin": "huáng dì wèn yuē: yú wén miù cì, wèi dé qí yì, hé wèi miù cì? qí bó duì yuē: fū xié zhī kè yú xíng yě, bì xiān shè yú pí máo, liú ér bù qù rù shè yú sūn mài.",
+        "translation": "缪刺论：邪气从皮毛深入，左病刺右右病刺左的缪刺法。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：余闻缪刺，未得其意，何谓缪刺？岐伯对曰：夫邪之客于形也，必先舍于皮毛，留而不去入舍于孙脉。",
+        "pinyin": "huáng dì wèn yuē: yú wén miù cì, wèi dé qí yì, hé wèi miù cì? qí bó duì yuē: fū xié zhī kè yú xíng yě, bì xiān shè yú pí máo, liú ér bù qù rù shě yú sūn mài.",
+        "translation": "缪刺论：邪气从皮毛侵入经络的传变途径。"
+      },
+      {
+        "paragraph": 3,
+        "original": "邪客于经，左盛则右病，右盛则左病。如此者，必缪刺之。",
+        "pinyin": "xié kè yú jīng, zuǒ shèng zé yòu bìng, yòu shèng zé zuǒ bìng. rú cǐ zhě, bì miù cì zhī.",
+        "translation": "缪刺法：左病刺右、右病刺左的原理。"
+      }
+    ]
   },
   {
     "id": 64,
     "chapter": "篇第六十四",
     "title": "四时刺逆从论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻四时之刺者，各不同形。岐伯曰：春刺散俞及与分理，夏刺络俞，秋刺皮肤，冬刺俞窍。",
+        "pinyin": "huáng dì wèn yuē: yú wén sì shí zhī cì zhě, gè bù tóng xíng. qí bó yuē: chūn cì sàn shù jí yǔ fēn lǐ, xià cì luò shù, qiū cì pí fū, dōng cì shù qiào.",
+        "translation": "四时刺逆从论：四时不同针刺部位及其逆从。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：余闻四时之刺者，各不同形。岐伯曰：春刺散俞及与分理，夏刺络俞，秋刺皮肤，冬刺俞窍。",
+        "pinyin": "huáng dì wèn yuē: yú wén sì shí zhī cì zhě, gè bù tóng xíng. qí bó yuē: chūn cì sàn shù jí yǔ fēn lǐ, xià cì luò shù, qiū cì pí fū, dōng cì shù qiào.",
+        "translation": "四时刺法各不同：春刺散俞、夏刺络俞、秋刺皮肤、冬刺俞窍。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：逆四时而生乱气奈何？岐伯曰：春刺络脉，血气外溢，令人少气。夏刺经脉，血气乃竭，令人懈惰。",
+        "pinyin": "dì yuē: nì sì shí ér shēng luàn qì nài hé? qí bó yuē: chūn cì luò mài, xuè qì wài yì, lìng rén shǎo qì. xià cì jīng mài, xuè qì nǎi jié, lìng rén xiè duò.",
+        "translation": "四时误刺导致的危害。"
+      }
+    ]
   },
   {
     "id": 65,
     "chapter": "篇第六十五",
     "title": "标本病传论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：病有标本，刺有逆从，何谓三刺？岐伯对曰：凡刺之方，必别阴阳，前后相应，逆从得施，标本相移。",
+        "pinyin": "huáng dì wèn yuē: bìng yǒu biāo běn, cì yǒu nì cóng, hé wèi sān cì? qí bó duì yuē: fán cì zhī fāng, bì bié yīn yáng, qián hòu xiāng yìng, nì cóng dé shī, biāo běn xiāng yí.",
+        "translation": "标本病传论：病分标本、刺分逆从的原则。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝问曰：病有标本，刺有逆从，何谓三刺？岐伯对曰：凡刺之方，必别阴阳，前后相应，逆从得施，标本相移。",
+        "pinyin": "huáng dì wèn yuē: bìng yǒu biāo běn, cì yǒu nì cóng, hé wèi sān cì? qí bó duì yuē: fán cì zhī fāng, bì bié yīn yáng, qián hòu xiāng yìng, nì cóng dé shī, biāo běn xiāng yí.",
+        "translation": "治病求本必辨阴阳标本。"
+      },
+      {
+        "paragraph": 3,
+        "original": "故曰：知标本者，万举万当；不知标本，是谓妄行。先病而后逆者治其本。",
+        "pinyin": "gù yuē: zhī biāo běn zhě, wàn jǔ wàn dāng; bù zhī biāo běn, shì wèi wàng xíng. xiān bìng ér hòu nì zhě zhì qí běn.",
+        "translation": "懂得标本则万无一失。先病后逆者先治其本。"
+      }
+    ]
   },
   {
     "id": 66,
@@ -448,9 +1535,21 @@
     "content": [
       {
         "paragraph": 1,
-        "original": "黄帝问曰：天有五行，御五位，以生寒暑燥湿风。人有五藏，化五气，以生喜怒思忧恐。论言五运相袭而皆治之，终朞之日，周而复始，余已知之矣。愿闻其与三阴三阳之候奈何合之？",
-        "pinyin": "huáng dì wèn yuē: tiān yǒu wǔ xíng, yù wǔ wèi, yǐ shēng hán shǔ zào shī fēng. rén yǒu wǔ zàng, huà wǔ qì, yǐ shēng xǐ nù sī yōu kǒng. lùn yán wǔ yùn xiāng xí ér jiē zhì zhī, zhōng jī zhī rì, zhōu ér fù shǐ, yú yǐ zhī zhī yǐ. yuàn wén qí yǔ sān yīn sān yáng zhī hòu nài hé hé zhī?",
-        "translation": "黄帝问道：天有五行，统治五个方位，从而产生寒、暑、燥、湿、风。人有五脏，化生五气，从而产生喜、怒、思、忧、恐。讨论中提到五运相互承袭而各有主治，到一定周期周而复始，我已经知道了。我想听听五运与三阴三阳六气是如何配合的？"
+        "original": "黄帝问曰：天有五行，御五位，以生寒暑燥湿风。人有五藏，化五气，以生喜怒思忧恐。",
+        "pinyin": "huáng dì wèn yuē: tiān yǒu wǔ xíng, yù wǔ wèi, yǐ shēng hán shǔ zào shī fēng. rén yǒu wǔ zàng, huà wǔ qì, yǐ shēng xǐ nù sī yōu kǒng.",
+        "translation": "天有五行生五气，人有五脏化五志。"
+      },
+      {
+        "paragraph": 2,
+        "original": "论言五运相袭而皆治之，终朞之日周而复始。愿闻其与三阴三阳之候奈何合之？鬼臾区曰：五运阴阳者，天地之道也。",
+        "pinyin": "lùn yán wǔ yùn xiāng xí ér jiē zhì zhī, zhōng jī zhī rì zhōu ér fù shǐ. yuàn wén qí yǔ sān yīn sān yáng zhī hòu nài hé hé zhī? guǐ yú qū yuē: wǔ yùn yīn yáng zhě, tiān dì zhī dào yě.",
+        "translation": "五运相袭周而复始与三阴三阳配合的关系。"
+      },
+      {
+        "paragraph": 3,
+        "original": "所以欲知天地之阴阳者，应天之气，动而不息，故五岁而右迁；应地之气，静而守位，故六朞而环会。",
+        "pinyin": "suǒ yǐ yù zhī tiān dì zhī yīn yáng zhě, yìng tiān zhī qì, dòng ér bù xī, gù wǔ suì ér yòu qiān; yìng dì zhī qì, jìng ér shǒu wèi, gù liù jī ér huán huì.",
+        "translation": "天地阴阳的动静规律：天之气动而不息五年一迁，地之气静而守位六年一循环。"
       }
     ]
   },
@@ -458,43 +1557,176 @@
     "id": 67,
     "chapter": "篇第六十七",
     "title": "五运行大论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝坐明堂，始正天纲，临观八极，考建五常。岐伯曰：天地之动静，神明为之纪；阴阳之升降，寒暑彰其兆。",
+        "pinyin": "huáng dì zuò míng táng, shǐ zhèng tiān gāng, lín guān bā jí, kǎo jiàn wǔ cháng. qí bó yuē: tiān dì zhī dòng jìng, shén míng wéi zhī jì; yīn yáng zhī shēng jiàng, hán shǔ zhāng qí zhào.",
+        "translation": "五运行大论：天地动静以神明为纲纪，阴阳升降以寒暑为征兆。"
+      },
+      {
+        "paragraph": 2,
+        "original": "帝曰：寒暑燥湿风火，在人合之奈何？岐伯曰：东方生风，风生木，木生酸，酸生肝，肝生筋。",
+        "pinyin": "dì yuē: hán shǔ zào shī fēng huǒ, zài rén hé zhī nài hé? qí bó yuē: dōng fāng shēng fēng, fēng shēng mù, mù shēng suān, suān shēng gān, gān shēng jīn.",
+        "translation": "五方之气与人体五脏五体的生克关系。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：地之为下否乎？岐伯曰：地为人之下，太虚之中者也。帝曰：冯乎？岐伯曰：大气举之也。",
+        "pinyin": "dì yuē: dì zhī wéi xià fǒu hū? qí bó yuē: dì wéi rén zhī xià, tài xū zhī zhōng zhě yě. dì yuē: píng hū? qí bó yuē: dà qì jǔ zhī yě.",
+        "translation": "地在大气之中被大气所托举。"
+      }
+    ]
   },
   {
     "id": 68,
     "chapter": "篇第六十八",
     "title": "六微旨大论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：呜呼远哉！天之道也，如迎浮云，若视深渊。视深渊尚可测，迎浮云莫知其极。",
+        "pinyin": "huáng dì wèn yuē: wū hū yuǎn zāi! tiān zhī dào yě, rú yíng fú yún, ruò shì shēn yuān. shì shēn yuān shàng kě cè, yíng fú yún mò zhī qí jí.",
+        "translation": "六微旨大论：天道如浮云深渊般深奥。"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯曰：天之道也，此因天之序，盛衰之时也。天气始于甲，地气始于子。",
+        "pinyin": "qí bó yuē: tiān zhī dào yě, cǐ yīn tiān zhī xù, shèng shuāi zhī shí yě. tiān qì shǐ yú jiǎ, dì qì shǐ yú zǐ.",
+        "translation": "天道有盛衰之时，天气始于甲地气始于子。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：愿闻天道六六之节盛衰何也？岐伯曰：上下有位，左右有纪。少阳之上，火气治之。",
+        "pinyin": "dì yuē: yuàn wén tiān dào liù liù zhī jié shèng shuāi hé yě? qí bó yuē: shàng xià yǒu wèi, zuǒ yòu yǒu jì. shào yáng zhī shàng, huǒ qì zhì zhī.",
+        "translation": "六气客主的配合和盛衰规律。"
+      }
+    ]
   },
   {
     "id": 69,
     "chapter": "篇第六十九",
     "title": "气交变大论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：五运之化，太过何如？岐伯对曰：岁木太过，风气流行，脾土受邪。民病飧泄食减体重烦冤。",
+        "pinyin": "huáng dì wèn yuē: wǔ yùn zhī huà, tài guò hé rú? qí bó duì yuē: suì mù tài guò, fēng qì liú xíng, pí tǔ shòu xié. mín bìng sūn xiè shí jiǎn tǐ zhòng fán yuān.",
+        "translation": "岁木太过风气流行脾土受邪的病症。"
+      },
+      {
+        "paragraph": 2,
+        "original": "岁火太过，炎暑流行，肺金受邪。民病疟少气咳喘。",
+        "pinyin": "suì huǒ tài guò, yán shǔ liú xíng, fèi jīn shòu xié. mín bìng nüè shǎo qì ké chuǎn.",
+        "translation": "岁火太过炎暑流行肺金受邪。"
+      },
+      {
+        "paragraph": 3,
+        "original": "岁土太过，雨湿流行，肾水受邪。民病腹痛清厥。",
+        "pinyin": "suì tǔ tài guò, yǔ shī liú xíng, shèn shuǐ shòu xié. mín bìng fù tòng qīng jué.",
+        "translation": "岁土太过雨湿流行肾水受邪。"
+      }
+    ]
   },
   {
     "id": 70,
     "chapter": "篇第七十",
     "title": "五常政大论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：太虚寥廓，五运回薄，盛衰不同，损益相从。愿闻平气何如而名？",
+        "pinyin": "huáng dì wèn yuē: tài xū liáo kuò, wǔ yùn huí báo, shèng shuāi bù tóng, sǔn yì xiāng cóng. yuàn wén píng qì hé rú ér míng?",
+        "translation": "五常政大论：五运平气的名称和意义。"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯曰：木曰敷和，火曰升明，土曰备化，金曰审平，水曰静顺。",
+        "pinyin": "qí bó yuē: mù yuē fū hé, huǒ yuē shēng míng, tǔ yuē bèi huà, jīn yuē shěn píng, shuǐ yuē jìng shùn.",
+        "translation": "五运平气的五种名称。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：其不及奈何？岐伯曰：木曰委和，火曰伏明，土曰卑监，金曰从革，水曰涸流。",
+        "pinyin": "dì yuē: qí bù jí nài hé? qí bó yuē: mù yuē wěi hé, huǒ yuē fú míng, tǔ yuē bēi jiān, jīn yuē cóng gé, shuǐ yuē hé liú.",
+        "translation": "五运不及的名称和表现。"
+      }
+    ]
   },
   {
     "id": 71,
     "chapter": "篇第七十一",
     "title": "六元正纪大论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：六化六变，胜复淫治，甘苦辛咸酸淡先后，余知之矣。愿闻其与三阴三阳之候奈何合之？",
+        "pinyin": "huáng dì wèn yuē: liù huà liù biàn, shèng fù yín zhì, gān kǔ xīn xián suān dàn xiān hòu, yú zhī zhī yǐ. yuàn wén qí yǔ sān yīn sān yáng zhī hòu nài hé hé zhī?",
+        "translation": "六元正纪大论：六气司天在泉的正化和变化。"
+      },
+      {
+        "paragraph": 2,
+        "original": "帝曰：上下有阴阳，寒暑相推，此六气之纪也。夫子数言谨奉天道，余闻而藏之。",
+        "pinyin": "dì yuē: shàng xià yǒu yīn yáng, hán shǔ xiāng tuī, cǐ liù qì zhī jì yě. fū zǐ shù yán jǐn fèng tiān dào, yú wén ér cáng zhī.",
+        "translation": "六气上下阴阳寒暑相推的纲纪。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：凡此定期之纪，胜复正化，皆有常数，不可不察。",
+        "pinyin": "dì yuē: fán cǐ dìng qī zhī jì, shèng fù zhèng huà, jiē yǒu cháng shù, bù kě bù chá.",
+        "translation": "六气的胜复正化都有常数不可不察。"
+      }
+    ]
   },
   {
     "id": 72,
     "chapter": "篇第七十二",
     "title": "刺法论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻刺法有移精变气者，有补泻迎随者，有开鬼门洁净府者。岐伯曰：升降出入，无器不有。",
+        "pinyin": "huáng dì wèn yuē: yú wén cì fǎ yǒu yí jīng biàn qì zhě, yǒu bǔ xiè yíng suí zhě, yǒu kāi guǐ mén jié jìng fǔ zhě. qí bó yuē: shēng jiàng chū rù, wú qì bù yǒu.",
+        "translation": "刺法论：升降出入普遍存在于一切事物中。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝曰：五疫之至，皆相染易，如何可得不相移者？岐伯曰：不相染者，正气存内，邪不可干。",
+        "pinyin": "huáng dì yuē: wǔ yì zhī zhì, jiē xiāng rǎn yì, rú hé kě dé bù xiāng yí zhě? qí bó yuē: bù xiāng rǎn zhě, zhèng qì cún nèi, xié bù kě gàn.",
+        "translation": "正气存内邪不可干的著名论断。"
+      },
+      {
+        "paragraph": 3,
+        "original": "刺法有升降之法，升之不前降之不下者，皆可以针治之。",
+        "pinyin": "cì fǎ yǒu shēng jiàng zhī fǎ, shēng zhī bù qián jiàng zhī bù xià zhě, jiē kě yǐ zhēn zhì zhī.",
+        "translation": "升降失常的针刺调治方法。"
+      }
+    ]
   },
   {
     "id": 73,
     "chapter": "篇第七十三",
     "title": "本病论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：天元九窒，余已知之。愿闻气交，何名失守？岐伯曰：谓其上下升降迁正退位，各有经论。",
+        "pinyin": "huáng dì wèn yuē: tiān yuán jiǔ zhì, yú yǐ zhī zhī. yuàn wén qì jiāo, hé míng shī shǒu? qí bó yuē: wèi qí shàng xià shēng jiàng qiān zhèng tuì wèi, gè yǒu jīng lùn.",
+        "translation": "本病论：气交失守导致的各种疾病。"
+      },
+      {
+        "paragraph": 2,
+        "original": "帝曰：人气不足天气如虚，人神失守神光不聚，邪鬼外干，致有夭亡。",
+        "pinyin": "dì yuē: rén qì bù zú tiān qì rú xū, rén shén shī shǒu shén guāng bù jù, xié guǐ wài gàn, zhì yǒu yāo wáng.",
+        "translation": "人气不足神失守则邪鬼外干导致夭亡。"
+      },
+      {
+        "paragraph": 3,
+        "original": "黄帝曰：人气不足，天气如虚，人神失守神光不聚，致有夭亡。",
+        "pinyin": "huáng dì yuē: rén qì bù zú, tiān qì rú xū, rén shén shī shǒu shén guāng bù jù, zhì yǒu yāo wáng.",
+        "translation": "人气不足人神失守是疾病发生的内在原因。"
+      }
+    ]
   },
   {
     "id": 74,
@@ -503,9 +1735,21 @@
     "content": [
       {
         "paragraph": 1,
-        "original": "帝曰：善。夫百病之生也，皆生于风寒暑湿燥火，以之化之变也。经言盛者泻之，虚者补之，余锡以方士，而方士用之尚未能十全。余欲令要道必行，桴鼓相应，犹拔刺雪污，工巧神圣，可得闻乎？",
-        "pinyin": "dì yuē: shàn. fū bǎi bìng zhī shēng yě, jiē shēng yú fēng hán shǔ shī zào huǒ, yǐ zhī huà zhī biàn yě. jīng yán shèng zhě xiè zhī, xū zhě bǔ zhī, yú xī yǐ fāng shì, ér fāng shì yòng zhī shàng wèi néng shí quán. yú yù lìng yào dào bì xíng, fú gǔ xiāng yìng, yóu bá cì xuě wū, gōng qiǎo shén shèng, kě dé wén hū?",
-        "translation": "黄帝说：讲得好！各种疾病的发生，都源于风、寒、暑、湿、燥、火六气的各种变化。医经上说实证用泻法，虚证用补法，我把它教给医家，但他们运用起来还不能达到十全十美的效果。我想让这些重要法则得到普遍推行，像击鼓发声一样迅速响应，如同拔除刺、洗去污一样有效，达到工巧神圣的境界，可以让我听听吗？"
+        "original": "帝曰：善。夫百病之生也，皆生于风寒暑湿燥火，以之化之变也。",
+        "pinyin": "dì yuē: shàn. fū bǎi bìng zhī shēng yě, jiē shēng yú fēng hán shǔ shī zào huǒ, yǐ zhī huà zhī biàn yě.",
+        "translation": "至真要大论：百病生于六气变化。"
+      },
+      {
+        "paragraph": 2,
+        "original": "经言盛者泻之，虚者补之。余欲令要道必行，桴鼓相应，犹拔刺雪污，可得闻乎？",
+        "pinyin": "jīng yán shèng zhě xiè zhī, xū zhě bǔ zhī. yú yù lìng yào dào bì xíng, fú gǔ xiāng yìng, yóu bá cì xuě wū, kě dé wén hū?",
+        "translation": "盛者泻之虚者补之是治病要道。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：何谓病机？岐伯曰：诸风掉眩，皆属于肝。诸寒收引，皆属于肾。诸气膹郁，皆属于肺。诸湿肿满，皆属于脾。诸痛痒疮，皆属于心。",
+        "pinyin": "dì yuē: hé wèi bìng jī? qí bó yuē: zhū fēng diào xuàn, jiē shǔ yú gān. zhū hán shōu yǐn, jiē shǔ yú shèn. zhū qì fèn yù, jiē shǔ yú fèi. zhū shī zhǒng mǎn, jiē shǔ yú pí. zhū tòng yǎng chuāng, jiē shǔ yú xīn.",
+        "translation": "著名的病机十九条核心内容：诸风掉眩皆属于肝。"
       }
     ]
   },
@@ -513,42 +1757,169 @@
     "id": 75,
     "chapter": "篇第七十五",
     "title": "著至教论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝坐明堂，召雷公而问之曰：子知医之道乎？雷公对曰：诵而颇能解，解而未能别，别而未能明。",
+        "pinyin": "huáng dì zuò míng táng, zhào léi gōng ér wèn zhī yuē: zǐ zhī yī zhī dào hū? léi gōng duì yuē: sòng ér pō néng jiě, jiě ér wèi néng bié, bié ér wèi néng míng.",
+        "translation": "著至教论：雷公对医学的领悟层次。"
+      },
+      {
+        "paragraph": 2,
+        "original": "黄帝曰：子别试通五脏之过，六腑之所不和，针石之败，毒药所宜。若夫观适毁坏之形，坐而待晓，未有不用。",
+        "pinyin": "huáng dì yuē: zǐ bié shì tōng wǔ zàng zhī guò, liù fǔ zhī suǒ bù hé, zhēn shí zhī bài, dú yào suǒ yí.",
+        "translation": "雷公受黄帝教诲了解五脏六腑的病变与针石毒药的运用。"
+      },
+      {
+        "paragraph": 3,
+        "original": "黄帝曰：夫上古圣人之教下也，皆所以全生也。雷公曰：愿卒闻之。",
+        "pinyin": "huáng dì yuē: fū shàng gǔ shèng rén zhī jiào xià yě, jiē suǒ yǐ quán shēng yě. léi gōng yuē: yuàn zú wén zhī.",
+        "translation": "上古圣人的教化是为了保全生命。"
+      }
+    ]
   },
   {
     "id": 76,
     "chapter": "篇第七十六",
     "title": "示从容论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻针道于夫子，众多毕悉矣。夫子请言从容之道与。",
+        "pinyin": "huáng dì wèn yuē: yú wén zhēn dào yú fū zǐ, zhòng duō bì xī yǐ. fū zǐ qǐng yán cóng róng zhī dào yǔ.",
+        "translation": "示从容论：谈从容的诊法之道。"
+      },
+      {
+        "paragraph": 2,
+        "original": "雷公曰：肝虚肾虚脾虚，皆令人体重烦冤。黄帝曰：从容而察之。",
+        "pinyin": "léi gōng yuē: gān xū shèn xū pí xū, jiē lìng rén tǐ zhòng fán yuān. huáng dì yuē: cóng róng ér chá zhī.",
+        "translation": "肝虚肾虚脾虚都会导致身体沉重烦闷必须从容辨析。"
+      },
+      {
+        "paragraph": 3,
+        "original": "雷公曰：于此有人，四肢懈怠，喘咳血泄。黄帝曰：诊之奈何？",
+        "pinyin": "léi gōng yuē: yú cǐ yǒu rén, sì zhī xiè dài, chuǎn ké xuè xiè. huáng dì yuē: zhěn zhī nài hé?",
+        "translation": "临床病案讨论四肢懈怠喘咳血泄。"
+      }
+    ]
   },
   {
     "id": 77,
     "chapter": "篇第七十七",
     "title": "疏五过论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：呜呼远哉！闵闵之当，孰者为良？妄言作名，为粗所穷。",
+        "pinyin": "huáng dì wèn yuē: wū hū yuǎn zāi! mǐn mǐn zhī dāng, shú zhě wéi liáng? wàng yán zuò míng, wéi cū suǒ qióng.",
+        "translation": "疏五过论：指出五种常见的医疗过失。"
+      },
+      {
+        "paragraph": 2,
+        "original": "凡未诊病者，必问尝贵后贱，虽不中邪，病从内生，名曰脱营。",
+        "pinyin": "fán wèi zhěn bìng zhě, bì wèn cháng guì hòu jiàn, suī bù zhōng xié, bìng cóng nèi shēng, míng yuē tuō yíng.",
+        "translation": "诊治时必须了解患者的社会地位变化和情志因素。"
+      },
+      {
+        "paragraph": 3,
+        "original": "凡此五者，皆受术不通，人事不明也。故曰圣人之治病也，必知天地阴阳，四时经纪。",
+        "pinyin": "fán cǐ wǔ zhě, jiē shòu shù bù tōng, rén shì bù míng yě. gù yuē shèng rén zhī zhì bìng yě, bì zhī tiān dì yīn yáng, sì shí jīng jì.",
+        "translation": "五种过失源于医术不通人情不明，圣人治病必须知道天地阴阳四时经纪。"
+      }
+    ]
   },
   {
     "id": 78,
     "chapter": "篇第七十八",
     "title": "徵四失论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：呜呼远哉！洋洋乎若在江海之上。余念其痛心为之乱惑，反甚其病不可更代。",
+        "pinyin": "huáng dì wèn yuē: wū hū yuǎn zāi! yáng yáng hū ruò zài jiāng hǎi zhī shàng. yú niàn qí tòng xīn wéi zhī luàn huò, fǎn shèn qí bìng bù kě gèng dài.",
+        "translation": "徵四失论：四种医疗失误。"
+      },
+      {
+        "paragraph": 2,
+        "original": "夫经脉十二，络脉三百六十五，此皆人之所明知，工之所循用也。然所以不十全者，精神不专，志意不理。",
+        "pinyin": "fū jīng mài shí èr, luò mài sān bǎi liù shí wǔ, cǐ jiē rén zhī suǒ míng zhī, gōng zhī suǒ xún yòng yě. rán suǒ yǐ bù shí quán zhě, jīng shén bù zhuān, zhì yì bù lǐ.",
+        "translation": "医疗失误的根本原因是精神不专、志意不专。"
+      },
+      {
+        "paragraph": 3,
+        "original": "诊病不问其始，忧患饮食之失节，起居之过度，或伤于毒。不先言此，卒持寸口，何病能中？",
+        "pinyin": "zhěn bìng bù wèn qí shǐ, yōu huàn yǐn shí zhī shī jié, qǐ jū zhī guò dù, huò shāng yú dú. bù xiān yán cǐ, zú chí cùn kǒu, hé bìng néng zhōng?",
+        "translation": "诊病不问病因不询情志饮食起居则诊断不准。"
+      }
+    ]
   },
   {
     "id": 79,
     "chapter": "篇第七十九",
     "title": "阴阳类论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝问曰：余闻阴阳类，在乎人者。三阴三阳，一阴一阳，其形不同。",
+        "pinyin": "huáng dì wèn yuē: yú wén yīn yáng lèi, zài hū rén zhě. sān yīn sān yáng, yī yīn yī yáng, qí xíng bù tóng.",
+        "translation": "阴阳类论：三阴三阳的类别和功能。"
+      },
+      {
+        "paragraph": 2,
+        "original": "岐伯曰：三阳为经，二阳为维，一阳为游部。三阴为表，二阴为里，一阴为至绝。",
+        "pinyin": "qí bó yuē: sān yáng wéi jīng, èr yáng wéi wéi, yī yáng wéi yóu bù. sān yīn wéi biǎo, èr yīn wéi lǐ, yī yīn wéi zhì jué.",
+        "translation": "三阴三阳各自的生理功能特点。"
+      },
+      {
+        "paragraph": 3,
+        "original": "帝曰：三阳为父，二阳为卫，一阳为纪。三阴为母，二阴为雌，一阴为独使。",
+        "pinyin": "dì yuē: sān yáng wéi fù, èr yáng wéi wèi, yī yáng wéi jì. sān yīn wéi mǔ, èr yīn wéi cí, yī yīn wéi dú shǐ.",
+        "translation": "三阴三阳在人体中的主次关系。"
+      }
+    ]
   },
   {
     "id": 80,
     "chapter": "篇第八十",
     "title": "方盛衰论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "雷公问：气之多少，何者为逆？何者为从？黄帝答曰：阳从左，阴从右，老从上，少从下。",
+        "pinyin": "léi gōng wèn: qì zhī duō shǎo, hé zhě wéi nì? hé zhě wéi cóng? huáng dì dá yuē: yáng cóng zuǒ, yīn cóng yòu, lǎo cóng shàng, shào cóng xià.",
+        "translation": "方盛衰论：阴阳盛衰的逆从规律。"
+      },
+      {
+        "paragraph": 2,
+        "original": "是以春夏归阳为生，秋冬归阴为死。逆之则死，顺之则生。气有多少，虚实有异。",
+        "pinyin": "shì yǐ chūn xià guī yáng wéi shēng, qiū dōng guī yīn wéi sǐ. nì zhī zé sǐ, shùn zhī zé shēng. qì yǒu duō shǎo, xū shí yǒu yì.",
+        "translation": "春夏阳气旺盛为顺、秋冬阴气旺盛的道理。"
+      },
+      {
+        "paragraph": 3,
+        "original": "诊有大方，坐起有常，出入有行，以转神明。必清必静，上观下观。",
+        "pinyin": "zhěn yǒu dà fāng, zuò qǐ yǒu cháng, chū rù yǒu xíng, yǐ zhuǎn shén míng. bì qīng bì jìng, shàng guān xià guān.",
+        "translation": "诊法的大原则：必须做到清净专一全面观察。"
+      }
+    ]
   },
   {
     "id": 81,
     "chapter": "篇第八十一",
     "title": "解精微论",
-    "content": []
+    "content": [
+      {
+        "paragraph": 1,
+        "original": "黄帝在明堂，雷公请曰：臣授业传之，行教以经论，从容形法，阴阳刺灸，汤药所滋。行治有贤不肖。",
+        "pinyin": "huáng dì zài míng táng, léi gōng qǐng yuē: chén shòu yè chuán zhī, xíng jiào yǐ jīng lùn, cóng róng xíng fǎ, yīn yáng cì jiǔ, tāng yào suǒ zī. xíng zhì yǒu xián bù xiào.",
+        "translation": "解精微论：哭泣涕泪的生理病理及阴阳精微之理。"
+      },
+      {
+        "paragraph": 2,
+        "original": "夫水之精为志，火之精为神。水火相感，神志俱悲，是以目之水生也。",
+        "pinyin": "fū shuǐ zhī jīng wéi zhì, huǒ zhī jīng wéi shén. shuǐ huǒ xiāng gǎn, shén zhì jù bēi, shì yǐ mù zhī shuǐ shēng yě.",
+        "translation": "水之精为志火之精为神，水火相感神志俱悲则生泪。"
+      }
+    ]
   }
 ]

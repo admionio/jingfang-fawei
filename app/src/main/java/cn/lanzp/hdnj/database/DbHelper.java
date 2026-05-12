@@ -252,9 +252,9 @@ public class DbHelper extends SQLiteOpenHelper {
         Cursor c = db.rawQuery(
                 "SELECT c.id, c.volume, c.title, c.chapter_tag, p.paragraph_no, p.original_text, p.translation " +
                 "FROM paragraphs p JOIN chapters c ON p.chapter_id = c.id " +
-                "WHERE p.original_text LIKE ? OR p.translation LIKE ? " +
+                "WHERE p.original_text LIKE ? OR p.translation LIKE ? OR p.pinyin_text LIKE ? " +
                 "ORDER BY c.sort_order, p.sort_order LIMIT 100",
-                new String[]{like, like});
+                new String[]{like, like, like});
 
         while (c.moveToNext()) {
             SearchResult sr = new SearchResult();
@@ -269,9 +269,13 @@ public class DbHelper extends SQLiteOpenHelper {
             if (original != null && original.contains(keyword)) {
                 sr.matchedText = original;
                 sr.matchedField = "original";
-            } else {
-                sr.matchedText = translation != null ? translation : "";
+            } else if (translation != null && translation.contains(keyword)) {
+                sr.matchedText = translation;
                 sr.matchedField = "translation";
+            } else {
+                // 拼音匹配时，用原文作为显示文本
+                sr.matchedText = original != null ? original : "";
+                sr.matchedField = "pinyin";
             }
             results.add(sr);
         }
