@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import java.text.SimpleDateFormat;
@@ -24,6 +25,7 @@ import java.util.Locale;
 import java.util.Random;
 
 import cn.lanzp.hdnj.ChapterListActivity;
+import cn.lanzp.hdnj.MeridianFlowActivity;
 import cn.lanzp.hdnj.R;
 import cn.lanzp.hdnj.SearchActivity;
 import cn.lanzp.hdnj.database.DbHelper;
@@ -33,6 +35,14 @@ import cn.lanzp.hdnj.reader.ReaderActivity;
 import cn.lanzp.hdnj.util.LunarCalendar;
 
 public class HomeFragment extends Fragment {
+
+    // 子午流注：时辰 → 经络映射
+    private static final String[][] MERIDIAN_MAP = {
+            {"子", "胆经"}, {"丑", "肝经"}, {"寅", "肺经"},
+            {"卯", "大肠经"}, {"辰", "胃经"}, {"巳", "脾经"},
+            {"午", "心经"}, {"未", "小肠经"}, {"申", "膀胱经"},
+            {"酉", "肾经"}, {"戌", "心包经"}, {"亥", "三焦经"}
+    };
 
     private DbHelper dbHelper;
     private TextView tvSuwenCount, tvLingshuCount;
@@ -89,6 +99,15 @@ public class HomeFragment extends Fragment {
         view.findViewById(R.id.cvTodayRecommend).setOnClickListener(v -> onRecommendClick());
         view.findViewById(R.id.cvSuwen).setOnClickListener(v -> onSuwenClick());
         view.findViewById(R.id.cvLingshu).setOnClickListener(v -> onLingshuClick());
+
+        // 时辰/子午流注点击 → 跳转子午流注详情页
+        tvShichen.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), MeridianFlowActivity.class);
+            startActivity(intent);
+            if (getActivity() != null) {
+                getActivity().overridePendingTransition(R.anim.slide_in_up, R.anim.fade_out);
+            }
+        });
 
         // 夜间模式快速切换
         ivNightToggle.setOnClickListener(v -> toggleNightMode());
@@ -197,16 +216,21 @@ public class HomeFragment extends Fragment {
             cachedLastShichenHour = currentHour;
 
             LunarCalendar.LunarDate lunar = LunarCalendar.getLunarDate(now);
-            cachedLunarDate = "农历 " + lunar.ganzhiYear + "年 " + lunar.monthName + "月" + lunar.dayName;
+            Calendar cal2 = Calendar.getInstance();
+            int huangdiYearNum = cal2.get(Calendar.YEAR) + 2698;
+            String huangdiYearChinese = numberToChineseDigits(huangdiYearNum);
+            cachedLunarDate = "黄帝纪元" + huangdiYearChinese + "年  " + lunar.ganzhiYear + "年 " + lunar.monthName + "月" + lunar.dayName;
             tvDateLunar.setText(cachedLunarDate);
         }
 
-        // 时辰
+        // 时辰 - 子午流注
         LunarCalendar.ShichenInfo shichen = LunarCalendar.getShichen(now);
-        String shichenText = shichen.name + "时（" + shichen.range + "）";
+        String meridian = getMeridianByShichen(shichen.name);
+        String shichenText = shichen.name + "时 · " + meridian + "当令";
         if (!shichenText.equals(cachedShichenText)) {
             cachedShichenText = shichenText;
             tvShichen.setText(cachedShichenText);
+            tvShichen.setTextColor(ContextCompat.getColor(requireContext(), R.color.colorPrimary));
         }
     }
 
@@ -271,6 +295,46 @@ public class HomeFragment extends Fragment {
                 tvRecommendExcerpt.setText(text);
             }
         }
+    }
+
+
+
+    /**
+     * 根据时辰名查找对应的经络
+     */
+    private String getMeridianByShichen(String shichenName) {
+        for (String[] entry : MERIDIAN_MAP) {
+            if (entry[0].equals(shichenName)) {
+                return entry[1];
+            }
+        }
+        return "";
+    }
+
+    /**
+     * 将数字逐位转为中文小写数字
+     * 例: 4724 → "四七二四"
+     */
+    private String numberToChineseDigits(int number) {
+        String numStr = String.valueOf(number);
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < numStr.length(); i++) {
+            char c = numStr.charAt(i);
+            switch (c) {
+                case '0': sb.append('零'); break;
+                case '1': sb.append('一'); break;
+                case '2': sb.append('二'); break;
+                case '3': sb.append('三'); break;
+                case '4': sb.append('四'); break;
+                case '5': sb.append('五'); break;
+                case '6': sb.append('六'); break;
+                case '7': sb.append('七'); break;
+                case '8': sb.append('八'); break;
+                case '9': sb.append('九'); break;
+                default: sb.append(c); break;
+            }
+        }
+        return sb.toString();
     }
 
     private void onSearchClick() {

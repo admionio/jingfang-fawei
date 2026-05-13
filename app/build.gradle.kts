@@ -10,8 +10,8 @@ android {
         applicationId = "cn.lanzp.hdnj"
         minSdk = 23
         targetSdk = 36
-        versionCode = 7
-        versionName = "1.2.0"
+        versionCode = 17
+        versionName = "1.3.8"
 
         ndk {
             abiFilters += listOf("arm64-v8a")

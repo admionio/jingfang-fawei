@@ -28,6 +28,11 @@
             android:label="@string/title_chapter_list" />
 
         <activity
+            android:name=".MeridianFlowActivity"
+            android:exported="false"
+            android:label="子午流注" />
+
+        <activity
             android:name=".reader.ReaderActivity"
             android:exported="false"
             android:configChanges="orientation|screenSize" />
