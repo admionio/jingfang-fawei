@@ -5,38 +5,74 @@
     android:orientation="vertical"
     android:paddingBottom="16dp">
 
-    <!-- 原文（拼音在上，原文在下） -->
-    <TextView
-        android:id="@+id/tvPinyin"
+    <!-- 📜 原文标签 -->
+    <LinearLayout
+        android:id="@+id/llOriginalLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/textPinyin"
-        android:textSize="13sp"
-        android:lineSpacingExtra="4dp" />
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
 
-    <TextView
-        android:id="@+id/tvOriginal"
+        <TextView
+            android:id="@+id/tvOriginalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📜 原文"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/labelOriginal" />
+
+        <View
+            android:id="@+id/dividerOriginalLine"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:background="@color/divider" />
+    </LinearLayout>
+
+    <!-- 拼音逐字标注（WebView渲染，ruby标签实现拼音在上汉字在下） -->
+    <WebView
+        android:id="@+id/wvPinyinOriginal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:textColor="@color/textPrimary"
-        android:textSize="18sp"
-        android:lineSpacingExtra="8dp" />
+        android:scrollbars="none"
+        android:overScrollMode="never" />
 
-    <!-- 分隔线 -->
-    <View
-        android:id="@+id/divider"
+    <!-- 📖 现代文翻译标签 -->
+    <LinearLayout
+        android:id="@+id/llTranslationLabel"
         android:layout_width="match_parent"
-        android:layout_height="1px"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
         android:layout_marginTop="12dp"
-        android:background="@color/divider" />
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/tvTranslationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📖 现代文翻译"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/labelTranslation" />
+
+        <View
+            android:id="@+id/dividerTranslationLine"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:background="@color/divider" />
+    </LinearLayout>
 
     <!-- 译文 -->
     <TextView
         android:id="@+id/tvTranslation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:textColor="@color/textTranslation"
         android:textSize="15sp"
         android:lineSpacingExtra="4dp" />

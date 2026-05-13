@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 设计稿色板 - 夜间加深 -->
+    <color name="colorPrimary">#A8352E</color>
+    <color name="colorPrimaryDark">#81251F</color>
+    <color name="colorAccent">#C9A96E</color>
+    <color name="colorPrimaryLight">#9F6C66</color>
+
+    <!-- 文字颜色 - 夜间浅色 -->
+    <color name="textPrimary">#E0E0E0</color>
+    <color name="textSecondary">#B0B0B0</color>
+    <color name="textHint">#8A8A8A</color>
+    <color name="textPinyin">#90CAF9</color>
+    <color name="textTranslation">#B0BEC5</color>
+    <color name="textHighlight">#C9A96E</color>
+
+    <!-- 背景 - 夜间深色 -->
+    <color name="backgroundLight">#1A1A2E</color>
+    <color name="backgroundCard">#0F3460</color>
+    <color name="backgroundSearch">#16213E</color>
+
+    <!-- 收藏/书签 -->
+    <color name="favoriteActive">#C43A31</color>
+    <color name="favoriteInactive">#5A5A7A</color>
+
+    <!-- 段落标签颜色 -->
+    <color name="labelOriginal">#A0845C</color>
+    <color name="labelTranslation">#7A9BA8</color>
+
+    <!-- 分隔线 -->
+    <color name="divider">#37474F</color>
+
+    <!-- 首页专用文字颜色 - 夜间覆盖 -->
+    <color name="homeClock">#E0E0E0</color>
+    <color name="homeDateSolar">#C0C0C0</color>
+    <color name="homeDateLunar">#B0B0B0</color>
+    <color name="homeShichen">#D4A574</color>
+    <color name="homeSectionTitle">#E0E0E0</color>
+    <color name="homeSuwenTitle">#E8D5B0</color>
+    <color name="homeSuwenSubtitle">#B0A890</color>
+    <color name="homeSuwenCount">#C0C0C0</color>
+    <color name="homeSuwenProgress">#A0A0A0</color>
+    <color name="homeDivider">#37474F</color>
+
+    <!-- 夜间原始值（保留供 Reader 等直接调用） -->
+    <color name="nightBackground">#1A1A2E</color>
+    <color name="nightSurface">#16213E</color>
+    <color name="nightCard">#0F3460</color>
+    <color name="nightTextPrimary">#E0E0E0</color>
+    <color name="nightTextSecondary">#B0B0B0</color>
+    <color name="nightTextPinyin">#90CAF9</color>
+    <color name="nightTextTranslation">#B0BEC5</color>
+    <color name="nightDivider">#37474F</color>
+    <color name="nightLabelOriginal">#A0845C</color>
+    <color name="nightLabelTranslation">#7A9BA8</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

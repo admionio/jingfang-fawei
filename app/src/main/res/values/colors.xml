@@ -19,9 +19,25 @@
     <color name="backgroundCard">#FAF6EE</color>
     <color name="backgroundSearch">#F0EBE0</color>
 
+    <!-- 首页专用文字颜色 -->
+    <color name="homeClock">#3C2415</color>
+    <color name="homeDateSolar">#5C4033</color>
+    <color name="homeDateLunar">#7A6B5A</color>
+    <color name="homeShichen">#8B4513</color>
+    <color name="homeSectionTitle">#2C2C2C</color>
+    <color name="homeSuwenTitle">#2C1810</color>
+    <color name="homeSuwenSubtitle">#7A6B5A</color>
+    <color name="homeSuwenCount">#5C4033</color>
+    <color name="homeSuwenProgress">#A09080</color>
+    <color name="homeDivider">#E0D5C8</color>
+
     <!-- 收藏/书签 -->
     <color name="favoriteActive">#C43A31</color>
     <color name="favoriteInactive">#C0B8A8</color>
+
+    <!-- 段落标签颜色 -->
+    <color name="labelOriginal">#8B7355</color>
+    <color name="labelTranslation">#5B7B8A</color>
 
     <!-- 分隔线 -->
     <color name="divider">#D8D0C0</color>
@@ -35,6 +51,8 @@
     <color name="nightTextPinyin">#90CAF9</color>
     <color name="nightTextTranslation">#B0BEC5</color>
     <color name="nightDivider">#37474F</color>
+    <color name="nightLabelOriginal">#A0845C</color>
+    <color name="nightLabelTranslation">#7A9BA8</color>
 
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>

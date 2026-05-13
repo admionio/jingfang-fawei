@@ -1,12 +1,14 @@
 package cn.lanzp.hdnj;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -23,9 +25,13 @@ public class ChapterListActivity extends AppCompatActivity {
     private ChapterAdapter adapter;
     private List<Chapter> chapters;
     private String volume;
+    private SharedPreferences readPrefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        SharedPreferences prefs = getSharedPreferences("settings", MODE_PRIVATE);
+        AppCompatDelegate.setDefaultNightMode(prefs.getBoolean("night_mode", false) ?
+                AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chapter_list);
 
@@ -33,6 +39,7 @@ public class ChapterListActivity extends AppCompatActivity {
         if (volume == null) volume = "素问";
 
         dbHelper = DbHelper.getInstance(this);
+        readPrefs = getSharedPreferences("reading_progress", MODE_PRIVATE);
 
         TextView tvTitle = findViewById(R.id.tvToolbarTitle);
         tvTitle.setText(volume);
@@ -54,13 +61,17 @@ public class ChapterListActivity extends AppCompatActivity {
 
     private void loadChapters() {
         chapters = dbHelper.getChaptersByVolume(volume);
+        // 填充已读状态
+        for (Chapter chapter : chapters) {
+            chapter.setRead(readPrefs.getBoolean("read_chapter_" + chapter.getId(), false));
+        }
         adapter = new ChapterAdapter(this, chapters, new ChapterAdapter.OnChapterClickListener() {
             @Override
             public void onChapterClick(Chapter chapter) {
                 Intent intent = new Intent(ChapterListActivity.this,
                         cn.lanzp.hdnj.reader.ReaderActivity.class);
                 intent.putExtra("chapter_id", chapter.getId());
-                intent.putExtra("chapter_title", chapter.getDisplayName());
+                intent.putExtra("chapter_title", chapter.getTitle());
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_down);
             }

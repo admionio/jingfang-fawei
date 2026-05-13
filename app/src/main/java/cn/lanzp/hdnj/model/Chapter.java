@@ -11,6 +11,7 @@ public class Chapter {
     private String chapterTag; // 篇标记（如"篇第一"）
     private int sortOrder;     // 排序
     private boolean isFavorite;
+    private boolean isRead;
 
     public Chapter() {}
 
@@ -40,6 +41,9 @@ public class Chapter {
 
     public int getSortOrder() { return sortOrder; }
     public void setSortOrder(int sortOrder) { this.sortOrder = sortOrder; }
+
+    public boolean isRead() { return isRead; }
+    public void setRead(boolean read) { isRead = read; }
 
     public boolean isFavorite() { return isFavorite; }
     public void setFavorite(boolean favorite) { isFavorite = favorite; }

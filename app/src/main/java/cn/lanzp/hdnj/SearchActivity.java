@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.SpannableString;
 import android.text.TextWatcher;
+import android.text.style.ForegroundColorSpan;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +19,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -45,6 +48,9 @@ public class SearchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        SharedPreferences sp = getSharedPreferences("settings", MODE_PRIVATE);
+        AppCompatDelegate.setDefaultNightMode(sp.getBoolean("night_mode", false) ?
+                AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
 
@@ -96,9 +102,12 @@ public class SearchActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.fade_in, R.anim.slide_out_up);
     }
 
+    private String currentKeyword = "";
+
     private void performSearch(String keyword) {
         if (keyword.isEmpty()) return;
 
+        currentKeyword = keyword;
         saveToHistory(keyword);
         results = dbHelper.search(keyword);
         adapter.notifyDataSetChanged();
@@ -188,13 +197,23 @@ public class SearchActivity extends AppCompatActivity {
         public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
             DbHelper.SearchResult sr = results.get(position);
             holder.tvSource.setText("(" + sr.volume + ") " + sr.chapterTitle);
-            holder.tvExcerpt.setText(sr.matchedText);
+            // 关键词高亮
+            String excerptText = sr.matchedText;
+            SpannableString spannable = new SpannableString(excerptText);
+            if (currentKeyword != null && !currentKeyword.isEmpty()) {
+                int idx = excerptText.toLowerCase().indexOf(currentKeyword.toLowerCase());
+                if (idx >= 0) {
+                    spannable.setSpan(new ForegroundColorSpan(getColor(R.color.colorPrimary)),
+                            idx, idx + currentKeyword.length(), SpannableString.SPAN_EXCLUSIVE_EXCLUSIVE);
+                }
+            }
+            holder.tvExcerpt.setText(spannable);
 
             holder.itemView.setOnClickListener(v -> {
                 Intent intent = new Intent(SearchActivity.this,
                         cn.lanzp.hdnj.reader.ReaderActivity.class);
                 intent.putExtra("chapter_id", sr.chapterId);
-                intent.putExtra("chapter_title", sr.chapterTitle);
+                intent.putExtra("chapter_title", sr.chapterTitleClean);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_up, R.anim.fade_out);
             });

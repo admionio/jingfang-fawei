@@ -31,6 +31,17 @@
         android:maxLines="1"
         android:ellipsize="end" />
 
+    <!-- 已读标记 -->
+    <TextView
+        android:id="@+id/tvReadStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@id/ivFavorite"
+        android:gravity="center_vertical"
+        android:text="✅"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
     <!-- 收藏图标 -->
     <ImageView
         android:id="@+id/ivFavorite"

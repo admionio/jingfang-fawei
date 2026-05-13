@@ -1,4 +1,4 @@
-package cn.lanzp.hdnj;
+package cn.lanzp.hdnj.fragment;
 
 import android.content.Intent;
 import android.graphics.Canvas;
@@ -6,76 +6,82 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.ImageView;
+import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import cn.lanzp.hdnj.adapter.BookmarkAdapter;
+import cn.lanzp.hdnj.R;
+import cn.lanzp.hdnj.adapter.FavoriteAdapter;
 import cn.lanzp.hdnj.database.DbHelper;
-import cn.lanzp.hdnj.model.Bookmark;
+import cn.lanzp.hdnj.model.Favorite;
+import cn.lanzp.hdnj.reader.ReaderActivity;
 
-public class BookmarksActivity extends AppCompatActivity {
+public class FavoritesFragment extends Fragment {
 
     private DbHelper dbHelper;
-    private RecyclerView rvBookmarks;
+    private RecyclerView rvFavorites;
     private TextView tvEmpty;
-    private BookmarkAdapter adapter;
-    private List<Bookmark> bookmarks;
+    private FavoriteAdapter adapter;
+    private List<Favorite> favorites;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bookmarks);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_favorites, container, false);
 
-        dbHelper = DbHelper.getInstance(this);
+        dbHelper = DbHelper.getInstance(requireContext());
 
-        ImageView ivBack = findViewById(R.id.ivBack);
-        ivBack.setOnClickListener(v -> finish());
+        rvFavorites = view.findViewById(R.id.rvFavorites);
+        tvEmpty = view.findViewById(R.id.tvEmpty);
+        rvFavorites.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        rvBookmarks = findViewById(R.id.rvBookmarks);
-        tvEmpty = findViewById(R.id.tvEmpty);
-        rvBookmarks.setLayoutManager(new LinearLayoutManager(this));
-
-        loadBookmarks();
+        loadFavorites();
         setupSwipeToDelete();
+
+        return view;
     }
 
-    private void loadBookmarks() {
-        bookmarks = dbHelper.getBookmarks();
-        if (bookmarks.isEmpty()) {
+    @Override
+    public void onResume() {
+        super.onResume();
+        loadFavorites();
+    }
+
+    private void loadFavorites() {
+        favorites = dbHelper.getFavorites();
+        if (favorites.isEmpty()) {
             tvEmpty.setVisibility(View.VISIBLE);
-            rvBookmarks.setVisibility(View.GONE);
+            rvFavorites.setVisibility(View.GONE);
         } else {
             tvEmpty.setVisibility(View.GONE);
-            rvBookmarks.setVisibility(View.VISIBLE);
+            rvFavorites.setVisibility(View.VISIBLE);
         }
 
-        adapter = new BookmarkAdapter(this, bookmarks, new BookmarkAdapter.OnItemClickListener() {
+        adapter = new FavoriteAdapter(getContext(), favorites, new FavoriteAdapter.OnItemClickListener() {
             @Override
-            public void onItemClick(Bookmark bm) {
-                Intent intent = new Intent(BookmarksActivity.this,
-                        cn.lanzp.hdnj.reader.ReaderActivity.class);
-                intent.putExtra("chapter_id", bm.getChapterId());
-                intent.putExtra("chapter_title", bm.getChapterTitle());
-                intent.putExtra("paragraph_no", bm.getParagraphNo());
+            public void onItemClick(Favorite fav) {
+                Intent intent = new Intent(getActivity(), ReaderActivity.class);
+                intent.putExtra("chapter_id", fav.getChapterId());
+                intent.putExtra("chapter_title", fav.getChapterTitle());
                 startActivity(intent);
             }
 
             @Override
-            public void onItemDelete(Bookmark bm) {
-                dbHelper.removeBookmark(bm.getId());
-                loadBookmarks();
+            public void onItemDelete(Favorite fav) {
+                dbHelper.removeFavorite(fav.getChapterId());
+                loadFavorites();
             }
         });
-        rvBookmarks.setAdapter(adapter);
+        rvFavorites.setAdapter(adapter);
     }
 
     private void setupSwipeToDelete() {
@@ -91,13 +97,13 @@ public class BookmarksActivity extends AppCompatActivity {
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder vh, int direction) {
                 int position = vh.getAdapterPosition();
-                if (position >= 0 && position < bookmarks.size()) {
-                    Bookmark bm = bookmarks.get(position);
-                    dbHelper.removeBookmark(bm.getId());
+                if (position >= 0 && position < favorites.size()) {
+                    Favorite fav = favorites.get(position);
+                    dbHelper.removeFavorite(fav.getChapterId());
                     adapter.removeItem(position);
-                    if (bookmarks.isEmpty()) {
+                    if (favorites.isEmpty()) {
                         tvEmpty.setVisibility(View.VISIBLE);
-                        rvBookmarks.setVisibility(View.GONE);
+                        rvFavorites.setVisibility(View.GONE);
                     }
                 }
             }
@@ -121,6 +127,6 @@ public class BookmarksActivity extends AppCompatActivity {
             }
         };
 
-        new ItemTouchHelper(callback).attachToRecyclerView(rvBookmarks);
+        new ItemTouchHelper(callback).attachToRecyclerView(rvFavorites);
     }
 }

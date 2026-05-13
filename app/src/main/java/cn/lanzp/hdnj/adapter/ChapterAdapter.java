@@ -43,7 +43,10 @@ public class ChapterAdapter extends RecyclerView.Adapter<ChapterAdapter.ViewHold
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Chapter chapter = chapters.get(position);
         holder.tvIndex.setText(String.valueOf(chapter.getChapterNo()));
-        holder.tvTitle.setText(chapter.getTitle() + chapter.getChapterTag());
+        holder.tvTitle.setText(chapter.getTitle());
+
+        // 已读标记
+        holder.tvReadStatus.setVisibility(chapter.isRead() ? View.VISIBLE : View.GONE);
 
         holder.ivFavorite.setImageResource(
                 chapter.isFavorite() ? R.drawable.ic_favorite_filled : R.drawable.ic_favorite_border);
@@ -70,12 +73,14 @@ public class ChapterAdapter extends RecyclerView.Adapter<ChapterAdapter.ViewHold
     static class ViewHolder extends RecyclerView.ViewHolder {
         TextView tvIndex;
         TextView tvTitle;
+        TextView tvReadStatus;
         ImageView ivFavorite;
 
         ViewHolder(View itemView) {
             super(itemView);
             tvIndex = itemView.findViewById(R.id.tvChapterIndex);
             tvTitle = itemView.findViewById(R.id.tvChapterTitle);
+            tvReadStatus = itemView.findViewById(R.id.tvReadStatus);
             ivFavorite = itemView.findViewById(R.id.ivFavorite);
         }
     }

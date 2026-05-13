@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import cn.lanzp.hdnj.model.Bookmark;
+
 import cn.lanzp.hdnj.model.Chapter;
 import cn.lanzp.hdnj.model.Favorite;
 import cn.lanzp.hdnj.model.Paragraph;
@@ -234,6 +234,7 @@ public class DbHelper extends SQLiteOpenHelper {
         public long chapterId;
         public String volume;
         public String chapterTitle;
+        public String chapterTitleClean; // 无序号的篇名
         public String matchedText;
         public String matchedField; // "original" or "translation"
         public int paragraphNo;
@@ -262,6 +263,7 @@ public class DbHelper extends SQLiteOpenHelper {
             sr.chapterId = c.getLong(0);
             sr.volume = c.getString(1);
             sr.chapterTitle = c.getString(2) + c.getString(3);
+            sr.chapterTitleClean = c.getString(2);
             sr.paragraphNo = c.getInt(4);
 
             String original = c.getString(5);
@@ -298,6 +300,7 @@ public class DbHelper extends SQLiteOpenHelper {
                     sr.chapterId = c2.getLong(0);
                     sr.volume = c2.getString(1);
                     sr.chapterTitle = c2.getString(2) + c2.getString(3);
+                    sr.chapterTitleClean = c2.getString(2);
                     sr.paragraphNo = c2.getInt(4);
                     sr.matchedText = c2.getString(5) != null ? c2.getString(5) : "";
                     sr.matchedField = "pinyin";
@@ -360,7 +363,7 @@ public class DbHelper extends SQLiteOpenHelper {
             Favorite fav = new Favorite();
             fav.setId(c.getLong(0));
             fav.setChapterId(c.getLong(1));
-            fav.setChapterTitle(c.getString(2) + c.getString(3));
+            fav.setChapterTitle(c.getString(2)); // 仅篇名，无序号
             fav.setVolume(c.getString(4));
             fav.setCreatedAt(c.getString(5));
             list.add(fav);
@@ -373,62 +376,4 @@ public class DbHelper extends SQLiteOpenHelper {
         getWritableDatabase().execSQL("DELETE FROM favorites WHERE chapter_id = ?", new Object[]{chapterId});
     }
 
-    // ==================== Bookmarks ====================
-
-    public long addBookmark(long chapterId, int paragraphNo, String excerpt) {
-        SQLiteDatabase db = getWritableDatabase();
-        // Check duplicate
-        Cursor c = db.rawQuery(
-                "SELECT id FROM bookmarks WHERE chapter_id = ? AND paragraph_no = ?",
-                new String[]{String.valueOf(chapterId), String.valueOf(paragraphNo)});
-        if (c.moveToFirst()) {
-            long existingId = c.getLong(0);
-            c.close();
-            return -existingId; // negative = already exists
-        }
-        c.close();
-
-        String now = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(new Date());
-        String excerptShort = excerpt != null && excerpt.length() > 40 ? excerpt.substring(0, 40) + "…" : excerpt;
-        db.execSQL("INSERT INTO bookmarks (chapter_id, paragraph_no, excerpt, created_at) VALUES (?, ?, ?, ?)",
-                new Object[]{chapterId, paragraphNo, excerptShort, now});
-
-        Cursor lastId = db.rawQuery("SELECT last_insert_rowid()", null);
-        long id = lastId.moveToFirst() ? lastId.getLong(0) : -1;
-        lastId.close();
-        return id;
-    }
-
-    public List<Bookmark> getBookmarks() {
-        List<Bookmark> list = new ArrayList<>();
-        SQLiteDatabase db = getReadableDatabase();
-        Cursor c = db.rawQuery(
-                "SELECT b.id, b.chapter_id, c.title, c.chapter_tag, c.volume, " +
-                "b.paragraph_no, b.excerpt, b.created_at " +
-                "FROM bookmarks b JOIN chapters c ON b.chapter_id = c.id " +
-                "ORDER BY b.created_at DESC", null);
-        while (c.moveToNext()) {
-            Bookmark bm = new Bookmark();
-            bm.setId(c.getLong(0));
-            bm.setChapterId(c.getLong(1));
-            bm.setChapterTitle(c.getString(2) + c.getString(3));
-            bm.setVolume(c.getString(4));
-            bm.setParagraphNo(c.getInt(5));
-            bm.setExcerpt(c.getString(6));
-            bm.setCreatedAt(c.getString(7));
-            list.add(bm);
-        }
-        c.close();
-        return list;
-    }
-
-    public void removeBookmark(long id) {
-        getWritableDatabase().execSQL("DELETE FROM bookmarks WHERE id = ?", new Object[]{id});
-    }
-
-    public void removeBookmarkByChapterAndParagraph(long chapterId, int paragraphNo) {
-        getWritableDatabase().execSQL(
-                "DELETE FROM bookmarks WHERE chapter_id = ? AND paragraph_no = ?",
-                new Object[]{chapterId, paragraphNo});
-    }
 }

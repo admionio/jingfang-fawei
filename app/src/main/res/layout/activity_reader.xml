@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
 
     <!-- 顶部栏 -->
     <androidx.appcompat.widget.Toolbar
@@ -59,20 +60,20 @@
                     android:focusable="true" />
 
                 <ImageView
-                    android:id="@+id/ivFavorite"
+                    android:id="@+id/ivSearch"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:padding="8dp"
+                    android:src="@drawable/ic_search"
+                    android:tint="@color/white"
                     android:clickable="true"
                     android:focusable="true" />
 
                 <ImageView
-                    android:id="@+id/ivBookmark"
+                    android:id="@+id/ivFavorite"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:padding="8dp"
-                    android:src="@drawable/ic_bookmark_border"
-                    android:tint="@color/white"
                     android:clickable="true"
                     android:focusable="true" />
             </LinearLayout>
@@ -80,25 +81,19 @@
     </androidx.appcompat.widget.Toolbar>
 
     <!-- 阅读内容 -->
-    <ScrollView
-        android:id="@+id/scrollView"
+    <FrameLayout
+        android:id="@+id/readerContentContainer"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:paddingHorizontal="16dp"
-        android:paddingTop="16dp"
-        android:paddingBottom="16dp">
+        android:layout_weight="1">
 
-        <LinearLayout
-            android:id="@+id/llContent"
+        <WebView
+            android:id="@+id/wvArticle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <!-- 段落由 Java 代码动态添加 -->
-
-        </LinearLayout>
-    </ScrollView>
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:overScrollMode="never" />
+    </FrameLayout>
 
     <!-- 底部翻页 -->
     <LinearLayout

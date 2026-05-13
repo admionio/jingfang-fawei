@@ -1,43 +1,39 @@
-package cn.lanzp.hdnj;
+package cn.lanzp.hdnj.fragment;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.widget.ImageView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.SwitchCompat;
+import androidx.fragment.app.Fragment;
 
 import cn.lanzp.hdnj.BuildConfig;
+import cn.lanzp.hdnj.R;
 
-public class SettingsActivity extends AppCompatActivity {
+public class SettingsFragment extends Fragment {
 
     private SharedPreferences prefs;
     private SeekBar sbFontSize;
     private SwitchCompat switchNightMode;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        // 使用 AppCompatDelegate 控制日夜模式
-        SharedPreferences sp = getSharedPreferences("settings", MODE_PRIVATE);
-        AppCompatDelegate.setDefaultNightMode(sp.getBoolean("night_mode", false) ?
-                AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_settings, container, false);
 
-        prefs = getSharedPreferences("settings", MODE_PRIVATE);
-
-        ImageView ivBack = findViewById(R.id.ivBack);
-        ivBack.setOnClickListener(v -> finish());
+        prefs = requireContext().getSharedPreferences("settings", getContext().MODE_PRIVATE);
 
         // 动态显示版本号
-        TextView tvAboutVersion = findViewById(R.id.tvAboutVersion);
+        TextView tvAboutVersion = view.findViewById(R.id.tvAboutVersion);
         tvAboutVersion.setText("版本 " + BuildConfig.VERSION_NAME);
 
-        sbFontSize = findViewById(R.id.sbFontSize);
-        switchNightMode = findViewById(R.id.switchNightMode);
+        sbFontSize = view.findViewById(R.id.sbFontSize);
+        switchNightMode = view.findViewById(R.id.switchNightMode);
 
         // 加载已有设置
         sbFontSize.setProgress(prefs.getInt("font_size", 2));
@@ -56,9 +52,10 @@ public class SettingsActivity extends AppCompatActivity {
             prefs.edit().putBoolean("night_mode", isChecked).apply();
             AppCompatDelegate.setDefaultNightMode(isChecked ?
                     AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
-            switchNightMode.postDelayed(() -> {
-                recreate();
-            }, 300);
+            // 触发重建
+            requireActivity().recreate();
         });
+
+        return view;
     }
 }

@@ -10,12 +10,16 @@ android {
         applicationId = "cn.lanzp.hdnj"
         minSdk = 23
         targetSdk = 36
-        versionCode = 4
-        versionName = "1.0.3"
+        versionCode = 7
+        versionName = "1.2.0"
 
         ndk {
             abiFilters += listOf("arm64-v8a")
         }
+    }
+
+    buildFeatures {
+        buildConfig = true
     }
 
     buildTypes {
