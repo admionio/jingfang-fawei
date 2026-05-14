@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace = "cn.lanzp.hdnj"
+    namespace = "cn.lanzp.jffw"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "cn.lanzp.hdnj"
-        minSdk = 23
+        applicationId = "cn.lanzp.jffw"
+        minSdk = 24
         targetSdk = 36
-        versionCode = 17
-        versionName = "1.3.8"
+        versionCode = 1
+        versionName = "1.0.0"
 
         ndk {
             abiFilters += listOf("arm64-v8a")
@@ -32,7 +32,7 @@ android {
     applicationVariants.all {
         outputs.all {
             val variant = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
-            variant.outputFileName = "huangdi_neijing_${defaultConfig.versionName}.apk"
+            variant.outputFileName = "jingfang_fawei_v${defaultConfig.versionName}.apk"
         }
     }
 

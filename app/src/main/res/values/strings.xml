@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">黄帝内经</string>
+    <string name="app_name">经方发微</string>
 
     <!-- 标题 -->
     <string name="title_home">首页</string>
@@ -10,10 +10,10 @@
     <string name="title_search">搜索</string>
 
     <!-- 首页 -->
-    <string name="search_hint">搜索黄帝内经全文…</string>
+    <string name="search_hint">搜索经方发微全文…</string>
     <string name="today_recommend">今日推荐</string>
-    <string name="volume_suwen">素问</string>
-    <string name="volume_lingshu">灵枢</string>
+    <string name="volume_suwen">伤寒发微</string>
+    <string name="volume_lingshu">金匮发微</string>
     <string name="chapter_count">共 %d 篇</string>
 
     <!-- 底部导航 -->
@@ -26,21 +26,21 @@
     <string name="action_favorite_remove">取消收藏</string>
     <string name="prev_chapter">上一篇</string>
     <string name="next_chapter">下一篇</string>
-    <string name="section_translation">译文</string>
+    <string name="section_translation">曹氏发微</string>
 
     <!-- 设置页 -->
     <string name="setting_font_size">字体大小</string>
     <string name="setting_night_mode">夜间模式</string>
     <string name="about_title">关于</string>
-    <string name="about_version">版本 1.0.3</string>
-    <string name="about_description">黄帝内经原文阅读工具，收录素问81篇、灵枢81篇，提供原文、拼音标注及现代文翻译。</string>
+    <string name="about_version">版本 1.0.0</string>
+    <string name="about_description">经方发微原文阅读工具，收录曹颖甫《伤寒发微》10篇、《金匮发微》22篇，提供原文及曹颖甫注释。</string>
 
     <!-- 通用 -->
     <string name="empty_favorites">暂无收藏</string>
     <string name="no_search_result">未找到相关结果</string>
     <string name="search_history">搜索历史</string>
-    <string name="suwen_subtitle">《黄帝内经》组成部分</string>
-    <string name="lingshu_subtitle">《黄帝内经》组成部分</string>
+    <string name="suwen_subtitle">曹颖甫著</string>
+    <string name="lingshu_subtitle">曹颖甫著</string>
     <string name="read_progress">已阅读 0 篇</string>
     <string name="clear_history">清除历史</string>
     <string name="delete_confirm">确定删除？</string>

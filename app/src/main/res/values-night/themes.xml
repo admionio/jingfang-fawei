@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- 夜间主题覆盖 - 与值目录自动切换，配合 AppCompatDelegate.setDefaultNightMode() -->
-    <style name="Theme.HuangdiNeijing" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.JingfangFawei" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

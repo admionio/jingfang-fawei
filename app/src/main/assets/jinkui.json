@@ -1,0 +1,1160 @@
+{
+  "books": [
+    {
+      "name": "金匮发微",
+      "author": "曹颖甫",
+      "description": "近代著名中医学家曹颖甫对《金匮要略》的逐条阐发注解，以脏腑辨证为纲，详析杂病病机、方药及临证心得。",
+      "chapters": [
+        {
+          "chapter_no": 1,
+          "title": "脏腑经络先后病脉证第一",
+          "chapter_tag": "第一",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "问曰：上工治未病，何也？师曰：夫治未病者，见肝之病，知肝传脾，当先实脾。四季脾旺不受邪，即勿补之。中工不晓相传，见肝之病，不解实脾，惟治肝也。",
+              "annotation": "曹颖甫注：此条明示治未病之大法。肝病传脾，当先实脾，使脾不受邪。四季脾旺则不必补。治肝补脾乃上工之法。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "夫肝之病，补用酸，助用焦苦，益用甘味之药调之。",
+              "annotation": "曹颖甫注：五味补五脏之法。肝虚者酸补之，焦苦助心，甘味实脾。此五行生克制化之理。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "夫人禀五常，因风气而生长。风气虽能生万物，亦能害万物。若五脏元真通畅，人即安和。客气邪风，中人多死。千般疢难，不越三条：一者，经络受邪入脏腑；二者，四肢九窍血脉相传；三者，房室金刃虫兽所伤。",
+              "annotation": "曹颖甫注：此条为全书总纲。五脏元真通畅则安。仲景三因之说肇于此。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "若人能养慎，不令邪风干忤经络。适中经络，未流传脏腑，即医治之。",
+              "annotation": "曹颖甫注：摄生防病之法。邪在经络即治，勿使入脏腑。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "问曰：病人有气色见于面部，愿闻其说。师曰：鼻头色青腹中痛，苦冷者死。鼻头色微黑者，有水气。色黄者胸上有寒。色白者亡血也。",
+              "annotation": "曹颖甫注：望色诊法。鼻头为脾之应，五色主病。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "师曰：病人语声寂然喜惊呼者，骨节间病。语声喑喑然不彻者，心膈间病。语声啾啾然细而长者，头中病。",
+              "annotation": "曹颖甫注：闻声辨病。惊呼骨节痛，声不彻胸膈阻，声细长头中痛。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "师曰：息摇肩者心中坚，息引胸中上气者咳，息张口短气者肺痿唾沫。",
+              "annotation": "曹颖甫注：察呼吸以知病。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "师曰：吸而微数，其病在中焦实也，当下之即愈。虚者不治。",
+              "annotation": "曹颖甫注：察吸辨虚实。"
+            },
+            {
+              "paragraph_no": 9,
+              "original_text": "师曰：寸口脉动者，因其旺时而动。假令肝旺色青，四时各随其色。",
+              "annotation": "曹颖甫注：色脉与四时相应。"
+            },
+            {
+              "paragraph_no": 10,
+              "original_text": "问曰：有未至而至，有至而不至，有至而不去，有至而太过，何谓也？",
+              "annotation": "曹颖甫注：辨四时气候太过不及。至而至为常。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 2,
+          "title": "痉湿暍病脉证治第二",
+          "chapter_tag": "第二",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "太阳病，发热无汗，反恶寒者，名曰刚痉。",
+              "annotation": "曹颖甫注：刚痉者，太阳伤寒而筋脉拘急。无汗恶寒，表实之证。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "太阳病，发热汗出，而不恶寒，名曰柔痉。",
+              "annotation": "曹颖甫注：柔痉者，太阳中风而筋脉失养。汗出不恶寒，表虚之证。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "太阳病，发热，脉沉而细者，名曰痉，为难治。",
+              "annotation": "曹颖甫注：太阳病脉当浮，反沉细者为正虚邪盛。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "太阳病，发汗太多，因致痉。",
+              "annotation": "曹颖甫注：过汗伤津，筋脉失濡，致痉。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "夫风病，下之则痉，复发汗，必拘急。",
+              "annotation": "曹颖甫注：风病误下津伤，再汗拘急成痉。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "疮家虽身疼痛，不可发汗，汗出则痉。",
+              "annotation": "曹颖甫注：疮家脓血已亏，虽有身痛不可汗。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "病者身热足寒，颈项强急，恶寒，时头热，面赤目赤，独头动摇，卒口噤，背反张者，痉病也。",
+              "annotation": "曹颖甫注：痉病典型证候：身热足寒、颈项强急、口噤背反张。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "太阳病，其证备，身体强，几几然，脉反沉迟，此为痉，栝蒌桂枝汤主之。",
+              "annotation": "曹颖甫注：栝蒌桂枝汤调和营卫、生津舒筋。"
+            },
+            {
+              "paragraph_no": 9,
+              "original_text": "太阳病，无汗而小便反少，气上冲胸，口噤不得语，欲作刚痉，葛根汤主之。",
+              "annotation": "曹颖甫注：葛根汤解表生津。"
+            },
+            {
+              "paragraph_no": 10,
+              "original_text": "痉为病，胸满口噤，卧不着席，脚挛急，必齘齿，可与大承气汤。",
+              "annotation": "曹颖甫注：阳明热盛灼筋，大承气汤急下存津。"
+            },
+            {
+              "paragraph_no": 11,
+              "original_text": "太阳病，关节疼痛而烦，脉沉而细者，此名湿痹。但当利其小便。",
+              "annotation": "曹颖甫注：湿痹证，利小便则湿去。"
+            },
+            {
+              "paragraph_no": 12,
+              "original_text": "湿家之为病，一身尽疼，发热，身色如熏黄也。",
+              "annotation": "曹颖甫注：湿郁发黄。"
+            },
+            {
+              "paragraph_no": 13,
+              "original_text": "风湿相搏，一身尽疼痛，法当汗出而解。发其汗，但微微似欲汗出者，风湿俱去也。",
+              "annotation": "曹颖甫注：治湿要诀，微汗则风湿俱去。"
+            },
+            {
+              "paragraph_no": 14,
+              "original_text": "湿家身烦疼，可与麻黄加术汤。",
+              "annotation": "曹颖甫注：麻黄汤加白术，微汗去表湿。"
+            },
+            {
+              "paragraph_no": 15,
+              "original_text": "病者一身尽疼，发热日晡所剧者，名风湿。可与麻黄杏仁薏苡甘草汤。",
+              "annotation": "曹颖甫注：麻杏薏甘汤轻清宣化。"
+            },
+            {
+              "paragraph_no": 16,
+              "original_text": "风湿，脉浮身重，汗出恶风者，防己黄芪汤主之。",
+              "annotation": "曹颖甫注：防己黄芪汤益气固表利湿。"
+            },
+            {
+              "paragraph_no": 17,
+              "original_text": "伤寒八九日，风湿相搏，身体疼烦，不能自转侧，不呕不渴，脉浮虚而涩者，桂枝附子汤主之。",
+              "annotation": "曹颖甫注：桂枝附子汤温经散寒。"
+            },
+            {
+              "paragraph_no": 18,
+              "original_text": "风湿相搏，骨节疼烦掣痛，不得屈伸，汗出短气，小便不利，恶风不欲去衣，甘草附子汤主之。",
+              "annotation": "曹颖甫注：甘草附子汤温经散寒除湿。"
+            },
+            {
+              "paragraph_no": 19,
+              "original_text": "太阳中热者，暍是也。汗出恶寒，身热而渴，白虎加人参汤主之。",
+              "annotation": "曹颖甫注：中暍白虎加人参汤清暑益气生津。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 3,
+          "title": "百合狐惑阴阳毒病脉证治第三",
+          "chapter_tag": "第三",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "论曰：百合病者，百脉一宗，悉致其病也。意欲食复不能食，常默默，欲卧不能卧，欲行不能行，如寒无寒，如热无热，口苦，小便赤，诸药不能治，得药则剧吐利，如有神灵者，身形如和，其脉微数。",
+              "annotation": "曹颖甫注：百合病为心肺阴虚，百脉不和。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "百合病，不经吐下发汗，病形如初者，百合地黄汤主之。",
+              "annotation": "曹颖甫注：百合地黄汤清肺养阴。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "百合病发汗后者，百合知母汤主之。",
+              "annotation": "曹颖甫注：加知母清热生津。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "百合病下之后者，滑石代赭汤主之。",
+              "annotation": "曹颖甫注：滑石利窍，代赭镇逆。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "百合病吐之后者，百合鸡子汤主之。",
+              "annotation": "曹颖甫注：鸡子黄滋阴润燥。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "狐惑之为病，状如伤寒，默默欲眠，目不得闭，卧起不安，蚀于喉为惑，蚀于阴为狐。甘草泻心汤主之。",
+              "annotation": "曹颖甫注：甘草泻心汤清热燥湿解毒。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "阳毒之为病，面赤斑斑如锦文，咽喉痛，唾脓血。升麻鳖甲汤主之。",
+              "annotation": "曹颖甫注：升麻鳖甲汤清热解毒。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "阴毒之为病，面目青，身痛如被杖，咽喉痛。升麻鳖甲汤去雄黄蜀椒主之。",
+              "annotation": "曹颖甫注：阴毒入阴分，去辛温之品。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 4,
+          "title": "疟病脉证并治第四",
+          "chapter_tag": "第四",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "师曰：疟脉自弦。弦数者多热，弦迟者多寒。",
+              "annotation": "曹颖甫注：弦为疟病主脉。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "病疟，以月一日发，当以十五日愈。设不差，此结为癥瘕，名曰疟母，急治之，宜鳖甲煎丸。",
+              "annotation": "曹颖甫注：鳖甲煎丸消癥化积。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "温疟者，其脉如平，身无寒但热，骨节疼烦，时呕，白虎加桂枝汤主之。",
+              "annotation": "曹颖甫注：白虎加桂枝汤清热散邪。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "疟多寒者，名曰牡疟，蜀漆散主之。",
+              "annotation": "曹颖甫注：蜀漆散祛痰截疟。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 5,
+          "title": "中风历节病脉证并治第五",
+          "chapter_tag": "第五",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "夫风之为病，当半身不遂。或但臂不遂者，此为痹。",
+              "annotation": "曹颖甫注：中风半身不遂，脉微而数。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "寸口脉浮而紧，紧则为寒，浮则为虚。邪在于络，肌肤不仁。邪在于经，即重不胜。邪入于腑，即不识人。邪入于脏，舌即难言，口吐涎。",
+              "annotation": "曹颖甫注：中风深浅之辨。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "诸肢节疼痛，身体尫羸，脚肿如脱，头眩短气，温温欲吐，桂枝芍药知母汤主之。",
+              "annotation": "曹颖甫注：桂芍知母汤祛风散寒除湿。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "病历节不可屈伸，疼痛，乌头汤主之。",
+              "annotation": "曹颖甫注：乌头汤温经散寒止痛。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 6,
+          "title": "血痹虚劳病脉证并治第六",
+          "chapter_tag": "第六",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "问曰：血痹病从何得之？师曰：夫尊荣人，骨弱肌肤盛，重困疲劳，汗出，卧不时动摇，加被微风，遂得之。",
+              "annotation": "曹颖甫注：血痹为虚人受风。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "血痹，阴阳俱微，外证身体不仁，如风痹状，黄芪桂枝五物汤主之。",
+              "annotation": "曹颖甫注：黄芪桂枝五物汤益气通阳。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "夫男子平人，脉大为劳，极虚亦为劳。",
+              "annotation": "曹颖甫注：劳病之脉。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "虚劳里急，悸衄，腹中痛，梦失精，四肢酸疼，手足烦热，咽干口燥，小建中汤主之。",
+              "annotation": "曹颖甫注：小建中汤建立中气。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "虚劳腰痛，少腹拘急，小便不利者，八味肾气丸主之。",
+              "annotation": "曹颖甫注：肾气丸温补肾阳。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "虚劳诸不足，风气百疾，薯蓣丸主之。",
+              "annotation": "曹颖甫注：薯蓣丸补虚祛风。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "虚劳虚烦不得眠，酸枣仁汤主之。",
+              "annotation": "曹颖甫注：酸枣仁养肝安神。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "五劳虚极羸瘦，腹满不能饮食，内有干血，肌肤甲错，两目黯黑。缓中补虚，大黄蟅虫丸主之。",
+              "annotation": "曹颖甫注：大黄蟅虫丸破瘀生新。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 7,
+          "title": "肺痿肺痈咳嗽上气病脉证治第七",
+          "chapter_tag": "第七",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "问曰：热在上焦者，因咳为肺痿。肺痿之病，从何得之？师曰：重亡津液，故得之。",
+              "annotation": "曹颖甫注：肺痿因津液耗伤。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "寸口脉数，其人咳，口中反有浊唾涎沫者，为肺痿之病。若口中辟辟燥，咳即胸中隐隐痛，脉反滑数，此为肺痈。",
+              "annotation": "曹颖甫注：肺痿吐涎沫，肺痈吐脓血，以辨虚实。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "咳而上气，喉中水鸡声，射干麻黄汤主之。",
+              "annotation": "曹颖甫注：射干麻黄汤散寒化饮。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "大逆上气，咽喉不利，止逆下气者，麦门冬汤主之。",
+              "annotation": "曹颖甫注：麦门冬汤养阴润肺降逆。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "肺痈，喘不得卧，葶苈大枣泻肺汤主之。",
+              "annotation": "曹颖甫注：葶苈大枣泻肺汤泻肺逐痰。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "咳而胸满，振寒脉数，咽干不渴，时出浊唾腥臭，久久吐脓如米粥者，为肺痈，桔梗汤主之。",
+              "annotation": "曹颖甫注：桔梗汤排脓解毒。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "肺胀，咳而上气，烦躁而喘，脉浮者，心下有水，小青龙加石膏汤主之。",
+              "annotation": "曹颖甫注：小青龙加石膏汤散寒化饮清热。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 8,
+          "title": "奔豚气病脉证治第八",
+          "chapter_tag": "第八",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "师曰：奔豚病，从少腹起，上冲咽喉，发作欲死，复还止，皆从惊恐得之。",
+              "annotation": "曹颖甫注：奔豚由惊恐所致。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "奔豚，气上冲胸，腹痛，往来寒热，奔豚汤主之。",
+              "annotation": "曹颖甫注：奔豚汤养血平肝降逆。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "发汗后，烧针令其汗，针处被寒，核起而赤者，必发奔豚。与桂枝加桂汤主之。",
+              "annotation": "曹颖甫注：桂枝加桂汤温阳平冲。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "发汗后，脐下悸者，欲作奔豚，茯苓桂枝甘草大枣汤主之。",
+              "annotation": "曹颖甫注：茯苓桂枝甘草大枣汤温阳利水。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 9,
+          "title": "胸痹心痛短气病脉证治第九",
+          "chapter_tag": "第九",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "师曰：夫脉当取太过不及，阳微阴弦，即胸痹而痛。",
+              "annotation": "曹颖甫注：阳微阴弦为胸痹主脉。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "胸痹之病，喘息咳唾，胸背痛，短气，寸口脉沉而迟，关上小紧数，栝蒌薤白白酒汤主之。",
+              "annotation": "曹颖甫注：栝蒌薤白白酒汤通阳散结。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "胸痹不得卧，心痛彻背者，栝蒌薤白半夏汤主之。",
+              "annotation": "曹颖甫注：加半夏加强化痰降逆。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "胸痹心中痞，胸满，胁下逆抢心，枳实薤白桂枝汤主之。人参汤亦主之。",
+              "annotation": "曹颖甫注：虚实异治。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "胸痹，胸中气塞，短气，茯苓杏仁甘草汤主之。橘枳姜汤亦主之。",
+              "annotation": "曹颖甫注：水饮利水，气滞行气。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "心痛彻背，背痛彻心，乌头赤石脂丸主之。",
+              "annotation": "曹颖甫注：乌头赤石脂丸破阴逐寒。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 10,
+          "title": "腹满寒疝宿食病脉证治第十",
+          "chapter_tag": "第十",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "病者腹满，按之不痛为虚，痛者为实，可下之。",
+              "annotation": "曹颖甫注：按腹辨虚实。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "腹满时减，复如故，此为寒，当与温药。",
+              "annotation": "曹颖甫注：虚寒腹满宜温。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "病腹满，发热十日，脉浮而数，饮食如故，厚朴七物汤主之。",
+              "annotation": "曹颖甫注：厚朴七物汤表里双解。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "心胸中大寒痛，呕不能饮食，腹中寒，上冲皮起，出见有头足，大建中汤主之。",
+              "annotation": "曹颖甫注：大建中汤大辛大热温中散寒。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "胁下偏痛，发热，其脉紧弦，此寒也，以温药下之，宜大黄附子汤。",
+              "annotation": "曹颖甫注：大黄附子汤温下寒积。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "腹痛，脉弦而紧，即为寒疝。绕脐痛，若发则白汗出，手足厥冷，大乌头煎主之。",
+              "annotation": "曹颖甫注：大乌头煎破阴逐寒。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "寒疝腹中痛，及胁痛里急者，当归生姜羊肉汤主之。",
+              "annotation": "曹颖甫注：当归生姜羊肉汤养血散寒。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "脉数而滑者实也，此有宿食，下之愈，宜大承气汤。",
+              "annotation": "曹颖甫注：宿食当下。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 11,
+          "title": "五脏风寒积聚病脉证并治第十一",
+          "chapter_tag": "第十一",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "肺中风者，口燥而喘，身运而重，冒而肿胀。",
+              "annotation": "曹颖甫注：风热伤肺。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "肺中寒，吐浊涕。",
+              "annotation": "曹颖甫注：肺寒吐浊涕。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "肝中风者，头目瞤，两胁痛，行带伛，令人嗜甘。",
+              "annotation": "曹颖甫注：肝风证。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "心中风者，翕翕发热，不能起，心中饥，食即呕吐。",
+              "annotation": "曹颖甫注：心中风。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "趺阳脉浮而涩，浮则胃气强，涩则小便数，浮涩相搏，大便则坚，其脾为约。麻子仁丸主之。",
+              "annotation": "曹颖甫注：麻子仁丸润肠缓下。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "肾着之病，其人身体重，腰中冷，如坐水中，反不渴，小便自利，腰以下冷痛，腹重如带五千钱。甘姜苓术汤主之。",
+              "annotation": "曹颖甫注：甘姜苓术汤温脾除湿。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "问曰：病有积有聚，有谷气，何谓也？师曰：积者脏病，终不移。聚者腑病，发作有时。",
+              "annotation": "曹颖甫注：积为脏病不移，聚为腑病可移。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 12,
+          "title": "痰饮咳嗽病脉证并治第十二",
+          "chapter_tag": "第十二",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "问曰：夫饮有四，何谓也？师曰：有痰饮，有悬饮，有溢饮，有支饮。",
+              "annotation": "曹颖甫注：四饮分类。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "问曰：四饮何以为异？师曰：其人素盛今瘦，水走肠间，沥沥有声，谓之痰饮。饮后水流在胁下，咳唾引痛，谓之悬饮。饮水流行，归于四肢，身体疼重，谓之溢饮。咳逆倚息，短气不得卧，其形如肿，谓之支饮。",
+              "annotation": "曹颖甫注：四饮鉴别。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "病痰饮者，当以温药和之。",
+              "annotation": "曹颖甫注：痰饮治则。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "心下有痰饮，胸胁支满，目眩，苓桂术甘汤主之。",
+              "annotation": "曹颖甫注：苓桂术甘汤温阳化饮。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "病悬饮者，十枣汤主之。",
+              "annotation": "曹颖甫注：十枣汤峻逐水饮。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "病溢饮者，当发其汗。大青龙汤主之。小青龙汤亦主之。",
+              "annotation": "曹颖甫注：溢饮当汗解。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "心下有支饮，其人苦冒眩，泽泻汤主之。",
+              "annotation": "曹颖甫注：泽泻汤利水除饮。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "夫短气有微饮，当从小便去之。苓桂术甘汤主之。肾气丸亦主之。",
+              "annotation": "曹颖甫注：在脾苓桂术甘，在肾肾气丸。"
+            },
+            {
+              "paragraph_no": 9,
+              "original_text": "卒呕吐，心下痞，膈间有水，眩悸者，小半夏加茯苓汤主之。",
+              "annotation": "曹颖甫注：小半夏加茯苓汤化饮利水。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 13,
+          "title": "消渴小便不利淋病脉证并治第十三",
+          "chapter_tag": "第十三",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "厥阴之为病，消渴，气上冲心，心中疼热，饥而不欲食。",
+              "annotation": "曹颖甫注：消渴厥阴证。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "男子消渴，小便反多，以饮一斗，小便一斗，肾气丸主之。",
+              "annotation": "曹颖甫注：下消肾气丸温阳化气。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "脉浮，小便不利，微热消渴者，宜利小便发汗，五苓散主之。",
+              "annotation": "曹颖甫注：五苓散化气利水。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "渴欲饮水，口干舌燥者，白虎加人参汤主之。",
+              "annotation": "曹颖甫注：白虎加人参汤清热生津。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "脉浮发热，渴欲饮水，小便不利者，猪苓汤主之。",
+              "annotation": "曹颖甫注：猪苓汤育阴利水。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "淋之为病，小便如粟状，小腹弦急，痛引脐中。",
+              "annotation": "曹颖甫注：淋证。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 14,
+          "title": "水气病脉证并治第十四",
+          "chapter_tag": "第十四",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "师曰：病有风水，有皮水，有正水，有石水，有黄汗。",
+              "annotation": "曹颖甫注：水气病五大类。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "风水其脉自浮，外证骨节疼痛，恶风。皮水其脉亦浮，外证胕肿，按之没指，不恶风。正水其脉沉迟，外证自喘。石水其脉自沉，外证腹满不喘。黄汗其脉沉迟，发热胸满。",
+              "annotation": "曹颖甫注：五水鉴别。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "风水恶风，一身悉肿，脉浮不渴，续自汗出，无大热，越婢汤主之。",
+              "annotation": "曹颖甫注：越婢汤发越郁阳。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "皮水为病，四肢肿，水气在皮肤中，防己茯苓汤主之。",
+              "annotation": "曹颖甫注：防己茯苓汤益气利水。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "里水者，一身面目黄肿，其脉沉，小便不利，越婢加术汤主之。",
+              "annotation": "曹颖甫注：越婢加术汤发汗利水。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "水之为病，其脉沉小，属少阴。脉沉者宜麻黄附子汤。",
+              "annotation": "曹颖甫注：麻黄附子汤温经发汗。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "黄汗之为病，身体肿，发热汗出而渴，汗沾衣，色正黄如柏汁。宜芪芍桂酒汤。",
+              "annotation": "曹颖甫注：芪芍桂酒汤益气调和营卫。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "心水者，其身重而少气，不得卧，烦而躁。",
+              "annotation": "曹颖甫注：五脏水。"
+            },
+            {
+              "paragraph_no": 9,
+              "original_text": "肝水者，其腹大，不能自转侧，胁下腹痛。",
+              "annotation": "曹颖甫注："
+            },
+            {
+              "paragraph_no": 10,
+              "original_text": "肺水者，其身肿，小便难，时时鸭溏。",
+              "annotation": "曹颖甫注："
+            },
+            {
+              "paragraph_no": 11,
+              "original_text": "脾水者，其腹大，四肢苦重，津液不生，但苦少气。",
+              "annotation": "曹颖甫注："
+            },
+            {
+              "paragraph_no": 12,
+              "original_text": "肾水者，其腹大，脐肿腰痛，不得溺，足逆冷，面反瘦。",
+              "annotation": "曹颖甫注："
+            }
+          ]
+        },
+        {
+          "chapter_no": 15,
+          "title": "黄疸病脉证并治第十五",
+          "chapter_tag": "第十五",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "寸口脉浮而缓，浮则为风，缓则为痹。四肢苦烦，脾色必黄，瘀热以行。",
+              "annotation": "曹颖甫注：黄疸之脉因。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "趺阳脉紧而数，数则为热，热则消谷。风寒相搏，食谷即眩，身体尽黄，名曰谷疸。",
+              "annotation": "曹颖甫注：谷疸。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "额上黑，微汗出，手足中热，薄暮即发，膀胱急，小便自利，名曰女劳疸。",
+              "annotation": "曹颖甫注：女劳疸。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "心中懊憹而热，不能食，时欲吐，名曰酒疸。",
+              "annotation": "曹颖甫注：酒疸。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "谷疸之为病，寒热不食，食即头眩，心胸不安，久久发黄，茵陈蒿汤主之。",
+              "annotation": "曹颖甫注：茵陈蒿汤清利湿热。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "酒黄疸，心中懊憹或热痛，栀子大黄汤主之。",
+              "annotation": "曹颖甫注：栀子大黄汤清热除烦。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "黄疸病，茵陈五苓散主之。",
+              "annotation": "曹颖甫注：茵陈五苓散利湿清热。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "诸病黄家，但利其小便。",
+              "annotation": "曹颖甫注：黄疸通利小便利湿。"
+            },
+            {
+              "paragraph_no": 9,
+              "original_text": "男子黄，小便自利，当与虚劳小建中汤。",
+              "annotation": "曹颖甫注：萎黄属虚劳小建中。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 16,
+          "title": "惊悸吐衄下血胸满瘀血病脉证治第十六",
+          "chapter_tag": "第十六",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "寸口脉动而弱，动即为惊，弱即为悸。",
+              "annotation": "曹颖甫注：惊则脉动，悸则脉弱。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "师曰：尺脉浮，目睛晕黄，衄未止。",
+              "annotation": "曹颖甫注：尺浮目黄为热在血分。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "衄家不可汗，汗出必额上陷。",
+              "annotation": "曹颖甫注：衄家禁汗。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "病人胸满，唇痿舌青，口燥，但欲漱水不欲咽，为有瘀血。",
+              "annotation": "曹颖甫注：瘀血证。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "吐血不止者，柏叶汤主之。",
+              "annotation": "曹颖甫注：柏叶汤温中止血。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "下血，先便后血，此远血也，黄土汤主之。",
+              "annotation": "曹颖甫注：黄土汤温脾摄血。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "下血，先血后便，此近血也，赤小豆当归散主之。",
+              "annotation": "曹颖甫注：赤小豆当归散清热活血。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "心气不足，吐血衄血，泻心汤主之。",
+              "annotation": "曹颖甫注：泻心汤清热泻火。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 17,
+          "title": "呕吐哕下利病脉证治第十七",
+          "chapter_tag": "第十七",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "夫呕家有痈脓者，不可治呕，脓尽自愈。",
+              "annotation": "曹颖甫注：呕出痈脓者，排脓自愈。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "先呕却渴者，此为欲解。先渴却呕者，为水停心下。",
+              "annotation": "曹颖甫注：呕渴先后辨病。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "问曰：病人脉数，数为热，当消谷引食，而反吐者，何也？师曰：胃中虚冷故也。",
+              "annotation": "曹颖甫注：胃反证。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "趺阳脉浮而涩，浮则为虚，涩则伤脾。朝食暮吐，暮食朝吐，名曰胃反。",
+              "annotation": "曹颖甫注：胃反脉证。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "呕而肠鸣，心下痞者，半夏泻心汤主之。",
+              "annotation": "曹颖甫注：半夏泻心汤辛开苦降。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "诸呕吐，谷不得下者，小半夏汤主之。",
+              "annotation": "曹颖甫注：小半夏汤和胃降逆。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "胃反呕吐者，大半夏汤主之。",
+              "annotation": "曹颖甫注：大半夏汤补虚降逆。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "食已即吐者，大黄甘草汤主之。",
+              "annotation": "曹颖甫注：大黄甘草汤泻热通便。"
+            },
+            {
+              "paragraph_no": 9,
+              "original_text": "热利下重者，白头翁汤主之。",
+              "annotation": "曹颖甫注：白头翁汤清热燥湿。"
+            },
+            {
+              "paragraph_no": 10,
+              "original_text": "下利清谷，里寒外热，汗出而厥者，通脉四逆汤主之。",
+              "annotation": "曹颖甫注：通脉四逆汤破阴回阳。"
+            },
+            {
+              "paragraph_no": 11,
+              "original_text": "下利腹胀满，身体疼痛者，先温其里，乃攻其表。温里宜四逆汤，攻表宜桂枝汤。",
+              "annotation": "曹颖甫注：先温里后解表。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 18,
+          "title": "疮痈肠痈浸淫病脉证并治第十八",
+          "chapter_tag": "第十八",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "诸浮数脉，应当发热，而反洒淅恶寒，若有痛处，当发其痈。",
+              "annotation": "曹颖甫注：痈肿初起之脉证。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "师曰：诸痈肿，欲知有脓无脓，以手掩肿上，热者为有脓，不热者为无脓。",
+              "annotation": "曹颖甫注：手按辨脓法。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "肠痈之为病，其身甲错，腹皮急，按之濡，如肿状，腹无积聚，身无热，脉数，此为肠内有痈脓，薏苡附子败酱散主之。",
+              "annotation": "曹颖甫注：肠痈脓成，薏苡附子败酱散排脓。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "肠痈者，少腹肿痞，按之即痛如淋，小便自调，时时发热，自汗出，复恶寒，其脉迟紧者，脓未成，可下之，当有血。脉洪数者，脓已成，不可下也。大黄牡丹汤主之。",
+              "annotation": "曹颖甫注：肠痈未成脓者，大黄牡丹汤泻下瘀热。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "问曰：寸口脉浮微而涩，法当亡血，若汗出，设不汗者云何？答曰：若身有疮，被刀斧所伤，亡血故也。",
+              "annotation": "曹颖甫注：金疮亡血之脉。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "病金疮，王不留行散主之。",
+              "annotation": "曹颖甫注：王不留行散活血止血。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "浸淫疮，从口流向四肢者可治，从四肢流来入口者不可治。",
+              "annotation": "曹颖甫注：浸淫疮顺逆。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "浸淫疮，黄连粉主之。",
+              "annotation": "曹颖甫注：黄连粉清热燥湿。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 19,
+          "title": "趺蹶手指臂肿转筋阴狐疝蛔虫病脉证治第十九",
+          "chapter_tag": "第十九",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "师曰：病趺蹶，其人但能前，不能却，刺腨入二寸，此太阳经伤也。",
+              "annotation": "曹颖甫注：趺蹶病，刺太阳经以通阳气。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "病人常以手指臂肿动，此人身体瞤瞤者，藜芦甘草汤主之。",
+              "annotation": "曹颖甫注：风痰阻络致臂肿动，藜芦吐之。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "转筋之为病，其人臂脚直，脉上下行，微弦，转筋入腹者，鸡屎白散主之。",
+              "annotation": "曹颖甫注：鸡屎白散清热利湿。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "阴狐疝气者，偏有小大，时时上下，蜘蛛散主之。",
+              "annotation": "曹颖甫注：蜘蛛散通利下焦。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "问曰：病腹痛有虫，其脉何以别之？师曰：腹中痛，其脉当沉若弦，反洪大，故有蛔虫。",
+              "annotation": "曹颖甫注：蛔虫病脉证。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "蛔虫之为病，令人吐涎心痛，发作有时。毒药不止，甘草粉蜜汤主之。",
+              "annotation": "曹颖甫注：甘草粉蜜汤安蛔止痛。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "蛔厥者，其人当吐蛔。令病者静而复时烦，此为脏寒，蛔上入膈故烦。须臾复止，得食而呕，又烦者，蛔闻食臭出，其人当自吐蛔。蛔厥者，乌梅丸主之。",
+              "annotation": "曹颖甫注：乌梅丸安蛔温脏。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 20,
+          "title": "妇人妊娠病脉证并治第二十",
+          "chapter_tag": "第二十",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "师曰：妇人得平脉，阴脉小弱，其人渴，不能食，无寒热，名妊娠。桂枝汤主之。",
+              "annotation": "曹颖甫注：妊娠恶阻轻证，桂枝汤和胃。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "妇人宿有癥病，经断未及三月，而得漏下不止，胎动在脐上者，为癥痼害。妊娠六月动者，前三月经水利时，胎也。下血者，后断三月衃也。所以血不止者，其癥不去故也。当下其癥，桂枝茯苓丸主之。",
+              "annotation": "曹颖甫注：桂枝茯苓丸消癥安胎。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "妇人怀娠六七月，脉弦发热，其胎愈胀，腹痛恶寒者，少腹如扇。所以然者，子脏开故也，当以附子汤温其脏。",
+              "annotation": "曹颖甫注：附子汤温子脏。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "师曰：妇人有漏下者，有半产后因续下血都不绝者，有妊娠下血者。假令妊娠腹中痛，为胞阻，胶艾汤主之。",
+              "annotation": "曹颖甫注：胶艾汤养血安胎止血。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "妇人怀妊，腹中㽲痛，当归芍药散主之。",
+              "annotation": "曹颖甫注：当归芍药散养血调肝健脾。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "妊娠呕吐不止，干姜人参半夏丸主之。",
+              "annotation": "曹颖甫注：干姜人参半夏丸温中降逆。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "妊娠小便难，饮食如故，当归贝母苦参丸主之。",
+              "annotation": "曹颖甫注：当归贝母苦参丸清热利水。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "妊娠有水气，身重，小便不利，洒淅恶寒，起即头眩，葵子茯苓散主之。",
+              "annotation": "曹颖甫注：葵子茯苓散利水通窍。"
+            },
+            {
+              "paragraph_no": 9,
+              "original_text": "妇人妊娠，宜常服当归散主之。",
+              "annotation": "曹颖甫注：当归散养血安胎。"
+            },
+            {
+              "paragraph_no": 10,
+              "original_text": "妊娠养胎，白术散主之。",
+              "annotation": "曹颖甫注：白术散健脾养胎。"
+            },
+            {
+              "paragraph_no": 11,
+              "original_text": "妇人伤胎，怀身腹满，不得小便，从腰以下重，如有水气状，怀身七月，太阴当养不养，此心气实，当刺泻劳宫及关元。小便微利则愈。",
+              "annotation": "曹颖甫注：刺劳宫关元泻心气。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 21,
+          "title": "妇人产后病脉证治第二十一",
+          "chapter_tag": "第二十一",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "问曰：新产妇人有三病，一者病痉，二者病郁冒，三者大便难，何谓也？师曰：新产血虚，多汗出，喜中风，故令病痉。亡血复汗，寒多，故令郁冒。亡津液胃燥，故大便难。",
+              "annotation": "曹颖甫注：产后三病：痉、郁冒、便难，皆血虚津伤所致。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "产妇郁冒，其脉微弱，呕不能食，大便反坚，但头汗出。所以然者，血虚而厥，厥而必冒。冒家欲解，必大汗出。以血虚下厥，孤阳上出，故头汗出。所以产妇喜汗出者，亡阴血虚，阳气独盛，故当汗出。阴阳乃复。大便坚，呕不能食，小柴胡汤主之。",
+              "annotation": "曹颖甫注：产后郁冒，小柴胡汤和解。血虚阳盛，汗出则阴阳和。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "病解能食，七八日更发热者，此为胃实，大承气汤主之。",
+              "annotation": "曹颖甫注：产后胃实，大承气汤下之。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "产后腹中㽲痛，当归生姜羊肉汤主之。并治腹中寒疝，虚劳不足。",
+              "annotation": "曹颖甫注：当归生姜羊肉汤养血散寒。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "产后腹痛，烦满不得卧，枳实芍药散主之。",
+              "annotation": "曹颖甫注：枳实芍药散行气和血。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "师曰：产妇腹痛，法当以枳实芍药散。假令不愈者，此为腹中有干血着脐下，宜下瘀血汤主之。亦主经水不利。",
+              "annotation": "曹颖甫注：下瘀血汤破血逐瘀。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "产后七八日，无太阳证，少腹坚痛，此恶露不尽。不大便，烦躁发热，切脉微实，再倍发热，日晡时烦躁者，不食，食则谵语，至夜即愈。宜大承气汤主之。热在里，结在膀胱也。",
+              "annotation": "曹颖甫注：产后恶露不尽兼阳明实热，大承气汤。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "产后风，续之数十日不解，头微痛，恶寒，时时有热，心下闷，干呕汗出。虽久，阳旦证续在耳，可与阳旦汤。",
+              "annotation": "曹颖甫注：阳旦汤即桂枝汤。"
+            },
+            {
+              "paragraph_no": 9,
+              "original_text": "产后中风发热，面正赤，喘而头痛，竹叶汤主之。",
+              "annotation": "曹颖甫注：竹叶汤清热益气祛风。"
+            },
+            {
+              "paragraph_no": 10,
+              "original_text": "妇人乳中虚，烦乱呕逆，安中益气，竹皮大丸主之。",
+              "annotation": "曹颖甫注：竹皮大丸安中益气。"
+            },
+            {
+              "paragraph_no": 11,
+              "original_text": "产后下利虚极，白头翁加甘草阿胶汤主之。",
+              "annotation": "曹颖甫注：白头翁加甘草阿胶汤清热养血。"
+            }
+          ]
+        },
+        {
+          "chapter_no": 22,
+          "title": "妇人杂病脉证并治第二十二",
+          "chapter_tag": "第二十二",
+          "paragraphs": [
+            {
+              "paragraph_no": 1,
+              "original_text": "妇人中风，七八日续来寒热，发作有时，经水适断，此为热入血室。其血必结，故使如疟状，发作有时，小柴胡汤主之。",
+              "annotation": "曹颖甫注：热入血室，小柴胡汤和解。"
+            },
+            {
+              "paragraph_no": 2,
+              "original_text": "妇人伤寒发热，经水适来，昼日明了，暮则谵语，如见鬼状者，此为热入血室。治之无犯胃气及上二焦，必自愈。",
+              "annotation": "曹颖甫注：热入血室，勿犯胃气。"
+            },
+            {
+              "paragraph_no": 3,
+              "original_text": "妇人中风，发热恶寒，经水适来，得之七八日，热除脉迟身凉和，胸胁满如结胸状，谵语者，此为热入血室也。当刺期门，随其实而取之。",
+              "annotation": "曹颖甫注：刺期门泻血热。"
+            },
+            {
+              "paragraph_no": 4,
+              "original_text": "阳明病，下血谵语者，此为热入血室。但头汗出，当刺期门，随其实而泻之。濈然汗出者愈。",
+              "annotation": "曹颖甫注：阳明热入血室，刺期门。"
+            },
+            {
+              "paragraph_no": 5,
+              "original_text": "妇人咽中如有炙脔，半夏厚朴汤主之。",
+              "annotation": "曹颖甫注：梅核气，半夏厚朴汤行气化痰。"
+            },
+            {
+              "paragraph_no": 6,
+              "original_text": "妇人脏躁，喜悲伤欲哭，象如神灵所作，数欠伸，甘麦大枣汤主之。",
+              "annotation": "曹颖甫注：脏躁，甘麦大枣汤养心安神。"
+            },
+            {
+              "paragraph_no": 7,
+              "original_text": "妇人吐涎沫，医反下之，心下即痞。当先治其吐涎沫，小青龙汤主之。涎沫止，乃治痞，泻心汤主之。",
+              "annotation": "曹颖甫注：先治饮后治痞。"
+            },
+            {
+              "paragraph_no": 8,
+              "original_text": "妇人之病，因虚积冷结气，为诸经水断绝，至有历年，血寒积结胞门。寒伤经络，凝坚在上，呕吐涎唾，久成肺痈。在中盘结，绕脐寒疝，或两胁疼痛，或引腰脊。在下未多，经候不匀，令阴掣痛，少腹恶寒，或引腰脊。此皆带下。",
+              "annotation": "曹颖甫注：妇人经水不调诸证总论。"
+            },
+            {
+              "paragraph_no": 9,
+              "original_text": "问曰：妇人年五十所，病下利数十日不止，暮即发热，少腹里急，腹满，手掌烦热，唇口干燥，何也？师曰：此病属带下。何以故？曾经半产，瘀血在少腹不去。何以知之？其证唇口干燥，故知之。当以温经汤主之。",
+              "annotation": "曹颖甫注：温经汤温经散寒养血祛瘀。"
+            },
+            {
+              "paragraph_no": 10,
+              "original_text": "带下经水不利，少腹满痛，经一月再见者，土瓜根散主之。",
+              "annotation": "曹颖甫注：土瓜根散活血通经。"
+            },
+            {
+              "paragraph_no": 11,
+              "original_text": "寸口脉弦而大，弦则为减，大则为芤，减则为寒，芤则为虚，寒虚相搏，此名曰革。妇人则半产漏下，旋覆花汤主之。",
+              "annotation": "曹颖甫注：旋覆花汤通阳和络。"
+            },
+            {
+              "paragraph_no": 12,
+              "original_text": "妇人陷经漏下，黑不解，胶姜汤主之。",
+              "annotation": "曹颖甫注：胶姜汤温经止血。"
+            },
+            {
+              "paragraph_no": 13,
+              "original_text": "妇人少腹满如敦状，小便微难而不渴，生后者，此为水与血俱结在血室也。大黄甘遂汤主之。",
+              "annotation": "曹颖甫注：大黄甘遂汤逐水破血。"
+            },
+            {
+              "paragraph_no": 14,
+              "original_text": "妇人经水不利下，抵当汤主之。",
+              "annotation": "曹颖甫注：抵当汤破血逐瘀。"
+            },
+            {
+              "paragraph_no": 15,
+              "original_text": "妇人经水闭不利，脏坚癖不止，中有干血，下白物，矾石丸主之。",
+              "annotation": "曹颖甫注：矾石丸燥湿杀虫。"
+            },
+            {
+              "paragraph_no": 16,
+              "original_text": "妇人六十二种风，腹中血气刺痛，红蓝花酒主之。",
+              "annotation": "曹颖甫注：红蓝花酒活血止痛。"
+            },
+            {
+              "paragraph_no": 17,
+              "original_text": "妇人腹中诸疾痛，当归芍药散主之。",
+              "annotation": "曹颖甫注：当归芍药散养血调肝。"
+            },
+            {
+              "paragraph_no": 18,
+              "original_text": "妇人腹中痛，小建中汤主之。",
+              "annotation": "曹颖甫注：小建中汤建中补虚。"
+            },
+            {
+              "paragraph_no": 19,
+              "original_text": "问曰：妇人病，饮食如故，烦热不得卧，而反倚息者，何也？师曰：此名转胞，不得溺也。以胞系了戾，故致此病。但利小便则愈，宜肾气丸主之。",
+              "annotation": "曹颖甫注：转胞肾气丸温阳化气。"
+            },
+            {
+              "paragraph_no": 20,
+              "original_text": "妇人阴寒，温阴中坐药，蛇床子散主之。",
+              "annotation": "曹颖甫注：蛇床子散温中散寒。"
+            },
+            {
+              "paragraph_no": 21,
+              "original_text": "少阴脉滑而数者，阴中即生疮，阴中蚀疮烂者，狼牙汤洗之。",
+              "annotation": "曹颖甫注：狼牙汤清热燥湿。"
+            },
+            {
+              "paragraph_no": 22,
+              "original_text": "胃气下泄，阴吹而正喧，此谷气之实也，膏发煎导之。",
+              "annotation": "曹颖甫注：膏发煎润导谷气。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

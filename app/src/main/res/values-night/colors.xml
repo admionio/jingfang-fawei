@@ -1,58 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 设计稿色板 - 夜间加深 -->
-    <color name="colorPrimary">#A8352E</color>
-    <color name="colorPrimaryDark">#81251F</color>
+    <!-- 经方发微 - 深海蓝色板 - 夜间 -->
+    <color name="colorPrimary">#1A5276</color>
+    <color name="colorPrimaryDark">#003D5C</color>
     <color name="colorAccent">#C9A96E</color>
-    <color name="colorPrimaryLight">#9F6C66</color>
+    <color name="colorPrimaryLight">#3A6A8A</color>
 
     <!-- 文字颜色 - 夜间浅色 -->
-    <color name="textPrimary">#E0E0E0</color>
-    <color name="textSecondary">#B0B0B0</color>
-    <color name="textHint">#8A8A8A</color>
-    <color name="textPinyin">#90CAF9</color>
-    <color name="textTranslation">#B0BEC5</color>
+    <color name="textPrimary">#E0E6ED</color>
+    <color name="textSecondary">#A0B0C0</color>
+    <color name="textHint">#7A8A9A</color>
+    <color name="textPinyin">#80B0D0</color>
+    <color name="textTranslation">#A0B8C8</color>
     <color name="textHighlight">#C9A96E</color>
 
     <!-- 背景 - 夜间深色 -->
-    <color name="backgroundLight">#1A1A2E</color>
-    <color name="backgroundCard">#0F3460</color>
-    <color name="backgroundSearch">#16213E</color>
+    <color name="backgroundLight">#0D1B2A</color>
+    <color name="backgroundCard">#1A2D42</color>
+    <color name="backgroundSearch">#1B2838</color>
 
     <!-- 收藏/书签 -->
-    <color name="favoriteActive">#C43A31</color>
-    <color name="favoriteInactive">#5A5A7A</color>
+    <color name="favoriteActive">#C9A96E</color>
+    <color name="favoriteInactive">#4A5A6A</color>
 
     <!-- 段落标签颜色 -->
-    <color name="labelOriginal">#A0845C</color>
-    <color name="labelTranslation">#7A9BA8</color>
+    <color name="labelOriginal">#5A8AAA</color>
+    <color name="labelTranslation">#608090</color>
 
     <!-- 分隔线 -->
-    <color name="divider">#37474F</color>
+    <color name="divider">#2A3A48</color>
 
     <!-- 首页专用文字颜色 - 夜间覆盖 -->
-    <color name="homeClock">#E0E0E0</color>
-    <color name="homeDateSolar">#C0C0C0</color>
-    <color name="homeDateLunar">#B0B0B0</color>
+    <color name="homeClock">#E0E6ED</color>
+    <color name="homeDateSolar">#C0D0E0</color>
+    <color name="homeDateLunar">#A0B0C0</color>
     <color name="homeShichen">#D4A574</color>
-    <color name="homeSectionTitle">#E0E0E0</color>
-    <color name="homeSuwenTitle">#E8D5B0</color>
-    <color name="homeSuwenSubtitle">#B0A890</color>
-    <color name="homeSuwenCount">#C0C0C0</color>
-    <color name="homeSuwenProgress">#A0A0A0</color>
-    <color name="homeDivider">#37474F</color>
+    <color name="homeSectionTitle">#E0E6ED</color>
+    <color name="homeSuwenTitle">#80B8D8</color>
+    <color name="homeSuwenSubtitle">#90A8B8</color>
+    <color name="homeSuwenCount">#C0D0E0</color>
+    <color name="homeSuwenProgress">#8A9AAA</color>
+    <color name="homeDivider">#2A3A48</color>
 
-    <!-- 夜间原始值（保留供 Reader 等直接调用） -->
-    <color name="nightBackground">#1A1A2E</color>
-    <color name="nightSurface">#16213E</color>
-    <color name="nightCard">#0F3460</color>
-    <color name="nightTextPrimary">#E0E0E0</color>
-    <color name="nightTextSecondary">#B0B0B0</color>
-    <color name="nightTextPinyin">#90CAF9</color>
-    <color name="nightTextTranslation">#B0BEC5</color>
-    <color name="nightDivider">#37474F</color>
-    <color name="nightLabelOriginal">#A0845C</color>
-    <color name="nightLabelTranslation">#7A9BA8</color>
+    <color name="nightBackground">#0D1B2A</color>
+    <color name="nightSurface">#1B2838</color>
+    <color name="nightCard">#1A2D42</color>
+    <color name="nightTextPrimary">#E0E6ED</color>
+    <color name="nightTextSecondary">#A0B0C0</color>
+    <color name="nightTextPinyin">#80B0D0</color>
+    <color name="nightTextTranslation">#A0B8C8</color>
+    <color name="nightDivider">#2A3A48</color>
+    <color name="nightLabelOriginal">#5A8AAA</color>
+    <color name="nightLabelTranslation">#608090</color>
 
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 日间主题 - 继承 DayNight，由 AppCompatDelegate 自动切换日夜资源 -->
-    <style name="Theme.HuangdiNeijing" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.JingfangFawei" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

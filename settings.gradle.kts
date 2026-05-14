@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "黄帝内经"
+rootProject.name = "经方发微"
 include(":app")

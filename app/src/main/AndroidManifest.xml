@@ -8,14 +8,14 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HuangdiNeijing"
+        android:theme="@style/Theme.JingfangFawei"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.HuangdiNeijing">
+            android:theme="@style/Theme.JingfangFawei">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -26,11 +26,6 @@
             android:name=".ChapterListActivity"
             android:exported="false"
             android:label="@string/title_chapter_list" />
-
-        <activity
-            android:name=".MeridianFlowActivity"
-            android:exported="false"
-            android:label="子午流注" />
 
         <activity
             android:name=".reader.ReaderActivity"

@@ -102,12 +102,11 @@
                 android:typeface="serif"
                 android:textStyle="bold" />
 
-            <!-- 间距 8dp -->
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="8dp" />
 
-            <!-- 第2行：公历日期 xxxx年x月x日 星期x -->
+            <!-- 第2行：公历日期 -->
             <TextView
                 android:id="@+id/tvDateSolar"
                 android:layout_width="wrap_content"
@@ -116,7 +115,6 @@
                 android:textColor="@color/homeDateSolar"
                 android:typeface="serif" />
 
-            <!-- 间距 8dp -->
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="8dp" />
@@ -130,34 +128,31 @@
                 android:textColor="@color/homeDateLunar"
                 android:typeface="serif" />
 
-            <!-- 间距 4dp -->
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="4dp" />
 
-            <!-- 第3行B：时辰 - 子午流注（由HomeFragment动态设置） -->
+            <!-- 第3行B：时辰（仅显示时辰名称，不关联经络） -->
             <TextView
                 android:id="@+id/tvShichen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/homeShichen"
                 android:typeface="serif" />
 
-            <!-- 下边距 16dp -->
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="16dp" />
         </LinearLayout>
 
-        <!-- 分隔线（左右24dp边距） -->
+        <!-- 分隔线 -->
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginHorizontal="24dp"
             android:background="@color/homeDivider" />
 
-        <!-- 分隔线下间距 4dp -->
         <Space
             android:layout_width="match_parent"
             android:layout_height="4dp" />
@@ -184,38 +179,60 @@
             android:clickable="true"
             android:focusable="true">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center_vertical"
                 android:padding="16dp">
 
-                <TextView
-                    android:id="@+id/tvRecommendTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="17sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorPrimary" />
-
-                <TextView
-                    android:id="@+id/tvRecommendExcerpt"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:textSize="13sp"
-                    android:textColor="@color/textSecondary"
-                    android:maxLines="1"
-                    android:ellipsize="end" />
-            </LinearLayout>
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tvRecommendTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tvRecommendTag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:paddingHorizontal="6dp"
+                            android:paddingVertical="2dp"
+                            android:textSize="11sp"
+                            android:textColor="@color/white"
+                            android:background="@color/colorPrimary"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvRecommendExcerpt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/textSecondary"
+                        android:maxLines="1"
+                        android:ellipsize="end" />
+                </LinearLayout>
+            </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- ===== 素问/灵枢卡片 ===== -->
-
-        <!-- 素问卡片 160dp -->
+        <!-- ===== 伤寒发微卡片 ===== -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvSuwen"
+            android:id="@+id/cvShanghan"
             android:layout_width="match_parent"
             android:layout_height="140dp"
             android:layout_marginHorizontal="16dp"
@@ -237,7 +254,6 @@
                 android:paddingBottom="20dp"
                 android:gravity="center_vertical">
 
-                <!-- 左：图标区域 44dp×44dp -->
                 <ImageView
                     android:layout_width="44dp"
                     android:layout_height="44dp"
@@ -247,7 +263,6 @@
                     android:background="@drawable/bg_history_tag"
                     android:backgroundTint="@color/colorPrimary" />
 
-                <!-- 中：标题+副标题 -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -271,12 +286,9 @@
                         android:layout_marginTop="4dp"
                         android:text="@string/suwen_subtitle"
                         android:textSize="13sp"
-                        android:textColor="@color/homeSuwenSubtitle"
-                        android:typeface="serif"
-                        android:visibility="gone" />
+                        android:textColor="@color/homeSuwenSubtitle" />
                 </LinearLayout>
 
-                <!-- 右：统计+进度 -->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -311,9 +323,9 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- 灵枢卡片 160dp -->
+        <!-- ===== 金匮发微卡片 ===== -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvLingshu"
+            android:id="@+id/cvJinkui"
             android:layout_width="match_parent"
             android:layout_height="140dp"
             android:layout_marginHorizontal="16dp"
@@ -336,7 +348,6 @@
                 android:paddingBottom="20dp"
                 android:gravity="center_vertical">
 
-                <!-- 左：图标区域 44dp×44dp -->
                 <ImageView
                     android:layout_width="44dp"
                     android:layout_height="44dp"
@@ -346,7 +357,6 @@
                     android:background="@drawable/bg_history_tag"
                     android:backgroundTint="@color/colorPrimary" />
 
-                <!-- 中：标题+副标题 -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -370,12 +380,9 @@
                         android:layout_marginTop="4dp"
                         android:text="@string/lingshu_subtitle"
                         android:textSize="13sp"
-                        android:textColor="@color/homeSuwenSubtitle"
-                        android:typeface="serif"
-                        android:visibility="gone" />
+                        android:textColor="@color/homeSuwenSubtitle" />
                 </LinearLayout>
 
-                <!-- 右：统计+进度 -->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
