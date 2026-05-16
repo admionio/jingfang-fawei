@@ -87,6 +87,7 @@ public class DataImporter {
                     p.setChapterId(chapterId);
                     p.setParagraphNo(paraObj.getInt("paragraph_no"));
                     p.setOriginalText(paraObj.optString("original_text", ""));
+                    p.setPinyinText(paraObj.optString("pinyin_text", ""));
                     p.setAnnotation(paraObj.optString("annotation", ""));
                     p.setSortOrder(j);
                     dbHelper.insertParagraph(p);

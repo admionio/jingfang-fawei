@@ -33,7 +33,7 @@
     <string name="setting_night_mode">夜间模式</string>
     <string name="about_title">关于</string>
     <string name="about_version">版本 1.0.0</string>
-    <string name="about_description">经方发微原文阅读工具，收录曹颖甫《伤寒发微》10篇、《金匮发微》22篇，提供原文及曹颖甫注释。</string>
+    <string name="about_description">经方发微原文阅读工具，收录曹颖甫《伤寒发微》11篇、《金匮发微》22篇，提供原文及曹颖甫注释。</string>
 
     <!-- 通用 -->
     <string name="empty_favorites">暂无收藏</string>

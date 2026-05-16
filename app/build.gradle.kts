@@ -10,8 +10,8 @@ android {
         applicationId = "cn.lanzp.jffw"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 4
+        versionName = "1.0.3"
 
         ndk {
             abiFilters += listOf("arm64-v8a")
@@ -22,10 +22,20 @@ android {
         buildConfig = true
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("release.keystore")
+            storePassword = "jffw123"
+            keyAlias = "jffw"
+            keyPassword = "jffw123"
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig = signingConfigs.getByName("release")
         }
     }
 

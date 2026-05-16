@@ -33,6 +33,11 @@
             android:configChanges="orientation|screenSize" />
 
         <activity
+            android:name=".MeridianFlowActivity"
+            android:exported="false"
+            android:label="子午流注" />
+
+        <activity
             android:name=".SearchActivity"
             android:exported="false"
             android:label="@string/title_search" />

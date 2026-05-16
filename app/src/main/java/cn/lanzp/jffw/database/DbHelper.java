@@ -17,7 +17,7 @@ import cn.lanzp.jffw.model.Paragraph;
 
 public class DbHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "jingfang_fawei.db";
-    private static final int DB_VERSION = 1;
+    private static final int DB_VERSION = 3;
 
     private static DbHelper instance;
 
@@ -36,6 +36,7 @@ public class DbHelper extends SQLiteOpenHelper {
             "chapter_id INTEGER NOT NULL," +
             "paragraph_no INTEGER NOT NULL," +
             "original_text TEXT," +
+            "pinyin_text TEXT," +
             "annotation TEXT," +
             "sort_order INTEGER DEFAULT 0," +
             "FOREIGN KEY (chapter_id) REFERENCES chapters(id))";
@@ -197,9 +198,9 @@ public class DbHelper extends SQLiteOpenHelper {
 
     public void insertParagraph(Paragraph p) {
         SQLiteDatabase db = getWritableDatabase();
-        db.execSQL("INSERT INTO paragraphs (chapter_id, paragraph_no, original_text, annotation, sort_order) VALUES (?, ?, ?, ?, ?)",
+        db.execSQL("INSERT INTO paragraphs (chapter_id, paragraph_no, original_text, pinyin_text, annotation, sort_order) VALUES (?, ?, ?, ?, ?, ?)",
                 new Object[]{p.getChapterId(), p.getParagraphNo(), p.getOriginalText(),
-                        p.getAnnotation(), p.getSortOrder()});
+                        p.getPinyinText(), p.getAnnotation(), p.getSortOrder()});
     }
 
     public void clearParagraphs() {
@@ -217,6 +218,7 @@ public class DbHelper extends SQLiteOpenHelper {
             p.setChapterId(c.getLong(c.getColumnIndexOrThrow("chapter_id")));
             p.setParagraphNo(c.getInt(c.getColumnIndexOrThrow("paragraph_no")));
             p.setOriginalText(c.getString(c.getColumnIndexOrThrow("original_text")));
+            p.setPinyinText(c.getString(c.getColumnIndexOrThrow("pinyin_text")));
             p.setAnnotation(c.getString(c.getColumnIndexOrThrow("annotation")));
             p.setSortOrder(c.getInt(c.getColumnIndexOrThrow("sort_order")));
             list.add(p);

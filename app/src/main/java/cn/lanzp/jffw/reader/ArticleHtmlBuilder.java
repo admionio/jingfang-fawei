@@ -68,9 +68,10 @@ public class ArticleHtmlBuilder {
                 .append("<span class='label-divider'></span>")
                 .append("</div>");
 
-            // 原文内容
+            // 原文内容（带拼音ruby标注）
+            String pinyin = p.getPinyinText();
             body.append("<div class='original-text'>")
-                .append(escapeHtml(original))
+                .append(buildRubyBody(original, pinyin))
                 .append("</div>");
 
             // 注释
@@ -167,6 +168,12 @@ public class ArticleHtmlBuilder {
                 "  background-color: " + dividerColor + "; " +
                 "  margin-left: 8px; " +
                 "}" +
+                "ruby { ruby-align: center; display: inline; }" +
+                "rt { " +
+                "  font-size: 0.6em; " +
+                "  color: " + annotationColor + "; " +
+                "  font-weight: normal; " +
+                "}" +
                 ".original-text { " +
                 "  width: 100%; " +
                 "  font-size: " + fontSizePx + "px; " +
@@ -189,5 +196,54 @@ public class ArticleHtmlBuilder {
                    .replace(">", "&gt;")
                    .replace("\"", "&quot;")
                    .replace("'", "&#39;");
+    }
+
+    /**
+     * 构建ruby标注内容（逐字拼音标注）
+     * pinyin中每个token与原文逐字对齐（包括标点符号）
+     */
+    private static String buildRubyBody(String original, String pinyin) {
+        if (TextUtils.isEmpty(original)) return "";
+
+        if (TextUtils.isEmpty(pinyin)) {
+            return escapeHtml(original);
+        }
+
+        String[] tokens = pinyin.trim().split("\\s+");
+        StringBuilder sb = new StringBuilder(original.length() * 40);
+        int tokenIdx = 0;
+
+        for (int i = 0; i < original.length(); i++) {
+            char ch = original.charAt(i);
+
+            if (isHanCharacter(ch)) {
+                // 汉字：使用ruby标签，上面是拼音下面是字
+                String py = (tokenIdx < tokens.length) ? tokens[tokenIdx] : "";
+                sb.append("<ruby>")
+                  .append(escapeHtml(String.valueOf(ch)))
+                  .append("<rt>").append(escapeHtml(py)).append("</rt>")
+                  .append("</ruby>");
+                tokenIdx++;
+            } else {
+                // 标点/空格：直接输出，同时消耗对应的拼音token
+                sb.append(escapeHtml(String.valueOf(ch)));
+                if (tokenIdx < tokens.length) {
+                    tokenIdx++;
+                }
+            }
+        }
+
+        return sb.toString();
+    }
+
+    /**
+     * 判断是否为CJK统一表意文字（汉字）
+     */
+    private static boolean isHanCharacter(char c) {
+        Character.UnicodeBlock block = Character.UnicodeBlock.of(c);
+        return block == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS
+                || block == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A
+                || block == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_B
+                || block == Character.UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS;
     }
 }

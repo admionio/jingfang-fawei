@@ -2,24 +2,26 @@ package cn.lanzp.jffw.model;
 
 /**
  * 段落数据模型
- * 经方发微：原文 + 注释（无拼音）
+ * 经方发微：原文 + 注释（含拼音）
  */
 public class Paragraph {
     private long id;
     private long chapterId;
     private int paragraphNo;
     private String originalText;  // 原文
+    private String pinyinText;    // 拼音（空格分隔，逐字对齐）
     private String annotation;    // 曹颖甫注释（替代translation）
     private int sortOrder;
 
     public Paragraph() {}
 
     public Paragraph(long id, long chapterId, int paragraphNo,
-                     String originalText, String annotation, int sortOrder) {
+                     String originalText, String pinyinText, String annotation, int sortOrder) {
         this.id = id;
         this.chapterId = chapterId;
         this.paragraphNo = paragraphNo;
         this.originalText = originalText;
+        this.pinyinText = pinyinText;
         this.annotation = annotation;
         this.sortOrder = sortOrder;
     }
@@ -35,6 +37,9 @@ public class Paragraph {
 
     public String getOriginalText() { return originalText; }
     public void setOriginalText(String originalText) { this.originalText = originalText; }
+
+    public String getPinyinText() { return pinyinText; }
+    public void setPinyinText(String pinyinText) { this.pinyinText = pinyinText; }
 
     public String getAnnotation() { return annotation; }
     public void setAnnotation(String annotation) { this.annotation = annotation; }

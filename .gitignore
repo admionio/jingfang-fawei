@@ -9,3 +9,10 @@
 .cxx
 local.properties
 /app/build
+
+# Backup files
+*.bak
+*.bak2
+
+# Keystore
+release.keystore

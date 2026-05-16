@@ -25,6 +25,8 @@ import java.util.Locale;
 import java.util.Random;
 
 import cn.lanzp.jffw.ChapterListActivity;
+import cn.lanzp.jffw.MeridianFlowActivity;
+import cn.lanzp.jffw.model.MeridianData;
 import cn.lanzp.jffw.R;
 import cn.lanzp.jffw.SearchActivity;
 import cn.lanzp.jffw.database.DbHelper;
@@ -39,7 +41,8 @@ public class HomeFragment extends Fragment {
     private TextView tvShanghanCount, tvJinkuiCount;
     private TextView tvShanghanProgress, tvJinkuiProgress;
     private TextView tvRecommendTitle, tvRecommendExcerpt, tvRecommendTag;
-    private TextView tvClock, tvDateSolar, tvDateLunar, tvShichen;
+    private TextView tvClock, tvDateSolar, tvDateLunar, tvShichen, tvMeridianFlowInfo;
+    private View llMeridianFlow;
     private ImageView ivNightToggle;
     private Chapter randomChapter;
 
@@ -71,6 +74,8 @@ public class HomeFragment extends Fragment {
         tvDateSolar = view.findViewById(R.id.tvDateSolar);
         tvDateLunar = view.findViewById(R.id.tvDateLunar);
         tvShichen = view.findViewById(R.id.tvShichen);
+        tvMeridianFlowInfo = view.findViewById(R.id.tvMeridianFlowInfo);
+        llMeridianFlow = view.findViewById(R.id.llMeridianFlow);
         tvShanghanCount = view.findViewById(R.id.tvSuwenCount);
         tvJinkuiCount = view.findViewById(R.id.tvLingshuCount);
         tvShanghanProgress = view.findViewById(R.id.tvSuwenProgress);
@@ -91,6 +96,9 @@ public class HomeFragment extends Fragment {
         view.findViewById(R.id.cvTodayRecommend).setOnClickListener(v -> onRecommendClick());
         view.findViewById(R.id.cvShanghan).setOnClickListener(v -> onShanghanClick());
         view.findViewById(R.id.cvJinkui).setOnClickListener(v -> onJinkuiClick());
+
+        // 子午流注入口点击（合并行）
+        llMeridianFlow.setOnClickListener(v -> onMeridianFlowClick());
 
         // 夜间模式快速切换
         ivNightToggle.setOnClickListener(v -> toggleNightMode());
@@ -192,13 +200,18 @@ public class HomeFragment extends Fragment {
             tvDateLunar.setText(cachedLunarDate);
         }
 
-        // 时辰 - 仅显示时辰名称，不关联经络
+        // 时辰 + 子午流注信息（合并显示）
         LunarCalendar.ShichenInfo shichen = LunarCalendar.getShichen(now);
         String shichenText = shichen.name + "时";
         if (!shichenText.equals(cachedShichenText)) {
             cachedShichenText = shichenText;
             tvShichen.setText(cachedShichenText);
             tvShichen.setTextColor(ContextCompat.getColor(requireContext(), R.color.homeShichen));
+
+            // 获取当前时辰的子午流注信息
+            int index = (currentHour + 1) / 2 % 12;
+            MeridianData currentData = MeridianData.getAllData()[index];
+            tvMeridianFlowInfo.setText(currentData.getMeridian() + " - " + currentData.getAcupoint());
         }
     }
 
@@ -333,6 +346,13 @@ public class HomeFragment extends Fragment {
         startActivity(intent);
         if (getActivity() != null) {
             getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+        }
+    }
+
+    private void onMeridianFlowClick() {
+        startActivity(new Intent(getActivity(), MeridianFlowActivity.class));
+        if (getActivity() != null) {
+            getActivity().overridePendingTransition(R.anim.slide_in_up, R.anim.fade_out);
         }
     }
 }
